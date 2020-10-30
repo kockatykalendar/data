@@ -1,0 +1,14 @@
+name: 1. séria SEZAMKO
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2020-09-28"
+contestants:
+  min: zs5
+  max: zs6
+places:
+  - online
+organizers:
+  - sezam
+link: https://www.sezam.sk/sezamko/

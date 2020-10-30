@@ -1,0 +1,15 @@
+name: KMS spojené sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2020-09-01"
+  end: "2020-09-06"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+organizers:
+  - trojsten
+link: https://kms.sk/akcie/sustredenia/

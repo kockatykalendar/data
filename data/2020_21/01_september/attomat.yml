@@ -1,0 +1,15 @@
+name: Attomat
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2020-09-01"
+  end: "2020-09-06"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - TBD
+organizers:
+  - p-mat
+link: https://www.p-mat.sk/aktivity/attomat/

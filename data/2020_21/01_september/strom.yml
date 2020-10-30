@@ -1,0 +1,15 @@
+name: STROM sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2020-08-30"
+  end: "2020-09-04"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+organizers:
+  - strom
+link: https://seminar.strom.sk/

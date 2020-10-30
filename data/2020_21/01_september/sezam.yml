@@ -1,0 +1,14 @@
+name: 1. séria SEZAM
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2020-09-28"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - online
+organizers:
+  - sezam
+link: https://www.sezam.sk/sezam/

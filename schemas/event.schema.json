@@ -81,7 +81,7 @@
       },
       "required": ["min"]
     },
-    "short-info": {
+    "info": {
       "description": "Short description of event",
       "type": "string",
       "maxLength": 255

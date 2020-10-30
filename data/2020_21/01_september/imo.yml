@@ -1,0 +1,14 @@
+name: IMO online
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2020-09-21"
+  end: "2020-09-22"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers: []
+link: https://imo2020.ru/
