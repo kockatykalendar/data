@@ -1,0 +1,14 @@
+name: 1. séria Malynár
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2020-10-19"
+contestants:
+  min: zs4
+  max: zs6
+places:
+  - online
+organizers:
+  - strom
+link: https://malynar.strom.sk/

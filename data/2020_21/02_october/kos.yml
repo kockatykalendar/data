@@ -1,0 +1,14 @@
+name: Košická šifrovačka
+type: sutaz
+sciences:
+  - other
+date:
+  start: "2020-10-24"
+contestants:
+  min: zs7
+  max: ss4
+places:
+  - online
+organizers:
+  - strom
+link: https://seminar.strom.sk/sifrovacka/info/
