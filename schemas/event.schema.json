@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://kockatykalendar.sk/v0.0.2/event.schema.json",
+  "$id": "http://kockatykalendar.sk/v0.0.3/event.schema.json",
   "title": "Event",
   "description": "An event in the calendar",
   "type": "object",
@@ -93,6 +93,10 @@
         { "enum": ["red", "orange", "yellow", "green", "blue", "purple"] },
         { "pattern": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"}
       ]
+    },
+    "volatile": {
+        "description": "If true event may not take place",
+        "type": "boolean"
     },
     "notifications": {
       "description": "Notification settings",
