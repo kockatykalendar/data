@@ -1,0 +1,15 @@
+name: iBobor
+type: sutaz
+sciences:
+  - inf
+date:
+  start: "2020-11-10"
+  end: "2020-11-16"
+contestants:
+  min: zs3
+  max: ss4
+places:
+  - online
+organizers:
+  - matfyz
+link: http://www.ibobor.sk/

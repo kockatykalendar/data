@@ -1,0 +1,13 @@
+name: Domáce kolo MO Z9
+type: olympiada
+sciences:
+  - mat
+date:
+  start: "2020-11-16"
+contestants:
+  min: zs9
+places:
+  - online
+organizers:
+  - iuventa
+link: http://skmo.sk/

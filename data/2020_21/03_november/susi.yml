@@ -1,0 +1,14 @@
+name: 1. séria Suši
+type: seminar
+sciences:
+  - other
+date:
+  start: "2020-11-09"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+link: https://susi.trojsten.sk/

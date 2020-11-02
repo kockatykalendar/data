@@ -1,0 +1,14 @@
+name: Lomihlav
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2020-11-27"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - doplníme
+organizers:
+  - strom
+link: https://matik.strom.sk/sk/lomihlav/

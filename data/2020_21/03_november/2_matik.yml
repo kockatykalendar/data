@@ -1,0 +1,14 @@
+name: 1. séria Matik
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2020-11-23"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - online
+organizers:
+  - strom
+link: https://matik.strom.sk/

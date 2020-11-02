@@ -1,0 +1,14 @@
+name: Zenit krajské kolo
+type: sutaz
+sciences:
+  - inf
+date:
+  start: "2020-11-26"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - siov
+link: https://zenit.ksp.sk/

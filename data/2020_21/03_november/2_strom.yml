@@ -1,0 +1,14 @@
+name: 2. séria STROM
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2020-11-16"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - strom
+link: https://seminar.strom.sk/

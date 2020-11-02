@@ -1,0 +1,14 @@
+name: 2. séria FKS
+type: seminar
+sciences:
+  - fyz
+date:
+  start: "2020-11-23"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+link: https://fks.sk/

@@ -1,0 +1,15 @@
+name: Fyzikálny Náboj
+type: sutaz
+sciences:
+  - fyz
+date:
+  start: "2020-11-13"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+link: https://physics.naboj.org/
+color: "#FF8A2A"

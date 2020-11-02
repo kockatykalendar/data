@@ -1,0 +1,14 @@
+name: Domáce kolo OI-A
+type: olympiada
+sciences:
+  - inf
+date:
+  start: "2020-11-15"
+contestants:
+  min: zs7
+  max: ss4
+places:
+  - online
+organizers:
+  - iuventa
+link: http://oi.sk/

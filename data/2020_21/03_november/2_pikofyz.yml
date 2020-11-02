@@ -1,0 +1,14 @@
+name: 2. séria Pikofyz
+type: seminar
+sciences:
+  - fyz
+date:
+  start: "2020-11-02"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - online
+organizers:
+  - p-mat
+link: https://pikofyz.sk/
