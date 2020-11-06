@@ -1,0 +1,14 @@
+name: IOI online
+type: sutaz
+sciences:
+  - inf
+date:
+  start: "2021-06-20"
+  end: "2021-06-27"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+organizers: []
+link: https://ioi2021.sg/

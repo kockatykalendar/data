@@ -1,0 +1,16 @@
+name: FKS sústredenie
+type: sustredenie
+sciences:
+  - fyz
+date:
+  start: "2021-06-20"
+  end: "2021-06-27"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+volatile: 1
+organizers:
+  - trojsten
+link: https://fks.sk/akcie/sustredenia/

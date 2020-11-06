@@ -1,0 +1,14 @@
+name: Brieždenie
+type: sutaz
+sciences:
+  - other
+date:
+  start: "2021-06-05"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - []
+link: http://sifrovacka.sk
