@@ -1,0 +1,14 @@
+name: Školské kolo Pytagoriády P3, P4, P5
+type: olympiada
+sciences:
+  - mat
+date:
+  start: "2020-12-09"
+contestants:
+  min: zs3
+  max: zs5
+places:
+  - online
+organizers:
+  - iuventa
+link: https://www.iuventa.sk/sk/Olympiady/olympiady/PYT.alej

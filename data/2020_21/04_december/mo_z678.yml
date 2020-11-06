@@ -1,0 +1,14 @@
+name: Domáce kolo MO Z6, Z7, Z8
+type: olympiada
+sciences:
+  - mat
+date:
+  start: "2020-12-14"
+contestants:
+  min: zs6
+  max: zs8
+places:
+  - online
+organizers:
+  - iuventa
+link: http://skmo.sk/

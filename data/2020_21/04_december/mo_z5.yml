@@ -1,0 +1,13 @@
+name: Domáce kolo MO Z5, 2.sada
+type: olympiada
+sciences:
+  - mat
+date:
+  start: "2020-12-14"
+contestants:
+  min: zs5
+places:
+  - online
+organizers:
+  - iuventa
+link: http://skmo.sk/

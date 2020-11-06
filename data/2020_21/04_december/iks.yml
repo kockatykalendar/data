@@ -1,0 +1,14 @@
+name: 5. séria iKS
+type: seminar
+sciences:
+  - fyz
+date:
+  start: "2020-12-21"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+link: https://iksko.org/

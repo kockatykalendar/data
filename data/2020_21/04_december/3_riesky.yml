@@ -1,0 +1,14 @@
+name: 3. séria Riešky
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2020-12-07"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - online
+organizers:
+  - riesky
+link: https://riesky.sk/

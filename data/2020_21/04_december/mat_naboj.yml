@@ -1,0 +1,14 @@
+name: Matematický Náboj
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2020-12-11"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+link: https://math.naboj.org/

@@ -1,0 +1,14 @@
+name: Školské kolo Pytagoriády P6, P7, P8
+type: olympiada
+sciences:
+  - mat
+date:
+  start: "2020-12-10"
+contestants:
+  min: zs6
+  max: zs8
+places:
+  - online
+organizers:
+  - iuventa
+link: https://www.iuventa.sk/sk/Olympiady/olympiady/PYT.alej
