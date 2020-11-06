@@ -1,0 +1,14 @@
+name: 1. séria KMS
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2020-03-01"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+link: https://kms.sk/

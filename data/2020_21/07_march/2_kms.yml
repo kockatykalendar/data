@@ -1,9 +1,9 @@
-name: 2. séria Suši
+name: 2. séria KMS
 type: seminar
 sciences:
-  - other
+  - mat
 date:
-  start: "2020-12-07"
+  start: "2020-03-29"
 contestants:
   min: ss1
   max: ss4
@@ -11,4 +11,4 @@ places:
   - online
 organizers:
   - trojsten
-link: https://susi.trojsten.sk/
+link: https://kms.sk/

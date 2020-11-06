@@ -1,0 +1,14 @@
+name: Okresné kolo FO E
+type: olympiada
+sciences:
+  - fyz
+date:
+  start: "2020-03-17"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - online
+organizers:
+  - iuventa
+link: https://www.iuventa.sk/sk/Olympiady/olympiady/FO.alej

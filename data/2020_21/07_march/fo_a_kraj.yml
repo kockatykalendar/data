@@ -1,0 +1,14 @@
+name: Krajské kolo FO A
+type: olympiada
+sciences:
+  - fyz
+date:
+  start: "2020-03-09"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - iuventa
+link: https://www.iuventa.sk/sk/Olympiady/olympiady/FO.alej

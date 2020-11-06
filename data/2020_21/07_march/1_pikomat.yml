@@ -1,0 +1,14 @@
+name: 1. séria Pikomat
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2020-03-08"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - online
+organizers:
+  - p-mat
+link: https://pikomat.sk/

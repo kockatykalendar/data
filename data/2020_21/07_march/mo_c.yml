@@ -1,0 +1,13 @@
+name: Krajské kolo MO C
+type: olympiada
+sciences:
+  - mat
+date:
+  start: "2020-03-30"
+contestants:
+  min: ss1
+places:
+  - online
+organizers:
+  - iuventa
+link: http://skmo.sk/

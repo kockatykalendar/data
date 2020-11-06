@@ -1,0 +1,16 @@
+name: SEZAM sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2020-03-25"
+  end: "2020-03-28"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - TBD
+volatile: 1
+organizers:
+  - sezam
+link: https://www.sezam.sk/
