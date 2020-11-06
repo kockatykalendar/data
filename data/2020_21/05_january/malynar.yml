@@ -1,0 +1,16 @@
+name: Malynár sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2020-01-24"
+  end: "2020-01-29"
+contestants:
+  min: zs4
+  max: zs6
+places:
+  - TBD
+volatile: 1
+organizers:
+  - strom
+link: https://malynar.strom.sk/

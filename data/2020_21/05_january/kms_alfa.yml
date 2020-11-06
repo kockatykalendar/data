@@ -1,0 +1,16 @@
+name: KMS Alfa sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2020-01-31"
+  end: "2020-02-07"
+contestants:
+  min: ss1
+  max: ss2
+places:
+  - TBD
+volatile: 1
+organizers:
+  - trojsten
+link: https://kms.sk/akcie/sustredenia/

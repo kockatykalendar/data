@@ -1,0 +1,16 @@
+name: SuŠi sústredenie
+type: sustredenie
+sciences:
+  - ine
+date:
+  start: "2020-01-07"
+  end: "2020-01-10"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+volatile: 1
+organizers:
+  - trojsten
+link: https://susi.trojsten.sk/akcie/sustredenia/

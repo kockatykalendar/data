@@ -1,0 +1,13 @@
+name: Okresné kolo MO Z5
+type: olympiada
+sciences:
+  - mat
+date:
+  start: "2020-01-27"
+contestants:
+  min: zs5
+places:
+  - online
+organizers:
+  - iuventa
+link: http://skmo.sk/

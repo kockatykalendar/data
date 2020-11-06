@@ -1,0 +1,14 @@
+name: Krajské kolo OI-A
+type: olympiada
+sciences:
+  - inf
+date:
+  start: "2020-01-19"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - iuventa
+link: http://oi.sk/

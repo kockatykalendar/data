@@ -1,0 +1,16 @@
+name: STROM sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2020-01-27"
+  end: "2020-02-05"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+volatile: 1
+organizers:
+  - strom
+link: https://seminar.strom.sk/

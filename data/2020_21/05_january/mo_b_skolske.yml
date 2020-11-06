@@ -1,0 +1,14 @@
+name: Školské kolo MO B
+type: olympiada
+sciences:
+  - mat
+date:
+  start: "2020-01-26"
+contestants:
+  min: ss1
+  max: ss2
+places:
+  - online
+organizers:
+  - iuventa
+link: http://skmo.sk/
