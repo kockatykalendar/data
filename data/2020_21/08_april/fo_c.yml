@@ -1,0 +1,14 @@
+name: Domáce kolo FO C
+type: olympiada
+sciences:
+  - fyz
+date:
+  start: "2021-04-23"
+contestants:
+  min: ss1
+  max: ss2
+places:
+  - online
+organizers:
+  - iuventa
+link: https://www.iuventa.sk/sk/Olympiady/olympiady/FO.alej

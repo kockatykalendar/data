@@ -1,0 +1,15 @@
+name: Celoštátne kolo FO A
+type: olympiada
+sciences:
+  - fyz
+date:
+  start: "2021-04-15"
+  end: "2021-04-18"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - iuventa
+link: https://www.iuventa.sk/sk/Olympiady/olympiady/FO.alej

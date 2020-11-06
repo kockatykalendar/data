@@ -1,0 +1,14 @@
+name: Krajské kolo FO E
+type: olympiada
+sciences:
+  - fyz
+date:
+  start: "2021-04-21"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - online
+organizers:
+  - iuventa
+link: https://www.iuventa.sk/sk/Olympiady/olympiady/FO.alej

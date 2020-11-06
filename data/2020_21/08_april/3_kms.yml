@@ -1,0 +1,14 @@
+name: 3. séria KMS
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2021-04-26"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+link: https://kms.sk/

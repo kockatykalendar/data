@@ -1,0 +1,14 @@
+name: 2. séria SEZAM
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2021-04-07"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - online
+organizers:
+  - sezam
+link: https://www.sezam.sk/sezam/
