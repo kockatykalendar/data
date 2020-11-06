@@ -1,0 +1,14 @@
+name: IMO
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2021-07-07"
+  end: "2021-07-16"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+organizers: []
+link: https://www.imo-official.org/year_country_r.aspx?year=2021

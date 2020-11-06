@@ -1,0 +1,15 @@
+name: Letná škola
+type: prednasky
+sciences:
+  - mat, fyz, inf
+date:
+  start: "2021-07-04"
+  end: "2021-07-23"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+link: https://www.trojsten.sk/ls/
