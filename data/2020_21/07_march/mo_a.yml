@@ -3,8 +3,8 @@ type: olympiada
 sciences:
   - mat
 date:
-  start: "2020-03-21"
-  end: "2020-03-24"
+  start: "2021-03-21"
+  end: "2021-03-24"
 contestants:
   min: ss1
   max: ss4

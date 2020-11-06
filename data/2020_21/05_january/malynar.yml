@@ -3,8 +3,8 @@ type: sustredenie
 sciences:
   - mat
 date:
-  start: "2020-01-24"
-  end: "2020-01-29"
+  start: "2021-01-24"
+  end: "2021-01-29"
 contestants:
   min: zs4
   max: zs6

@@ -3,7 +3,7 @@ type: olympiada
 sciences:
   - fyz
 date:
-  start: "2020-02-12"
+  start: "2021-02-12"
 contestants:
   min: zs7
   max: zs8

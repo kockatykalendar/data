@@ -3,7 +3,7 @@ type: seminar
 sciences:
   - mat
 date:
-  start: "2020-03-29"
+  start: "2021-03-29"
 contestants:
   min: zs5
   max: zs9

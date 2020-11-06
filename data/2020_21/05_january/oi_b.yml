@@ -3,7 +3,7 @@ type: olympiada
 sciences:
   - inf
 date:
-  start: "2020-01-19"
+  start: "2021-01-19"
 contestants:
   min: ss1
   max: ss2
