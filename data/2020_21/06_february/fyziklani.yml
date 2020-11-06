@@ -1,0 +1,14 @@
+name: Fyziklání
+type: sutaz
+sciences:
+  - fyz
+date:
+  start: "2020-02-12"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - fykos
+link: https://fyziklani.cz/

@@ -1,0 +1,16 @@
+name: Pikomat mladší sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2020-02-11"
+  end: "2020-02-15"
+contestants:
+  min: zs5
+  max: zs6
+places:
+  - TBD
+volatile: 1
+organizers:
+  - p-mat
+link: https://pikomat.sk/

@@ -1,0 +1,16 @@
+name: KMS Beta sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2020-02-07"
+  end: "2020-02-14"
+contestants:
+  min: ss2
+  max: ss4
+places:
+  - TBD
+volatile: 1
+organizers:
+  - trojsten
+link: https://kms.sk/akcie/sustredenia/

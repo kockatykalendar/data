@@ -1,0 +1,14 @@
+name: Domáce kolo MO Z6, Z7, Z8, 2.sada
+type: olympiada
+sciences:
+  - mat
+date:
+  start: "2020-02-26"
+contestants:
+  min: zs6
+  max: zs8
+places:
+  - online
+organizers:
+  - iuventa
+link: http://skmo.sk/

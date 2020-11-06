@@ -1,0 +1,14 @@
+name: 1. séria SEZAMKO
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2020-02-15"
+contestants:
+  min: zs5
+  max: zs6
+places:
+  - online
+organizers:
+  - sezam
+link: https://www.sezam.sk/sezamko/

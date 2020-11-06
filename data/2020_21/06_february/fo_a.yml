@@ -1,0 +1,14 @@
+name: Domáce kolo FO A
+type: olympiada
+sciences:
+  - fyz
+date:
+  start: "2020-02-12"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - iuventa
+link: https://www.iuventa.sk/sk/Olympiady/olympiady/FO.alej

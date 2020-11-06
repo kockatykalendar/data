@@ -1,0 +1,14 @@
+name: 1. séria SEZAM
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2020-02-15"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - online
+organizers:
+  - sezam
+link: https://www.sezam.sk/sezam/
