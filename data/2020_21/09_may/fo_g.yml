@@ -1,0 +1,15 @@
+name: Okresné kolo FO G
+type: olympiada
+sciences:
+  - fyz
+date:
+  start: "2021-05-17"
+  end: "2021-05-21"
+contestants:
+  min: zs6
+  max: zs7
+places:
+  - online
+organizers:
+  - iuventa
+link: https://www.iuventa.sk/sk/Olympiady/olympiady/FO.alej

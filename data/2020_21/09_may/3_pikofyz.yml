@@ -1,0 +1,14 @@
+name: 3. séria Pikofyz
+type: seminar
+sciences:
+  - fyz
+date:
+  start: "2021-05-10"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - online
+organizers:
+  - p-mat
+link: https://pikofyz.sk/
