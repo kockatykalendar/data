@@ -1,7 +1,7 @@
 name: SuŠi sústredenie
 type: sustredenie
 sciences:
-  - ine
+  - other
 date:
   start: "2021-01-07"
   end: "2021-01-10"
@@ -9,7 +9,7 @@ contestants:
   min: ss1
   max: ss4
 places:
-  - TBD
+  - "Vo vašom meste"
 volatile: 1
 organizers:
   - trojsten

@@ -1,7 +1,9 @@
 name: Letná škola
 type: prednasky
 sciences:
-  - mat, fyz, inf
+  - mat
+  - fyz
+  - inf
 date:
   start: "2021-07-04"
   end: "2021-07-23"

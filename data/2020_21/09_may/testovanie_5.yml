@@ -1,5 +1,5 @@
 name: Testovanie piatakov
-type: []
+type: other
 sciences:
   - other
 date:
@@ -9,5 +9,5 @@ contestants:
 places:
   - online
 organizers:
-  - []
+  - nucem
 link: https://www.nucem.sk/sk/merania/narodne-merania/testovanie-5/roky/2020-2021

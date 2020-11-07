@@ -1,7 +1,8 @@
 name: Kockatý víkend
 type: sustredenie
 sciences:
-  - mat, fyz
+  - mat
+  - fyz
 date:
   start: "2021-04-30"
   end: "2021-05-02"

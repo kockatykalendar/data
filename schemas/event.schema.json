@@ -22,7 +22,7 @@
     "type": {
       "description": "Event type",
       "type": "string",
-      "enum": ["sutaz", "seminar", "sustredenie", "vikendovka", "tabor", "olympiada", "prednasky"]
+      "enum": ["sutaz", "seminar", "sustredenie", "vikendovka", "tabor", "olympiada", "prednasky", "other"]
     },
     "date": {
       "description": "Date information",
@@ -49,7 +49,8 @@
       "description": "Organizer or list of organizers",
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "enum": ["trojsten", "p-mat", "riesky", "strom", "sezam", "siov", "iuventa", "nucem", "matfyz", "fykos", "other"]
       }
     },
     "link": {
