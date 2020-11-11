@@ -49,8 +49,7 @@
       "description": "Organizer or list of organizers",
       "type": "array",
       "items": {
-        "type": "string",
-        "enum": ["trojsten", "p-mat", "riesky", "strom", "sezam", "siov", "iuventa", "nucem", "matfyz", "fykos", "other"]
+        "type": "string"
       }
     },
     "link": {
