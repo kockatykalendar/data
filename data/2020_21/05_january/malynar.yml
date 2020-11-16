@@ -10,7 +10,7 @@ contestants:
   max: zs6
 places:
   - TBD
-volatile: 1
+volatile: true
 organizers:
   - strom
 link: https://malynar.strom.sk/

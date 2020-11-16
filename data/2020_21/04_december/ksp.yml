@@ -10,7 +10,7 @@ contestants:
   max: ss4
 places:
   - TBD
-volatile: 1
+volatile: true
 organizers:
   - trojsten
 link: https://ksp.sk/akcie/sustredenia/

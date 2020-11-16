@@ -10,7 +10,7 @@ contestants:
   max: zs9
 places:
   - tbd
-volatile: 1
+volatile: true
 organizers:
   - strom
 link: https://matik.strom.sk/

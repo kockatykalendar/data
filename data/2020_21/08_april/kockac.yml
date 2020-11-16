@@ -11,7 +11,7 @@ contestants:
   max: zs9
 places:
   - TBD
-volatile: 1
+volatile: true
 organizers:
   - p-mat
 link: https://www.p-mat.sk/aktivity/kockaty/
