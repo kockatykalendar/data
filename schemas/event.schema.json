@@ -95,8 +95,12 @@
       ]
     },
     "volatile": {
-        "description": "If true event may not take place",
-        "type": "boolean"
+      "description": "If true event may not take place",
+      "type": "boolean"
+    },
+    "cancelled": {
+      "description": "If true, the event was cancelled",
+      "type": "boolean"
     },
     "notifications": {
       "description": "Notification settings",
