@@ -15,6 +15,10 @@ def school_year_from_date(date: date) -> str:
         return "%d_%d" % (date.year - 1, date.year % 100)
     return "%d_%d" % (date.year, (date.year + 1) % 100)
 
+def years_from_school_year(school_year):
+    start_year = int(school_year.split("_")[0])
+    return (start_year, start_year + 1)
+
 
 ErrorData = namedtuple("ErrorData", ["file", "message"])
 ERRORS = []
@@ -66,3 +70,18 @@ if not args.dry:
 
         with open(os.path.join(ROOT, "build", "%s.json" % (year)), "w") as f:
             json.dump(events, f)
+
+    year_index = []
+    for year in OUTPUT.keys():
+        years = years_from_school_year(year)
+        year_index.append(
+            {
+                "start_year": years[0],
+                "end_year": years[1],
+                "school_year": "%d/%d" % (years[0], years[1]),
+                "filename": "%s.json" % (year,)
+            }
+        )
+
+    with open(os.path.join(ROOT, "build", "index.json"), "w") as f:
+        json.dump(year_index, f)
