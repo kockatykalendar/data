@@ -1,14 +1,15 @@
-name: 2. séria Suši
-type: seminar
+name: IPhO
+type: olympiada
 sciences:
-  - other
+  - fyz
 date:
-  start: "2020-12-07"
+  start: "2021-07-17"
+  end: "2021-07-25"
 contestants:
   min: ss1
   max: ss4
 places:
-  - online
-organizers:
-  - trojsten
-link: https://susi.trojsten.sk/
+  - Vilnius, Litva
+organizers: []
+link: https://www.ipho2020.lt/
+info: Medzinárodná fyzikálna olympiáda
