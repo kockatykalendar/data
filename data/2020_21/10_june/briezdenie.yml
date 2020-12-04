@@ -9,6 +9,5 @@ contestants:
   max: ss4
 places:
   - online
-organizers:
-  - other
+organizers: []
 link: http://sifrovacka.sk
