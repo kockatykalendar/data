@@ -1,0 +1,15 @@
+name: 2. kolo zimnej časti KSP
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2021-01-25"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - celé Slovensko
+organizers:
+  - trojsten
+info: "Korešpondenčný seminár z programovania je súťaž v riešení algoritmických úloh. Riešiš 5 z ôsmich úloh podľa tvojho levela skúseností. Riešenie obvykle pozostáva z funkčného programu, ktorý stránka automaticky otestuje a textového popisu čo program robí."
+link: https://ksp.sk/

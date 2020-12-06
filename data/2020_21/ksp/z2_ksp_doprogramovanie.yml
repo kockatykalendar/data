@@ -1,0 +1,15 @@
+name: Doprogramovanie 2. kola zimnej časti KSP
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2021-02-08"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - celé Slovensko
+organizers:
+  - trojsten
+info: "Po riadnom termíne nastáva fáza doprogramovávania. Počas tejto fázy sa nedajú odovzdávať slovné popisy. Stále sa však dajú získať body za program. Navyše sú zverejnené vzorové riešenia, ktoré vedia pomôcť úlohu vyriešiť a úspešne naprogramovať."
+link: https://ksp.sk/
