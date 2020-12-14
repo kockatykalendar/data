@@ -1,0 +1,15 @@
+name: 2. kolo FKS
+type: seminar
+sciences:
+  - fyz
+date:
+  start: "2021-01-04"
+contestants:
+  min: ss1
+  max: ss4
+info: "Fyzikálny korešpondenčný seminár je súťaž v riešení netradičných fyzikálnych problémov. Pomocou zaujímavých experimentov a situácií z bežného života sa snažíme ukázať, že fyzika nie je taká nudná, ba dokonca ani taká ťažká, ako sa občas zdá."
+places:
+  - online
+organizers:
+  - trojsten
+link: https://fks.sk/
