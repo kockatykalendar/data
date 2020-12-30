@@ -6,6 +6,7 @@ date:
   start: "2021-05-12"
 contestants:
   min: ss1
+  max: ss1
 places:
   - online
 organizers:

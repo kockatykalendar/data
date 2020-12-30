@@ -6,6 +6,7 @@ date:
   start: "2021-01-27"
 contestants:
   min: zs5
+  max: zs5
 places:
   - online
 organizers:

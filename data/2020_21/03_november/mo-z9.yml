@@ -6,6 +6,7 @@ date:
   start: "2020-11-16"
 contestants:
   min: zs9
+  max: zs9
 places:
   - online
 organizers:
