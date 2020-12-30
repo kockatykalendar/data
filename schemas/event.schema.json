@@ -95,12 +95,14 @@
       ]
     },
     "volatile": {
-      "description": "If true event may not take place",
-      "type": "boolean"
+      "description": "If true, the event may not take place due to COVID-19 restrictions",
+      "type": "boolean",
+      "default": false
     },
     "cancelled": {
       "description": "If true, the event was cancelled",
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "notifications": {
       "description": "Notification settings",
