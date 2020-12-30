@@ -4,7 +4,6 @@ on: [pull_request]
 
 jobs:
   check-data:
-    name: Data format check
     runs-on: ubuntu-latest
 
     steps:
@@ -23,5 +22,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Build
+      - name: Run check
         run: python build.py --dry
