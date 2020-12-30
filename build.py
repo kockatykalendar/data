@@ -45,7 +45,7 @@ for directory in os.walk(os.path.join(ROOT, "data")):
         with open(path) as f:
             event_data = yaml.safe_load(f)
             try:
-                validate_event(event_data)
+                event_data = validate_event(event_data)
                 if not args.dry:
                     event_date = datetime.strptime(
                         event_data["date"]["start"], "%Y-%m-%d"
