@@ -69,17 +69,17 @@
       "type": "object",
       "properties": {
         "min": {
-          "description": "Min class to attend",
-          "type": "string",
+          "description": "Minimal required attended class",
+          "type": ["string", "null"],
           "pattern": "^(zs[1-9]|ss[1-4])$"
         },
         "max": {
-          "description": "Max class to attend",
-          "type": "string",
+          "description": "Maximal allowed attended class",
+          "type": ["string", "null"],
           "pattern": "^(zs[1-9]|ss[1-4])$"
         }
       },
-      "required": ["min"]
+      "required": ["min", "max"]
     },
     "info": {
       "description": "Short description of event",
