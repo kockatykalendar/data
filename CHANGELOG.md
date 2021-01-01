@@ -9,6 +9,9 @@ používame [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Added
 - Pridaný flag `cancelled` na označenie zrušených udalostí.
 
+### Changed
+- Pri eventoch vyžadujeme `contestants.min` aj `contestants.max`, pričom obe môžu byť `null`. Issue #26.
+
 ## 0.0.3 - 2020-11-03
 ### Added
 - Pridané `color` na zmenu farby udalosti v kalendári.
