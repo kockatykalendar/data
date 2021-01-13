@@ -1,0 +1,16 @@
+name: Matik a Malynár sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2021-02-08"
+  end: "2021-02-14"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - Online
+volatile: true
+organizers:
+  - strom
+link: https://zdruzenie.strom.sk/
