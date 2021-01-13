@@ -1,0 +1,17 @@
+name: Pikomat starší sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2021-01-31"
+  end: "2021-02-06"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - TBD
+volatile: true
+canceled: true
+organizers:
+  - p-mat
+link: https://pikomat.sk/
