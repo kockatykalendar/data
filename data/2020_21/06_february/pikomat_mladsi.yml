@@ -11,6 +11,7 @@ contestants:
 places:
   - TBD
 volatile: true
+canceled: true
 organizers:
   - p-mat
 link: https://pikomat.sk/
