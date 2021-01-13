@@ -11,6 +11,7 @@ contestants:
 places:
   - "Vo vašom meste"
 volatile: true
+canceled: true
 organizers:
   - trojsten
 link: https://susi.trojsten.sk/akcie/sustredenia/
