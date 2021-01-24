@@ -8,6 +8,9 @@ date:
   start: "2021-03-05"
 places:
   - online
+contestants:
+  min: zs7
+  max: ss4
 organizers:
   - trojsten
 info: "Akadémia Trojstenu sú každoročne organizované prednášky pre študentov stredných škôl (a iných vzdelania a zábavy chtivých poslucháčov). Tento rok sa budú konať v online priestore."
