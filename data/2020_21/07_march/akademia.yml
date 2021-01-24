@@ -1,0 +1,15 @@
+name: Online Akadémia Trojstenu
+type: prednasky
+sciences:
+  - inf
+  - mat
+  - fyz
+date:
+  start: "2021-03-05"
+places:
+  - online
+organizers:
+  - trojsten
+info: "Akadémia Trojstenu sú každoročne organizované prednášky pre študentov stredných škôl (a iných vzdelania a zábavy chtivých poslucháčov). Tento rok sa budú konať v online priestore."
+link: https://akademia.trojsten.sk/
+color: "red"
