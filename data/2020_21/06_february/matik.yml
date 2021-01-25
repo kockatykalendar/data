@@ -11,7 +11,7 @@ contestants:
 places:
   - tbd
 volatile: true
-canceled: true
+cancelled: true
 organizers:
   - strom
 link: https://matik.strom.sk/

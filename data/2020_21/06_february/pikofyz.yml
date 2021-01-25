@@ -11,7 +11,7 @@ contestants:
 places:
   - TBD
 volatile: true
-canceled: true
+cancelled: true
 organizers:
   - p-mat
 link: https://pikofyz.sk/
