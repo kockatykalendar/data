@@ -1,0 +1,15 @@
+name: KMS online prednáška
+type: prednaska
+sciences:
+  - mat
+date:
+  start: "2021-01-31"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+info: "Online prednáška nielen pre riešteľov KMS, ale aj pre akýchkoľvek záujemcov o matematiku. Dnes prednáška od Joža na tému: Zbrane vs. chmáry a. k. a. Limty I"
+link: https://kms.sk/online_prednasky/
