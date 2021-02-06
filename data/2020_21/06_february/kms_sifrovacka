@@ -1,0 +1,15 @@
+name: Online šifrovačka KMS
+type: sutaz
+sciences:
+  - other
+date:
+  start: "2021-02-20"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+info: "Online šifrovačka určená hlavne pre (potenciálnych) riešiteľov KMS, no zúčastniť sa jej môže ktokoľvek."
+link: https://kms.sk/sifrovacka/
