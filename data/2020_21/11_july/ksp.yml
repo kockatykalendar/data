@@ -1,10 +1,10 @@
-name: FKS sústredenie
+name: KSP sústredenie
 type: sustredenie
 sciences:
-  - fyz
+  - inf
 date:
-  start: "2021-06-20"
-  end: "2021-06-27"
+  start: "2021-07-15"
+  end: "2021-07-22"
 contestants:
   min: ss1
   max: ss4
@@ -13,4 +13,4 @@ places:
 volatile: true
 organizers:
   - trojsten
-link: https://fks.sk/akcie/sustredenia/
+link: https://ksp.sk/akcie/sustredenia/

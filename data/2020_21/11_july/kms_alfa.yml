@@ -1,12 +1,12 @@
-name: KMS Beta sústredenie
+name: KMS sústredenie
 type: sustredenie
 sciences:
   - mat
 date:
-  start: "2021-06-13"
-  end: "2021-06-20"
+  start: "2021-07-07"
+  end: "2021-07-14"
 contestants:
-  min: ss2
+  min: ss1
   max: ss4
 places:
   - TBD
