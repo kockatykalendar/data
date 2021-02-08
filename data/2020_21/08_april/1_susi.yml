@@ -1,4 +1,4 @@
-name: 1. séria Suši
+name: 1. kolo Suši
 type: seminar
 sciences:
   - other
@@ -6,7 +6,8 @@ date:
   start: "2021-04-05"
 contestants:
   min: ss1
-  max: ss4
+  max: null
+info: "Narozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená pre jednotlivcov. Podľa skúseností môžeš riešiť šifry v jednej z troch kategórií Agát, Blýskavica a Cíferský cech. V každom kole riešiš 5 zo 7 šifier, ktoré stránka automaticky opraví."
 places:
   - online
 organizers:
