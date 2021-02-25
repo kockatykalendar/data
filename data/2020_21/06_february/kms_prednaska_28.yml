@@ -1,0 +1,15 @@
+name: KMS online prednáška
+type: prednasky
+sciences:
+  - mat
+date:
+  start: "2021-02-28"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+info: "Online prednáška nielen pre riešteľov KMS, ale aj pre akýchkoľvek záujemcov o matematiku. Dnes prednáška o 18:00 od Joža na tému: Počítanie spôsobov"
+link: https://kms.sk/online_prednasky/
