@@ -1,0 +1,16 @@
+name: STROMácky víkend
+type: vikendovka
+sciences:
+  - mat
+date:
+  start: "2021-03-26"
+  end: "2021-03-28"
+contestants:
+  min: zs9
+  max: ss4
+places:
+  - online
+organizers:
+  - strom
+info: "Zohnať na víkend Danišovce a dostať do nich vedúcich nie je len tak. Naopak, zohnať na víkend Zoom a dostať naň vedúcich je malina! Prihláste sa do 21.3. Zúčastniť sa môže ktokoľvek bez ohľadu na to, či náš seminár riešil doteraz alebo nie."
+link: https://seminar.strom.sk/onlinestrom/
