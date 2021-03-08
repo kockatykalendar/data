@@ -1,0 +1,16 @@
+name: Poobedie s P-MATom
+type: vikendovka
+sciences:
+  - mat
+  - fyz
+date:
+  start: "2021-03-20"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - online
+organizers:
+  - pmat
+info: "Online stretnutie pre všetkých riešiteľov Pikomatu a Pikofyzu, súčasťou je prednáška z matematiky/fyziky podľa výberu a tímová hra."
+link: https://www.p-mat.sk/aktivity/poobedie/
