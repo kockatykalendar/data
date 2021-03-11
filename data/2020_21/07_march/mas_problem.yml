@@ -1,0 +1,15 @@
+name: Máš problém?!
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2021-03-22"
+contestants:
+  min: zs4
+  max: zs9
+places:
+  - online
+organizers:
+  - strom
+info: "Je súťaž jednotlivcov v riešení matematických problémov. Súťaží sa v dvoch kategóriách mladší 4.-6. ročník a starší 7.-9. ročník. Súťaž prebehne v čase od 16:00 do 19:00, pričom na samotné riešenie máte 60 minút odkedy začnete. Veľa šťastia."
+link: https://masproblem.strom.sk/

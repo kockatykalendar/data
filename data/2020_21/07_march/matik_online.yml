@@ -1,0 +1,15 @@
+name: Matik online výlet
+type: vikendovka
+sciences:
+  - mat
+date:
+  start: "2021-03-20"
+contestants:
+  min: zs4
+  max: zs9
+places:
+  - online
+organizers:
+  - strom
+info: "Keďže je doba, aká je, možno by ste o tomto čase nečakali príspevok o Jarnom výlete. Máme však dobré správy – výlet bude. Hoci sa nemôžeme stretnúť naživo a ísť spolu niekam, online priestor je bez možnosti nakazenia, a preto bude výlet online."
+link: https://matik.strom.sk/sk/prispevky/online-vylet/
