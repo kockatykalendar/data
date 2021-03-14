@@ -11,6 +11,7 @@ contestants:
 places:
   - Dobrá Voda
 volatile: true
+cancelled: true
 organizers:
   - p-mat
 link: https://pikomat.sk/
