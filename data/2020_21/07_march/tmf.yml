@@ -1,0 +1,15 @@
+name: Celoštátne kolo TMF
+type: olympiada
+sciences:
+  - fyz
+date:
+  start: "2021-03-29"
+  end: "2021-03-30"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online Zoom
+organizers:
+  - iuventa
+link: http://www.tmfsr.sk/sk/aktuality/216
