@@ -1,0 +1,16 @@
+name: Online sústredenie Riešok
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2021-04-19"
+  end: "2021-04-25"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - online
+organizers:
+  - riesky
+info: "Online sústredenie pre Rieškarov. Každý deň od 16:00 do 18:30 sa môžte tešiť na hry, či prednášky."
+link: https://riesky.sk/novinky/clanok/21
