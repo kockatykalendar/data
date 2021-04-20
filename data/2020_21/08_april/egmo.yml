@@ -1,0 +1,14 @@
+name: EGMO
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2021-04-09"
+  end: "2021-04-15"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers: []
+link: https://egmo2021.atsu.edu.ge
