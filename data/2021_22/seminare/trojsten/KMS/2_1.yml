@@ -1,0 +1,15 @@
+name: 1. kolo letnej časti KMS
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2022-02-28"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+info: "Baví ťa matematika? Chceš z nej vedieť viac? Tak neváhaj a zapoj sa do Korešpondenšného Matematického Semináru!"
+link: https://kms.sk/
