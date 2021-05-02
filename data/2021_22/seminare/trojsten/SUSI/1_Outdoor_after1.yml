@@ -1,0 +1,15 @@
+name: Zverejnenie malej nápovedy Outdoor kola zimnej časti Suši
+type: seminar
+sciences:
+  - other
+date:
+  start: "2021-06-12"
+contestants:
+  min: ss1
+  max: null
+places:
+  - online
+organizers:
+  - trojsten
+info: 'Týždeň pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied ku jednotlivým šifrám. Po tomto čase sa dajú riešenia odovzdávať iba za 4 body.'
+link: https://susi.trojsten.sk/
