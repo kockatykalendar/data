@@ -3,7 +3,8 @@ type: sutaz
 sciences:
   - other
 date:
-  start: "2021-06-05"
+  start: "2021-06-12"
+  end: "2021-06-20"
 contestants:
   min: ss1
   max: ss4
