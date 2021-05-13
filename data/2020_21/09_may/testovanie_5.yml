@@ -1,5 +1,6 @@
 name: Testovanie piatakov
 type: other
+cancelled: true
 sciences:
   - other
 date:
