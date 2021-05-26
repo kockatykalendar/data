@@ -1,0 +1,15 @@
+name: Sústredenie Riešok
+type: sústredenie
+sciences:
+  - mat
+date:
+  start: "2021-06-21"
+  end: "2021-06-26"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - ŠVP Lazy pod Makytou
+organizers:
+  - riesky
+link: https://riesky.sk/

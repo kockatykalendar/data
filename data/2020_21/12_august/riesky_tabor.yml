@@ -1,0 +1,15 @@
+name: Tábor Riešok
+type: tabor
+sciences:
+  - mat
+date:
+  start: "2021-08-22"
+  end: "2021-08-31"
+contestants:
+  min: zs5
+  max: ss1
+places:
+  - Vyšná Slaná
+organizers:
+  - riesky
+link: https://forms.gle/cqMHiTApskcVS6JT8
