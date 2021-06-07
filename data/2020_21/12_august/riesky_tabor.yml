@@ -8,6 +8,7 @@ date:
 contestants:
   min: zs5
   max: ss1
+volatile: true
 places:
   - Vyšná Slaná
 organizers:
