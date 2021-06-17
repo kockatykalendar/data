@@ -1,0 +1,15 @@
+name: Zenit krajské kolo
+type: sutaz
+sciences:
+  - inf
+date:
+  start: "2021-11-25"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - krajské mestá
+organizers:
+  - siov
+info: "Zenit v programovaní je postupová súťaž v programovaní algoritmických úloh. Každé kolo trvá 4 hodiny a má približne 10 úloh od uplne lahkých až po ťažké. Riešenie pozostáva z funkčného programu ktorý sa ihneď automaticky testuje."
+link: https://zenit.ksp.sk/
