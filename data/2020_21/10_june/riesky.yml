@@ -11,6 +11,7 @@ contestants:
 places:
   - ŠVP Lazy pod Makytou
 volatile: true
+cancelled: true
 organizers:
   - riesky
 link: https://riesky.sk/
