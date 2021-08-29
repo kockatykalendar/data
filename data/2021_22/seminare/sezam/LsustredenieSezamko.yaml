@@ -1,0 +1,15 @@
+name: SEZAMKO sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2022-05-27"
+  end: "2022-05-29"
+contestants:
+  min: zs5
+  max: zs6
+places:
+  - TBD
+organizers:
+  - sezam
+link: https://www.sezam.sk/sezamko/

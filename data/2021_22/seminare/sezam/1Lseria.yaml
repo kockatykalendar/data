@@ -1,0 +1,14 @@
+name: 1. séria SEZAM
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2022-02-14"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - online
+organizers:
+  - sezam
+link: https://www.sezam.sk/sezam/

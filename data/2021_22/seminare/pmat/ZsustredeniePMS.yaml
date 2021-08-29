@@ -1,0 +1,15 @@
+name: Pikomat starší sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2022-01-29"
+  end: "2022-02-05"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - TBD
+organizers:
+  - p-mat
+link: https://pikomat.sk/

@@ -1,0 +1,15 @@
+name: STROM sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2022-01-30"
+  end: "2022-02-04"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - tbd
+organizers:
+  - strom
+link: https://seminar.strom.sk/

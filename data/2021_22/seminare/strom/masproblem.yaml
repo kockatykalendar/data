@@ -1,0 +1,14 @@
+name: Máš problém?!
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2021-10-11"
+contestants:
+  min: zs4
+  max: zs9
+places:
+  - online
+organizers:
+  - strom
+link: https://malynar.strom.sk/mas_problem/

@@ -1,0 +1,14 @@
+name: Košický Matboj
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2021-10-27"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - tbd
+organizers:
+  - strom
+link: https://seminar.strom.sk/sk/matboj/

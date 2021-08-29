@@ -1,0 +1,14 @@
+name: IMO
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2022-07-06"
+  end: "2022-07-16"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - Oslo
+organizers: []
+link: https://www.imo2022.org/

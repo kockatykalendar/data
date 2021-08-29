@@ -1,0 +1,15 @@
+name: Riešky sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2022-06-05"
+  end: "2022-06-10"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - TBD
+organizers:
+  - riesky
+link: https://riesky.sk/

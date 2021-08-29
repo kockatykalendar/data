@@ -1,0 +1,15 @@
+name: Matik sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2022-02-06"
+  end: "2022-02-11"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - tbd
+organizers:
+  - strom
+link: https://matik.strom.sk/

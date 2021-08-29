@@ -1,0 +1,15 @@
+name: Tábor Riešok
+type: tabor
+sciences:
+  - mat
+date:
+  start: "2022-08-22"
+  end: "2022-08-31"
+contestants:
+  min: zs5
+  max: ss1
+places:
+  - TBD
+organizers:
+  - riesky
+link: https://riesky.sk/

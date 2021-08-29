@@ -1,0 +1,14 @@
+name: SEZAMKO sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2021-12-04"
+contestants:
+  min: zs5
+  max: zs6
+places:
+  - TBD
+organizers:
+  - sezam
+link: https://www.sezam.sk/sezamko/

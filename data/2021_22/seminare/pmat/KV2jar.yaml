@@ -1,0 +1,16 @@
+name: Kockatý víkend
+type: sustredenie
+sciences:
+  - mat
+  - fyz
+date:
+  start: "2022-04-29"
+  end: "2022-05-01"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - TBD
+organizers:
+  - p-mat
+link: https://www.p-mat.sk/aktivity/kockaty/

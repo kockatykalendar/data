@@ -1,0 +1,14 @@
+name: IOI 
+type: sutaz
+sciences:
+  - inf
+date:
+  start: "2022-08-07"
+  end: "2022-08-14"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - Indonesia
+organizers: []
+link: https://ioi2022.id/
