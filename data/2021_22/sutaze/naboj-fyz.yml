@@ -1,0 +1,14 @@
+name: Fyzikálny Náboj
+type: sutaz
+sciences:
+  - fyz
+date:
+  start: "2021-11-12"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - celý svet (Online)
+organizers:
+  - trojsten
+link: https://physics.naboj.org/
