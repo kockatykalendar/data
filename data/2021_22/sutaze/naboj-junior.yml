@@ -1,0 +1,15 @@
+name: Náboj Junior
+type: sutaz
+sciences:
+  - fyz
+  - mat
+date:
+  start: "2021-11-19"
+contestants:
+  min: zs8
+  max: zs9
+places:
+  - celý svet (Online)
+organizers:
+  - trojsten
+link: https://junior.naboj.org/
