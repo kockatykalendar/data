@@ -1,0 +1,16 @@
+name: KMS beta sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2022-06-11"
+  end: "2022-06-18"
+contestants:
+  min: ss3
+  max: ss4
+places:
+  - TBD
+volatile: true
+organizers:
+  - trojsten
+link: https://kms.sk/akcie/sustredenia/
