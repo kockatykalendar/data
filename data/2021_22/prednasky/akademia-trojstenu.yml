@@ -1,0 +1,17 @@
+name: Akadémia Trojstenu
+type: prednasky
+sciences:
+  - mat
+  - fyz
+  - inf
+date:
+  start: "2021-12-10"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - Online
+volatile: true
+organizers:
+  - trojsten
+link: https://akademia.trojsten.sk/
