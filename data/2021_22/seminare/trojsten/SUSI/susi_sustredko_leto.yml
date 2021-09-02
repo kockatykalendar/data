@@ -1,0 +1,16 @@
+name: Suši sústredenie
+type: sustredenie
+sciences:
+  - other
+date:
+  start: "2022-07-02"
+  end: "2022-07-07"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+volatile: true
+organizers:
+  - trojsten
+link: https://susi.trojsten.sk/akcie/sustredenia/
