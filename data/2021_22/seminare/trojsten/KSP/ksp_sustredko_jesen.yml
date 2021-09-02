@@ -1,0 +1,16 @@
+name: KSP sústredenie
+type: sustredenie
+sciences:
+  - inf
+date:
+  start: "2021-11-20"
+  end: "2021-11-27"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+volatile: true
+organizers:
+  - trojsten
+link: https://ksp.sk/akcie/sustredenia/
