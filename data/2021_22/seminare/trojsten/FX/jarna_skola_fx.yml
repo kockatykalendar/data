@@ -1,0 +1,16 @@
+name: Jarná škola FX
+type: sustredenie
+sciences:
+  - fyz
+date:
+  start: "2022-04-10"
+  end: "2022-04-15"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+volatile: true
+organizers:
+  - trojsten
+link: https://fx.fks.sk/jarna_skola_fx/
