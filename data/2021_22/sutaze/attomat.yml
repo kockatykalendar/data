@@ -1,0 +1,14 @@
+name: ATTOMAT
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2021-09-23"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - online
+organizers:
+  - p-mat
+link: https://www.p-mat.sk/aktivity/attomat/
