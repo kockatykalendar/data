@@ -1,0 +1,13 @@
+name: Jesenný GVOBOJ
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2021-11-12"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - Žilinký kraj
+organizers:
+  - "Gymnázium Veľká okružná Žilina"
