@@ -9,6 +9,7 @@ date:
 contestants:
   min: zs5
   max: zs9
+cancelled: true
 places:
   - TBD
 organizers:
