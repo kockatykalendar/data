@@ -1,0 +1,16 @@
+name: Špongia
+type: sutaz
+sciences:
+  - inf
+date:
+  start: "2021-10-22"
+  end: "2021-11-15"
+contestants:
+  min: zs5
+  max: ss4
+places:
+  - online
+  - ŠpMNDaG
+organizers:
+  - ŠpMNDaG
+link: http://www.smnd.sk/spongia
