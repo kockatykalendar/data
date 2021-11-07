@@ -1,0 +1,20 @@
+name: LSTME - letné sústredenie talentovanej mládeže v elektronike
+type: tabor
+sciences:
+  - inf
+  - other
+color: blue
+date:
+  start: "2022-08-14"
+  end: "2022-08-28"
+contestants:
+  min: zs7
+  max: ss4
+places:
+  - ŠvP Huty
+info: "Letné sústredenie talentovanej mládeže v elektronike (LSTME) je jedinečné sústredenie pre chlapcov a dievčatá,
+ktorí sa chcú zdokonaliť v oblasti elektroniky v kolektíve profesionálov konkrétneho odboru a ľudí s rovnakými záujmami."
+volatile: true
+organizers:
+  - SSE
+link: https://lstme.sk/
