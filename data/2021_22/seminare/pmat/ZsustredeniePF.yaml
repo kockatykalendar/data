@@ -10,6 +10,8 @@ contestants:
   max: zs9
 places:
   - TBD
+volatile: true
+cancelled: true
 organizers:
   - p-mat
 link: https://pikofyz.sk/

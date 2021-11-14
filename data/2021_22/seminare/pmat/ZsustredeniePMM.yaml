@@ -10,6 +10,8 @@ contestants:
   max: zs6
 places:
   - TBD
+volatile: true
+cancelled: true
 organizers:
   - p-mat
 link: https://pikomat.sk/

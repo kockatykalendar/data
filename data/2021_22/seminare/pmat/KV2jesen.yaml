@@ -11,6 +11,8 @@ contestants:
   max: zs9
 places:
   - TBD
+volatile: true
+cancelled: true
 organizers:
   - p-mat
 link: https://www.p-mat.sk/aktivity/kockaty/
