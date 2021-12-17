@@ -3,11 +3,12 @@ type: sustredenie
 sciences:
   - mat
 date:
-  start: "2022-01-16"
-  end: "2022-01-21"
+  start: "2022-02-20"
+  end: "2022-02-25"
 contestants:
   min: zs5
   max: zs9
+volatile: true
 places:
   - TBD
 organizers:
