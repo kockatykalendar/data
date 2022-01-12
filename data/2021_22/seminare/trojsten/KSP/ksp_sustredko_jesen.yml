@@ -11,6 +11,7 @@ contestants:
 places:
   - TBD
 volatile: true
+cancelled: true
 organizers:
   - trojsten
 link: https://ksp.sk/akcie/sustredenia/
