@@ -3,13 +3,13 @@ type: sustredenie
 sciences:
   - mat
 date:
-  start: "2022-02-05"
+  start: "2022-02-07"
   end: "2022-02-12"
 contestants:
   min: ss3
   max: ss4
 places:
-  - ŠvP Huty
+  - Kysak
 volatile: true
 organizers:
   - trojsten

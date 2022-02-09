@@ -3,13 +3,13 @@ type: sustredenie
 sciences:
   - mat
 date:
-  start: "2022-02-05"
-  end: "2022-02-12"
+  start: "2022-03-12"
+  end: "2022-03-17"
 contestants:
   min: ss1
   max: ss2
 places:
-  - TBD
+  - ŠvP Huty
 info: "Predbežne odložené na Jar"
 volatile: true
 organizers:
