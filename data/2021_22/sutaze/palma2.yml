@@ -1,0 +1,15 @@
+name: 2. domáce kolo PALMA
+type: sutaz
+sciences:
+  - inf
+date:
+  start: "2022-04-28"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - Online
+organizers:
+  - strom
+info: "Cieľom PALMA (Programovanie Algoritmy Matematika) je dať príležitosť všetkým, ktorí si chcú zasúťažiť, otestovať svoje schopnosti analyzovať problémy, hľadať algoritmy na ich riešenie a vedieť ich rýchlo, efektívne a korektne naprogramovať."
+link: https://palma.strom.sk/
