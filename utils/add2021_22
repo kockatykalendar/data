@@ -1,0 +1,6 @@
+#/bin/sh
+
+python create_trojsten_seminar.py SUSI 2021_22 18.10. 15.11. 13.12. 04.04. 9.05. 30.05.
+python create_trojsten_seminar.py FKS  2021_22 18.10. 15.11. 20.12. 21.03. 25.04. 16.05.
+python create_trojsten_seminar.py KSP  2021_22 25.10. 13.12. 19.04. 30.05.
+python create_trojsten_seminar.py KMS  2021_22 04.10. 08.11. 06.12. 28.02. 04.04. 25.04.
