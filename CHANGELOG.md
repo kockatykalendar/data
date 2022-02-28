@@ -5,12 +5,15 @@ Všetky podstatné zmeny tohto projektu sú zaznamenané v tomto súbore.
 Formát changelogu založený na [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 používame [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## 0.0.4 - 2022-02-28
 ### Added
 - Pridaný flag `cancelled` na označenie zrušených udalostí.
+- Pridaná schéma pre organizátorov
 
 ### Changed
 - Pri eventoch vyžadujeme `contestants.min` aj `contestants.max`, pričom obe môžu byť `null`. Issue #26.
+- Pri eventoch vyžadujeme v zozname `organizers` boli iba validny organizátori
+- Prechod na najnovší draft json schema (2020-12)
 
 ## 0.0.3 - 2020-11-03
 ### Added
