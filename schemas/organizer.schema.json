@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kockatykalendar.sk/v0.0.4/organizer.schema.json",
+  "title": "Organizer",
+  "description": "An organizer of event in the calendar",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "Name of the organization",
+      "type": "string"
+    },
+    "icon": {
+      "description": "Link to small web optimized logo",
+      "type": "string"
+    },
+    "logo": {
+      "description": "Link to miniature web optimized logo",
+      "type": "string"
+    },
+    "web": {
+      "description": "Link to webpage of the organization",
+      "type": "string",
+      "format": "uri"
+    },
+    "type": {
+      "description": "Organization type",
+      "type": "string",
+      "enum": ["oz", "no", "sro", "as", "statna", "skola", "other"]
+    },
+    "info": {
+      "description": "Short description of organization",
+      "type": "string",
+      "maxLength": 512
+    
+    }
+  },
+  "required": ["name"]
+}
