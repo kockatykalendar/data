@@ -20,7 +20,7 @@ def years_from_school_year(school_year):
     start_year = int(school_year.split("_")[0])
     return (start_year, start_year + 1)
 
-logos = ["icon", "icon-darkmode", "small-icon", "small-icon-darkmode"]
+logos = ["icon", "logo"]
 ErrorData = namedtuple("ErrorData", ["file", "message"])
 ERRORS = []
 OUTPUT = defaultdict(lambda: [])
