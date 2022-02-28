@@ -7,7 +7,7 @@ from datetime import date, datetime
 
 import fastjsonschema
 import yaml
-from fastjsonschema.exceptions import JsonSchemaException
+from fastjsonschema.exceptions import JsonSchemaException, JsonSchemaValueException
 
 
 def school_year_from_date(date: date) -> str:
@@ -35,6 +35,9 @@ args = parser.parse_args()
 with open(os.path.join(ROOT, "schemas", "event.schema.json")) as f:
     validate_event = fastjsonschema.compile(json.load(f))
 
+with open(os.path.join(ROOT, "build", "organizers.json")) as f:
+    organizers = json.load(f)
+
 for directory in os.walk(os.path.join(ROOT, "data")):
     for file in directory[2]:
         name, ext = os.path.splitext(file)
@@ -46,6 +49,9 @@ for directory in os.walk(os.path.join(ROOT, "data")):
             event_data = yaml.safe_load(f)
             try:
                 event_data = validate_event(event_data)
+                for organizer in event_data["organizers"]:
+                    if organizer not in organizers:
+                        raise JsonSchemaValueException("Organizer %s is not in organizers." % (organizer))
                 if not args.dry:
                     event_date = datetime.strptime(
                         event_data["date"]["start"], "%Y-%m-%d"
