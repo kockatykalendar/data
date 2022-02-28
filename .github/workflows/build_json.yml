@@ -27,7 +27,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build
-        run: python build.py
+        run: |
+          python build_organizers.py
+          python build.py
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1

@@ -23,4 +23,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run check
-        run: python build.py --dry
+        run: |
+          python build_organizers.py --dry
+          python build.py --dry
