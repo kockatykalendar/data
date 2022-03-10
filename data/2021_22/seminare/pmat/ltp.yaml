@@ -1,0 +1,17 @@
+name: Letný tábor P-MATu
+type: tabor
+sciences:
+  - fyz
+date:
+  start: "2022-08-08"
+  end: "2022-08-14"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - TBD
+volatile: true
+cancelled: false
+organizers:
+  - p-mat
+link: https://akcie.p-mat.sk/
