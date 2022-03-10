@@ -1,0 +1,15 @@
+name: Letná škola programovania
+type: prednasky
+sciences:
+  - inf
+date:
+  start: "2022-07-11"
+  end: "2022-07-22"
+contestants:
+  min: zs7
+  max: ss4
+places:
+  - Bratislava
+organizers:
+  - trojsten
+link: https://leto.trojsten.sk/

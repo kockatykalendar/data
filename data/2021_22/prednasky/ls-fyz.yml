@@ -1,0 +1,15 @@
+name: Letná škola fyziky
+type: prednasky
+sciences:
+  - fyz
+date:
+  start: "2022-07-25"
+  end: "2022-07-29"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - Bratislava
+organizers:
+  - trojsten
+link: https://leto.trojsten.sk/
