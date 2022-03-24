@@ -3,13 +3,13 @@ type: sustredenie
 sciences:
   - mat
 date:
-  start: "2022-07-09"
-  end: "2022-07-18"
+  start: "2022-07-10"
+  end: "2022-07-17"
 contestants:
   min: zs7
   max: zs9
 places:
-  - TBD
+  - Ubytovňa Toliar
 volatile: true
 cancelled: false
 organizers:
