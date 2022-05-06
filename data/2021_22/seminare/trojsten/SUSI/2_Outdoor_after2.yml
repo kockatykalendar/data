@@ -1,9 +1,9 @@
-name: Zverejnenie veľkej nápovedy Outdoor kola letnej časti Suši
+name: Zverejnenie veľkej nápovedy Objavného kola letnej časti Suši
 type: seminar
 sciences:
   - other
 date:
-  start: "2022-05-27"
+  start: "2022-06-06"
 contestants:
   min: ss1
   max: null
