@@ -2,6 +2,7 @@ name: Letný tábor P-MATu
 type: tabor
 sciences:
   - fyz
+  - mat
 date:
   start: "2022-08-08"
   end: "2022-08-14"
