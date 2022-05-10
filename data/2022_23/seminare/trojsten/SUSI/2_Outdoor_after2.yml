@@ -1,9 +1,9 @@
-name: Zverejnenie veľkej nápovedy 1. kola letnej časti Suši
+name: Zverejnenie veľkej nápovedy Objavného kola letnej časti Suši
 type: seminar
 sciences:
   - other
 date:
-  start: "2023-03-17"
+  start: "2023-05-30"
 contestants:
   min: ss1
   max: null

@@ -64,18 +64,18 @@ url = {
 
 info = {
 	"FKS": "Fyzikálny korešpondenčný seminár je súťaž v riešení netradičných fyzikálnych problémov. Pomocou zaujímavých experimentov a situácií z bežného života sa snažíme ukázať, že fyzika nie je taká nudná, ba dokonca ani taká ťažká, ako sa občas zdá.",
-	"KMS": "Baví ťa matematika? Chceš z nej vedieť viac? Tak neváhaj a zapoj sa do Korešpondenšného Matematického Semináru!",
+	"KMS": "Baví ťa matematika? Chceš z nej vedieť viac? Tak neváhaj a zapoj sa do Korešpondenčného Matematického Semináru!",
 	"KSP": "Korešpondenčný seminár z programovania je súťaž v riešení algoritmických úloh. Riešiš 5 z 8 úloh podľa tvojho levelu skúseností. Riešenie obvykle pozostáva z funkčného programu, ktorý stránka automaticky otestuje a textového popisu, čo program robí.",
 	"UFO": "",
-	"PRASK": "PRASK je súťaž určená pre všetkých základoškolákov, ktorých zaujíma matematika, informatika, chceli by sa naučiť programovať alebo len radi rozmýšľajú a prijímajú výzvy.",
+	"PRASK": "PRASK je súťaž určená pre všetkých základoškolákov, ktorých zaujíma matematika, informatika, chceli by sa naučiť programovať, alebo len radi rozmýšľajú a prijímajú výzvy.",
 	"FX": "FX je pre tých, ktorí sa chcú vo svete fyziky pohnúť míľovými krokmi dopredu. Každú úlohu môžeš riešiť iteratívne, t.j. do termínu ju môžeš poslať niekoľkokrát, pričom vždy dostaneš od nás spätnú väzbu, vďaka ktorej môžeš riešenie ešte vylepšiť.",
-	"SUSI": "Narozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená pre jednotlivcov. Podľa skúseností môžeš riešiť šifry v jednej z troch kategórií Agát, Blýskavica a Cíferský cech. V každom kole riešiš 5 zo 7 šifier, ktoré stránka automaticky opraví.",
+	"SUSI": "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená pre jednotlivcov. Podľa skúseností môžeš riešiť šifry v jednej z troch kategórií Agát, Blýskavica a Cíferský cech. V každom kole riešiš 5 zo 7 šifier, ktoré stránka automaticky opraví.",
 }
 
-susi_outdoor = "Narozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená pre jednotlivcov. V outdoorovom kole je 5 spoločných šifier pre všetky kategórie. Šifry v tomto kole sú vždy nejak špecifické, napríklad môžu mať spoločnú tému."
+susi_outdoor = "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená pre jednotlivcov. V outdoorovom kole je 5 spoločných šifier pre všetky kategórie. Šifry v tomto kole sú vždy nejak špecifické, napríklad môžu mať spoločnú tému."
 
 info_doprogramovanie = {
-	"KSP": "Po riadnom termíne nastáva fáza doprogramovávania. Počas tejto fázy sa nedajú odovzdávať slovné popisy, stále sa však dajú získať body za program. Navyše zverejníme aj vzorové riešenia, ktoré vám vedia pomôcť úlohu vyriešiť a úspešne naprogramovať.",
+	"KSP": "Po riadnom termíne nastáva fáza doprogramovávania. Počas tejto fázy sa nedajú odovzdávať slovné popisy, stále sa však dajú získať body za program. Navyše zverejníme aj vzorové riešenia, ktoré Vám vedia pomôcť úlohu vyriešiť a úspešne naprogramovať.",
 	"SUSI": "Týždeň pred koncom kola sa na stránke zverejní prvá sada \"malých\" nápovied ku jednotlivým šifrám. Po tomto čase sa dajú riešenia odovzdávať iba za 4 body.",
 }
 
@@ -85,7 +85,7 @@ name_doprogramovanie = {
 }
 
 info_doprogramovanie2 = {
-	"SUSI": "Tri dni pred koncom kola sa na stránke zverejní aj druhá sada takzvaných \"veľkých\" nápovied ku jednotlivým šifrám. Akonáhle sa tak stane, za riešenie môžte dostať maximálne 2 body.",
+	"SUSI": "Tri dni pred koncom kola sa na stránke zverejní aj druhá sada takzvaných \"veľkých\" nápovied ku jednotlivým šifrám. Akonáhle sa tak stane, za riešenie môžte získať maximálne 2 body.",
 }
 
 name_doprogramovanie2 = {
