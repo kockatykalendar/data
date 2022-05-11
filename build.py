@@ -1,8 +1,8 @@
 import argparse
 import json
 import os
-import sys
 import shutil
+import sys
 from collections import defaultdict, namedtuple
 from datetime import date, datetime
 
@@ -16,9 +16,11 @@ def school_year_from_date(date: date) -> str:
         return "%d_%d" % (date.year - 1, date.year % 100)
     return "%d_%d" % (date.year, (date.year + 1) % 100)
 
+
 def years_from_school_year(school_year):
     start_year = int(school_year.split("_")[0])
     return (start_year, start_year + 1)
+
 
 logos = ["icon", "logo"]
 ErrorData = namedtuple("ErrorData", ["file", "message"])
@@ -54,8 +56,12 @@ for directory in os.walk(os.path.join(ROOT, "organizers")):
             try:
                 organizer_data = validate_organizer(organizer_data)
                 for logo in logos:
-                    if logo in organizer_data and not os.path.exists(os.path.join(ROOT, "organizers", organizer_data[logo])):
-                        raise JsonSchemaValueException("Invalid path to %s, %s" % (logo, organizer_data[logo]))
+                    if logo in organizer_data and not os.path.exists(
+                        os.path.join(ROOT, "organizers", organizer_data[logo])
+                    ):
+                        raise JsonSchemaValueException(
+                            "Invalid path to %s, %s" % (logo, organizer_data[logo])
+                        )
                 OUTPUT_ORGANIZERS[name] = organizer_data
                 print(".", end="", flush=True)
             except JsonSchemaException as e:
@@ -77,7 +83,9 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                 event_data = validate_event(event_data)
                 for organizer in event_data["organizers"]:
                     if organizer not in OUTPUT_ORGANIZERS:
-                        raise JsonSchemaValueException("Organizer %s is not in organizers." % (organizer))
+                        raise JsonSchemaValueException(
+                            "Organizer %s is not in organizers." % (organizer)
+                        )
                 if not args.dry:
                     event_date = datetime.strptime(
                         event_data["date"]["start"], "%Y-%m-%d"
@@ -102,8 +110,14 @@ if not args.dry:
     for reference, organizer in OUTPUT.items():
         for logo in logos:
             if logo in organizer_data:
-                os.makedirs(os.path.dirname(os.path.join(ROOT, "build", organizer_data[logo])), exist_ok=True)
-                shutil.copy(os.path.join(ROOT, "organizers", organizer_data[logo]), os.path.join(ROOT, "build", organizer_data[logo]))
+                os.makedirs(
+                    os.path.dirname(os.path.join(ROOT, "build", organizer_data[logo])),
+                    exist_ok=True,
+                )
+                shutil.copy(
+                    os.path.join(ROOT, "organizers", organizer_data[logo]),
+                    os.path.join(ROOT, "build", organizer_data[logo]),
+                )
 
     with open(os.path.join(ROOT, "build/organizers.json"), "w") as f:
         json.dump(OUTPUT, f)
@@ -122,7 +136,7 @@ if not args.dry:
                 "start_year": years[0],
                 "end_year": years[1],
                 "school_year": "%d/%d" % (years[0], years[1]),
-                "filename": "%s.json" % (year,)
+                "filename": "%s.json" % (year,),
             }
         )
 
