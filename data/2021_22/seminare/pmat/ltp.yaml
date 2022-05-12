@@ -12,7 +12,7 @@ contestants:
 places:
   - Penzión Novoť
 volatile: true
-cancelled: false
+cancelled: true
 organizers:
   - p-mat
 link: https://akcie.p-mat.sk/
