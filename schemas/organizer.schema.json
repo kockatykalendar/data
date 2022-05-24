@@ -25,7 +25,8 @@
     "type": {
       "description": "Organization type",
       "type": "string",
-      "enum": ["oz", "no", "sro", "as", "statna", "skola", "other"]
+      "enum": ["oz", "no", "sro", "as", "statna", "skola", "other"],
+      "default": "other"
     },
     "info": {
       "description": "Short description of organization",
@@ -34,5 +35,5 @@
     
     }
   },
-  "required": ["name"]
+  "required": ["name", "web", "icon"]
 }
