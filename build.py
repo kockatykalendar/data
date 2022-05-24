@@ -107,20 +107,20 @@ if not args.dry:
     os.makedirs(os.path.join(ROOT, "build"), exist_ok=True)
     print("Writing output for organizers.")
 
-    for reference, organizer in OUTPUT.items():
+    for reference, organizer in OUTPUT_ORGANIZERS.items():
         for logo in logos:
-            if logo in organizer_data:
+            if logo in organizer:
                 os.makedirs(
-                    os.path.dirname(os.path.join(ROOT, "build", organizer_data[logo])),
+                    os.path.dirname(os.path.join(ROOT, "build", organizer[logo])),
                     exist_ok=True,
                 )
                 shutil.copy(
-                    os.path.join(ROOT, "organizers", organizer_data[logo]),
-                    os.path.join(ROOT, "build", organizer_data[logo]),
+                    os.path.join(ROOT, "organizers", organizer[logo]),
+                    os.path.join(ROOT, "build", organizer[logo]),
                 )
 
     with open(os.path.join(ROOT, "build/organizers.json"), "w") as f:
-        json.dump(OUTPUT, f)
+        json.dump(OUTPUT_ORGANIZERS, f)
 
     for year, events in OUTPUT.items():
         print("Writing output for year %s." % (year))
