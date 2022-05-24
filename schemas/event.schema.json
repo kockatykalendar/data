@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://kockatykalendar.sk/v0.0.4/event.schema.json",
+  "$id": "https://kockatykalendar.sk/v0.0.5/event.schema.json",
   "title": "Event",
   "description": "An event in the calendar",
   "type": "object",

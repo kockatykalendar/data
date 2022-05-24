@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://kockatykalendar.sk/v0.0.4/organizer.schema.json",
+  "$id": "https://kockatykalendar.sk/v0.0.5/organizer.schema.json",
   "title": "Organizer",
   "description": "An organizer of event in the calendar",
   "type": "object",
