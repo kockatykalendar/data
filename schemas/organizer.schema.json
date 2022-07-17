@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://kockatykalendar.sk/v0.0.5/organizer.schema.json",
+  "$id": "https://kockatykalendar.sk/v0.0.6/organizer.schema.json",
   "title": "Organizer",
   "description": "An organizer of event in the calendar",
   "type": "object",
@@ -33,6 +33,14 @@
       "type": "string",
       "maxLength": 512
     
+    },
+    "color": {
+      "description": "Override default color based on first science",
+      "type": "string",
+      "anyOf": [
+        { "enum": ["red", "orange", "yellow", "green", "blue", "purple", "black"] },
+        { "pattern": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" }
+      ]
     }
   },
   "required": ["name", "web", "icon"]
