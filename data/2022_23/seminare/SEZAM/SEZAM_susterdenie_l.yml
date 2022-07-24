@@ -12,7 +12,7 @@ type: sustredenie
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
   start: "2023-07-28"
-
+  end: "2023-08-06"
 # nazov organizatora alebo zoznam organizatorov
 organizers:
   - sezam
