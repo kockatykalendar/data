@@ -3,7 +3,8 @@ name: Kockatý víkend
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
-  - mat,fyz
+  - mat
+  - fyz
 
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
 type: vikendovka
