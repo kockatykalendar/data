@@ -3,7 +3,7 @@ type: seminar
 sciences:
   - other
 date:
-  start: "2023-04-24"
+  start: "2023-04-10"
 contestants:
   min: ss1
   max: null
