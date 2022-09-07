@@ -1,0 +1,34 @@
+# Nazov udalosti
+name: Európska noc výskumníkov
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat, fyz, inf, other
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: prednasky
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2022-09-30"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - none
+  
+# Odkaz na stranku pre viac info (optional)
+link: https://www.nocvyskumnikov.sk/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - BA, KE, BB, ZA, PO
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: none
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: none
+  
