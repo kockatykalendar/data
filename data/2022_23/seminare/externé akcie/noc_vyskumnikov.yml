@@ -15,7 +15,9 @@ date:
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
-  - none
+  - p-mat
+  - riesky
+  - trojsten
   
 # Odkaz na stranku pre viac info (optional)
 link: https://www.nocvyskumnikov.sk/
