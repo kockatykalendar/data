@@ -3,7 +3,10 @@ name: Európska noc výskumníkov
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
-  - mat, fyz, inf, other
+  - mat
+  - fyz
+  - inf
+  - other
 
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
 type: prednasky
