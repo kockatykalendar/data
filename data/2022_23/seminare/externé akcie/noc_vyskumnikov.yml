@@ -24,7 +24,11 @@ link: https://www.nocvyskumnikov.sk/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - BA, KE, BB, ZA, PO
+  - Bratislava
+  - Košice
+  - Banská Bystrica
+  - Žilina
+  - Poprad
 
 # Informacie o sutaziacich.
 contestants:
