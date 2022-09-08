@@ -1,0 +1,16 @@
+name: Zenit celoštátne kolo
+type: sutaz
+sciences:
+  - inf
+date:
+  start: "2023-02-21"
+  end: "2023-02-23"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - SOŠ Brezno
+organizers:
+  - siov
+info: "Zenit v programovaní je postupová súťaž v programovaní algoritmických úloh. Každé kolo trvá 4 hodiny a má približne 10 úloh od uplne lahkých až po ťažké. Riešenie pozostáva z funkčného programu ktorý sa ihneď automaticky testuje."
+link: https://zenit.ksp.sk/
