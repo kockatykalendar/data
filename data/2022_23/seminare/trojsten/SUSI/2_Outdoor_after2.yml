@@ -3,7 +3,7 @@ type: seminar
 sciences:
   - other
 date:
-  start: "2023-05-30"
+  start: "2023-05-29"
 contestants:
   min: ss1
   max: null
@@ -11,5 +11,5 @@ places:
   - online
 organizers:
   - trojsten
-info: 'Tri dni pred koncom kola sa na stránke zverejní aj druhá sada takzvaných "veľkých" nápovied ku jednotlivým šifrám. Akonáhle sa tak stane, za riešenie môžte získať maximálne 2 body.'
+info: 'Štyri dni pred koncom kola sa na stránke zverejní aj druhá sada takzvaných "veľkých" nápovied ku jednotlivým šifrám. Akonáhle sa tak stane, za riešenie môžte získať maximálne 2 body.'
 link: https://susi.trojsten.sk/

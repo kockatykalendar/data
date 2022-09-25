@@ -3,7 +3,7 @@ type: seminar
 sciences:
   - other
 date:
-  start: "2022-12-16"
+  start: "2022-12-12"
 contestants:
   min: ss1
   max: null
@@ -11,5 +11,5 @@ places:
   - online
 organizers:
   - trojsten
-info: 'Týždeň pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied ku jednotlivým šifrám. Po tomto čase sa dajú riešenia odovzdávať iba za 4 body.'
+info: 'Zhruba týždeň pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied ku jednotlivým šifrám. Po tomto čase sa dajú riešenia odovzdávať iba za 4 body.'
 link: https://susi.trojsten.sk/
