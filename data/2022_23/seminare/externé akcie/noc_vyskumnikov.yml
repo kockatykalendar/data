@@ -1,37 +1,28 @@
 # Nazov udalosti
-name: Európska noc výskumníkov
+name: Matematická olympiáda Z9, domáce kolo, 1.časť
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
   - mat
-  - fyz
-  - inf
-  - other
 
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
-type: prednasky
+type: olympiada
 
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2022-09-30"
+  start: "2022-11-16"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
-  - p-mat
-  - riesky
-  - trojsten
+  - iuventa
   
 # Odkaz na stranku pre viac info (optional)
-link: https://www.nocvyskumnikov.sk/
+link: https://skmo.sk/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - Bratislava
-  - Košice
-  - Banská Bystrica
-  - Žilina
-  - Poprad
+  - Celé Slovensko
 
 # Informacie o sutaziacich.
 contestants:
@@ -39,5 +30,5 @@ contestants:
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
   min: null
   # Maximalny rocnik, ktory sa moze zapojit.
-  max: null
+  max: zs9
   
