@@ -1,0 +1,33 @@
+# Nazov udalosti
+name: Pytagoriáda kategórie P3,P4,P5, okresné kolo
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: sutaz
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2023-03-20"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - iuventa
+  
+# Odkaz na stranku pre viac info (optional)
+link: https://www.iuventa.sk/olympiady/ziak/pytagoriada/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - Celé Slovensko
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: zs3
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: zs5
