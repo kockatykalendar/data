@@ -1,0 +1,39 @@
+name: Náboj Junior
+type: sutaz
+sciences:
+  - fyz
+  - mat
+date:
+  start: "2022-11-25"
+contestants:
+  min: zs8
+  max: zs9
+color: red
+info: "Náboj Junior je medzinárodná súťaž v matematike a fyzike určená pre 4-členné tímy. Každý tím začína so sadou šiestich úloh, po každom odovzdaní správne vyriešenej úlohy dostane ďalšiu. Vyhráva tím, ktorý ich za dve hodiny vyrieši najviac."
+places:
+  - Bánovce nad Bebravou
+  - Banská Bystrica
+  - Bratislava
+  - Brezno
+  - Košice
+  - Levice
+  - Liptovský Mikuláš
+  - Lučenec
+  - Michalovce
+  - Námestovo
+  - Nitra
+  - Partizánske
+  - Piešťany
+  - Poprad
+  - Prešov
+  - Prievidza
+  - Púchov
+  - Šahy
+  - Sučany
+  - Šurany
+  - Trenčín
+  - Trnava
+organizers:
+  - trojsten
+link: https://junior.naboj.org/sk/sk
+
