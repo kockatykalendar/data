@@ -1,0 +1,18 @@
+name: Klub Trojstenu
+type: vikendovka
+sciences:
+  - mat
+  - fyz
+  - inf
+date:
+  start: "2022-12-16"
+  end: "2022-12-17"
+info: "Klub je poloformálna, polooficálna akcia, koná sa po väčších akciách Trojstenu, snažíme sa utužiť kolektív semináristov a popri tom pribrať nových ľudí do našej partie. Neváhaj a pripoj sa k nám (agitačné reči – „Come to the dark side - we have cookies!“)"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - Bratislava
+organizers:
+  - trojsten
+link: https://klub.trojsten.sk/
