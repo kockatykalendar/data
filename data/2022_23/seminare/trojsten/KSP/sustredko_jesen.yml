@@ -1,0 +1,17 @@
+name: KSP sústredenie
+type: sustredenie
+sciences:
+  - inf
+date:
+  start: "2022-12-03"
+  end: "2022-12-10"
+contestants:
+  min: ss1
+  max: ss4
+info: "je určené pre 36 najúspešnejších riešiteľov Korešpondenčného Seminára z Programovania. Na sústredení spoznáš kopec skvelých ľudí s podobnými záujmami, vedúcich, ktorí opravovali tvoje riešenia, naučíš sa kopec algoritmov a zažiješ množstvo skvelých hier."
+places:
+  - Floriho chata, Mníchovsky potok
+volatile: true
+organizers:
+  - trojsten
+link: https://ksp.sk/akcie/sustredenia/
