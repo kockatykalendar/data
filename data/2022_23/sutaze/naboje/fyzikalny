@@ -1,0 +1,16 @@
+name: Fyzikálny NÁBOJ
+type: sutaz
+sciences:
+  - fyz
+date:
+  start: "2022-11-04"
+info: "Fyzikálny Náboj je medzinárodná súťaž päťčlenných tímov v rýchlostnom riešení fyzikálnych úloh. Každý tím začína so sadou ôsmich úloh, po každom odovzdaní správne vyriešenej úlohy dostane ďalšiu. Vyhráva tím, ktorý ich za dve hodiny vyrieši najviac."
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - Bratislava
+  - Košice
+organizers:
+  - trojsten
+link: https://physics.naboj.org/sk/sk
