@@ -1,0 +1,15 @@
+name: Suši sústredenie
+type: sustredenie
+sciences:
+  - other
+date:
+  start: "2023-11-01"
+  end: "2023-15-01"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+organizers:
+  - trojsten
+link: https://susi.trojsten.sk/akcie/sustredenia/
