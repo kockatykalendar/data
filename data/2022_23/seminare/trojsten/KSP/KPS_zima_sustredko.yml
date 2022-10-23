@@ -1,0 +1,15 @@
+name: KSP sústredenie
+type: sustredenie
+sciences:
+  - inf
+date:
+  start: "2023-03-18"
+  end: "2023-03-25"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - TBD
+organizers:
+  - trojsten
+link: https://www.ksp.sk/
