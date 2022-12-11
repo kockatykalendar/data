@@ -1,0 +1,17 @@
+name: Pikomat starší sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2023-01-15"
+  end: "2023-02-19"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - Lazy pod Makytou
+volatile: true
+cancelled: false
+organizers:
+  - p-mat
+link: https://pikomat.sk/
