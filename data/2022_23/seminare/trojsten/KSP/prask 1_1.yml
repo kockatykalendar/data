@@ -1,0 +1,15 @@
+name: 1. kolo zimnej časti PRASKu
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2023-01-09"
+contestants:
+  min: zs5
+  max: ss1
+places:
+  - online
+organizers:
+  - trojsten
+info: Prask je súťaž určená pre základoškolákov a prvákov na stredných školách, ktorých zaujíma matematika, či informatika, ktorí by sa chceli naučiť programovať, alebo radi premýšľajú a prijímajú nové výzvy."
+link: https://prask.ksp.sk/
