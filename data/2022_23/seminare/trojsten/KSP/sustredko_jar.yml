@@ -3,8 +3,8 @@ type: sustredenie
 sciences:
   - inf
 date:
-  start: "2023-04-15"
-  end: "2023-04-22"
+  start: "2023-03-25"
+  end: "2023-04-01"
 contestants:
   min: ss1
   max: ss4
