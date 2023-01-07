@@ -3,7 +3,7 @@ type: seminar
 sciences:
   - inf
 date:
-  start: "2022-12-19"
+  start: "2023-01-30"
 contestants:
   min: ss1
   max: ss4
