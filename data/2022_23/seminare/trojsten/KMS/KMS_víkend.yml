@@ -1,34 +1,15 @@
-# Nazov udalosti
 name: KMS víkend
-
-# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
   - mat
-
-# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
 type: vikendovka
-
-# Informacie k datumom.
 date:
-  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
   start: "2022-09-23"
   end: "2022-09-25"
-
-# nazov organizatora alebo zoznam organizatorov
 organizers:
   - trojsten 
-
-# Odkaz na stranku pre viac info (optional)
 link: https://kms.sk/?home
-
-# Miesto, alebo zoznam miest, kde sa akcia kona
 places:
   - FMFI UK, Mlynská dolina, Bratislava
-
-# Informacie o sutaziacich.
 contestants:
-  # Minimalny rocnik, ktory sa moze zapojit.
-  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
   min: ss1
-  # Maximalny rocnik, ktory sa moze zapojit.
   max: ss4

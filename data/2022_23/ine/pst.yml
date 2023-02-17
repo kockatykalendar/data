@@ -1,0 +1,14 @@
+name: Prázninová šifrovačka Trojstenu
+type: sutaz
+sciences:
+  - other
+date:
+  start: "2023-07-16"
+  text: Počas letných škôl ešte sa upresní
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - Bratislava
+organizers:
+  - trojsten

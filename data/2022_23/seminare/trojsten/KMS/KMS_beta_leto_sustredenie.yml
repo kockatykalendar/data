@@ -3,13 +3,13 @@ sciences:
   - mat
 type: sustredenie
 date:
-  start: "2023-01-21"
-  end: "2023-01-28"
+  start: "2023-06-11"
+  end: "2023-06-18"
 organizers:
   - trojsten
 link: https://kms.sk/akcie/sustredenia/
 places:
-  - Floriho chata, Mníchovsky potok
+  - TBD
 contestants:
   min: ss2
   max: ss4
