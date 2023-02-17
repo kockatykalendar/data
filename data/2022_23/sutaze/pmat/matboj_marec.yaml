@@ -1,0 +1,14 @@
+name: Matboj v Trnave
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2023-03-29"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - Trnava
+organizers:
+  - pmat
+#link:

@@ -1,0 +1,14 @@
+name: Pikopretek
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2023-05-18"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - Bratislava
+organizers:
+  - pmat
+#link:

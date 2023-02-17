@@ -1,35 +1,33 @@
 # Nazov udalosti
-name: Zimná škola Pikomatu
+name: Pikomat 3.séria
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
   - mat
-  - fyz
 
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
-type: tabor
+type: seminar
 
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2023-03-29"
-  end: "2023-04-02"
+  start: "2023-05-02"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
   - p-mat
 
 # Odkaz na stranku pre viac info (optional)
-# link: https://www.p-mat.sk/lsp/
+link: https://www.pikomat.sk/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - Zliechov
+  - online
 
 # Informacie o sutaziacich.
 contestants:
   # Minimalny rocnik, ktory sa moze zapojit.
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
-  min: ss1
+  min: zs5
   # Maximalny rocnik, ktory sa moze zapojit.
-  max: null
+  max: zs9

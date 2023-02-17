@@ -1,9 +1,9 @@
 # Nazov udalosti
-name: Pikomat 3.séria
+name: Pikofyz 1.séria
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
-  - mat
+  - fyz
 
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
 type: seminar
@@ -11,14 +11,14 @@ type: seminar
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2023-05-01"
+  start: "2023-02-27"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
   - p-mat
 
 # Odkaz na stranku pre viac info (optional)
-link: https://www.pikomat.sk/
+link: https://pikofyz.sk
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
@@ -28,6 +28,6 @@ places:
 contestants:
   # Minimalny rocnik, ktory sa moze zapojit.
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
-  min: zs5
+  min: zs7
   # Maximalny rocnik, ktory sa moze zapojit.
   max: zs9
