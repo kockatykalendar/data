@@ -1,0 +1,35 @@
+# Nazov udalosti
+name: Klub trojstenu
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat
+  - fyz
+  - inf
+  
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: vikendovka
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2023-04-21"
+  end: "2023-04-22"
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - trojsten
+
+# Odkaz na stranku pre viac info (optional)
+link: https://klub.trojsten.sk/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - TBD
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: ss1
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: ss4
