@@ -1,0 +1,16 @@
+name: Jarný GVOBOJ
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2023-04-14"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - Žilina
+link: https://gvoboj.gvoza.sk/
+organizers:
+  - gvoza 
+description: GVOboj je matematická súťaž určená pre žiakov siedmeho až deviateho ročníka základných škôl Žilinského kraja. Ukážeme Vám, že matematika dokáže byť zábavná a tímová práca dôležitá!
+
