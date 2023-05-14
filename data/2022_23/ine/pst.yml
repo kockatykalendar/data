@@ -3,8 +3,8 @@ type: sutaz
 sciences:
   - other
 date:
-  start: "2023-07-16"
-  text: Počas letných škôl ešte sa upresní
+  start: "2023-07-15"
+  text: Druhý ročník PŠT, ktorá je súčasťou voľnočasového programu Letnej školy Trojstenu. Je zameraná hlavne na stredoškolákov, aj začiatočníkov, no na svoje si vedia prísť aj skúsenejšie, nie nutne stredoškolské tímy.
 contestants:
   min: ss1
   max: ss4
@@ -12,3 +12,4 @@ places:
   - Bratislava
 organizers:
   - trojsten
+link: https://susi.trojsten.sk/pst/
