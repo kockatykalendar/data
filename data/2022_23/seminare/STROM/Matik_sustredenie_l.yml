@@ -1,33 +1,33 @@
 # Nazov udalosti
-name: Robotický Battle na Alejovej
+name: Matik - letné sústredenie
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
-  - inf
+  - mat
 
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
-type: sutaz
+type: sustredenie
 
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2023-06-05"
-
+  start: "2023-06-23"
+  end: "2023-06-28"
 # nazov organizatora alebo zoznam organizatorov
 organizers:
   - strom
 
 # Odkaz na stranku pre viac info (optional)
-link: https://robotickybattle.sk/
+link: https://matik.strom.sk/sk/prispevky/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - Alejová, Košice
+  - Viničky
 
 # Informacie o sutaziacich.
 contestants:
   # Minimalny rocnik, ktory sa moze zapojit.
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
-  min: zs1
+  min: zs7
   # Maximalny rocnik, ktory sa moze zapojit.
-  max: ss4
+  max: zs9

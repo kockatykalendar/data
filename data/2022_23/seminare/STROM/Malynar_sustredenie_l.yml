@@ -1,5 +1,5 @@
 # Nazov udalosti
-name: letná sústredenie Malynár
+name: Malynár - letné sústredenie 
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
@@ -23,7 +23,7 @@ link: https://malynar.strom.sk/sk/prispevky/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - online
+  - Viničky
 
 # Informacie o sutaziacich.
 contestants:

@@ -3,13 +3,13 @@ type: sustredenie
 sciences:
   - other
 date:
-  start: "2023-07-01"
-  end: "2023-07-06"
+  start: "2023-07-02"
+  end: "2023-07-07"
 contestants:
   min: ss1
   max: ss4
 places:
-  - TBD
+  - Chata Radzim, Vyšná Slaná
 organizers:
   - trojsten
 link: https://susi.trojsten.sk/akcie/sustredenia/

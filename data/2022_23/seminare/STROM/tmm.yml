@@ -1,0 +1,17 @@
+name: TMM - Tábor mladých matematikov
+type: tabor
+sciences:
+  - mat
+date:
+  start: "2023-08-08"
+  end: "2023-08-15"
+contestants:
+  min: zs6
+  max: ss1
+places:
+  - Chata Slaná Voda
+volatile: true
+cancelled: false
+organizers:
+  - strom
+link: https://seminar.strom.sk/tmm

@@ -1,5 +1,5 @@
 # Nazov udalosti
-name: zimné sústredenie Matik
+name: Matik - zimné sústredenie
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
@@ -22,7 +22,7 @@ link: https://matik.strom.sk/sk/prispevky/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - online
+  - Juskova Voľa
 
 # Informacie o sutaziacich.
 contestants:

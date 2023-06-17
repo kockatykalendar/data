@@ -1,5 +1,5 @@
 # Nazov udalosti
-name: Malynár sústredenie
+name: Malynár - zimné sústredenie
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
@@ -23,7 +23,7 @@ link: https://malynar.strom.sk/sk/prispevky/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - TBD
+  - Juskova Voľa
 
 # Informacie o sutaziacich.
 contestants:

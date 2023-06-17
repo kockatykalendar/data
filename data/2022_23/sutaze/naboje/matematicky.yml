@@ -1,0 +1,19 @@
+name: Matematický náboj
+type: sutaz
+sciences:
+  - fyz
+  - mat
+date:
+  start: "2023-04-21"
+contestants:
+  min: ss1
+  max: ss4
+color: red
+info: "Matematický náboj je medzinárodná súťaž v matematike určená pre 4 alebo 5-členné tímy. Každý tím začína so sadou šiestich úloh, po každom odovzdaní správne vyriešenej úlohy dostane ďalšiu. Vyhráva tím, ktorý ich za dve hodiny vyrieši najviac."
+places:
+  - Bratislava
+  - Košice
+organizers:
+  - trojsten
+  - strom
+link: https://math.naboj.org/?country=SK
