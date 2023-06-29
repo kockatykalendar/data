@@ -31,3 +31,5 @@ contestants:
   min: zs5
   # Maximalny rocnik, ktory sa moze zapojit.
   max: zs9
+
+cancelled: true
