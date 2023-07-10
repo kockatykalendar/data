@@ -7,8 +7,7 @@
 ## Pridávanie udalostí
 
 Každá udalosť má svoj `.yml` súbor v priečinku `data`. Kalendáru nezáleží, kde sa tento súbor v priečinku nachádza, ale pre prehľadnosť sme zvolili takúto štruktúru:
-Priečinok `data` má podpriečinky, ktoré vyjadrujú školské roky (`2020_21`, `2019_20`...). V priečinku školského roka sú ďalšie podpriečinky podľa mesiaca. Aby sa zoraďovali
-správne, pred názov mesiaca sme pridali jeho poradovú číslovku v danom školskom roku (t.j. `01_september`, `02_october`...)
+Priečinok `data` má podpriečinky, ktoré vyjadrujú školské roky (`2020_21`, `2019_20`...). V priečinku školského roka sú ďalšie podpriečinky podľa typu udalosti (`ine`, `prednasky`, `seminare`, `sutaze`). V priečinku `seminare`, má každý seminár vlastný podpriečinok (`P-MAT`, `Riesky`, `SEZAM`, `STROM`, `externé akcie`, `trojsten`). Priečinok `sutaze`, sa tiež ďalej delí podľa toho o akú súťaž ide.
 
 YML súbor udalosti má presne definovanú štruktúru, ktorá je [zverejnená tu](https://github.com/kockatykalendar/data/blob/master/schemas/event.schema.json).
 Príklad, ako sa používa si môžeš [pozrieť tu](https://github.com/kockatykalendar/data/blob/master/example.yml).
