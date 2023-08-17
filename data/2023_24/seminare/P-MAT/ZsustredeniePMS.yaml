@@ -1,0 +1,17 @@
+name: Zimné Pikomat starší sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2023-02-05"
+  end: "2023-02-10"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - Zliechov
+volatile: true
+cancelled: false
+organizers:
+  - p-mat
+link: https://pikomat.sk/
