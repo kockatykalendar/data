@@ -1,0 +1,17 @@
+name: KSP - Jarné sústredenie
+type: sustredenie
+sciences:
+  - inf
+date:
+  start: "2024-5-4"
+  end: "2024-5-11"
+contestants:
+  min: null
+  max: ss4
+places:
+  - Zatiaľ tajné
+organizers:
+  - ksp-praha
+info: 'Jarné sústredenie je určené predovšetkým začiatočníkom, pričom prednosť majú riešitelia KSP, no podmienka účasti to nie je! Program je plný zaujímavých informatických aj "polnočných" prednášok a zábavných hier. Nechýba, samozrejme, úžasný kolektív a veľa čaju.'
+link: https://ksp.mff.cuni.cz/sksp/
+color: black
