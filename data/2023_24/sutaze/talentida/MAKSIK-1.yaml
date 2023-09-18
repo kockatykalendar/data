@@ -5,10 +5,10 @@ type: seminar
 date:
   start: "2023-10-02"
 organizers:
-  - Talentida
+  - talentida
 link: https://maksik.sk
 places:
-  - home
+  - doma
 contestants:
   min: zs2
   max: zs4

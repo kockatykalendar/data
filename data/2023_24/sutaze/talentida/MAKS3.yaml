@@ -5,7 +5,7 @@ type: seminar
 date:
   start: "2023-12-04"
 organizers:
-  - Talentida
+  - talentida
 link: https://maks.sk
 places:
   - online
