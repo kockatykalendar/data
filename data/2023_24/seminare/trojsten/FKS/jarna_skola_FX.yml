@@ -1,13 +1,13 @@
-name: FKS sústredenie
+name: Jarná škola FX
 sciences:
   - fyz
 type: sustredenie
 date:
-  start: "2024-02-04"
-  end: "2024-02-11"
+  start: "2024-03-25"
+  end: "2024-03-29"
 organizers:
   - trojsten
-link: https://fks.sk/akcie/sustredenia/
+link: https://fx.fks.sk/jarna_skola_fx/
 places:
   - TBD
 contestants:
