@@ -1,0 +1,16 @@
+name: Matematický klokan
+sciences:
+  - mat
+type: sutaz
+date:
+  start: "2024-03-26"
+organizers:
+  - talentida
+link: https://www.matematickyklokan.sk
+places:
+  - online 
+  - škola
+contestants:
+  min: zs1
+  max: ss4
+info: "Matematický klokan je medzinárodná súťaž pre žiakov základných a stredných škôl. Vyhlasovateľom súťaže je asociácia Kangourou sans frontiéres so sídlom v Paríži. Do súťaže sa každoročne zapája viac ako 6 miliónov detí z takmer 90 krajín."

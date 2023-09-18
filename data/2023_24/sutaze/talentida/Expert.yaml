@@ -1,0 +1,15 @@
+name: EXPERT geniality show
+sciences:
+  - any
+type: sutaz
+date:
+  start: "2023-11-28"
+organizers:
+  - talentida
+link: https://www.sutazexpert.sk
+places:
+  - škola
+contestants:
+  min: zs5
+  max: ss4
+info: "Expert geniality show je je vedomostná súťaž pre žiakov 5. – 9. ročníka ZŠ a všetkých typov stredných škôl. Má formu testu s výberom odpovedí, pričom každý súťažiaci si vyberá dve rôzne oblasti zo šiestich ponúknutých."
