@@ -1,9 +1,9 @@
-name: 2. kolo letnej časti FKS
+name: FKS – 2. kolo letnej časti
 type: seminar
 sciences:
   - fyz
 date:
-  start: "2023-04-22"
+  start: "2024-04-22"
 contestants:
   min: ss1
   max: ss4

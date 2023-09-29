@@ -1,0 +1,16 @@
+name: KMS beta sústredenie
+sciences:
+  - mat
+type: sustredenie
+date:
+  start: "2024-06-15"
+  end: "2024-06-22"
+organizers:
+  - trojsten
+link: https://kms.sk/akcie/sustredenia/
+places:
+  - TBD
+info: "Možno to bude FKS."
+contestants:
+  min: ss2
+  max: ss4
