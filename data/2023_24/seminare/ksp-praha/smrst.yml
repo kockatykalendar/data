@@ -1,0 +1,17 @@
+name: Krutá Smršť Prednášok
+type: vikendovka
+sciences:
+  - inf
+date:
+  start: "2023-12-1"
+  end: "2023-12-3"
+contestants:
+  min: zs9
+  max: ss4
+places:
+  - Česká Třebová
+organizers:
+  - ksp-praha
+info: 'Krutá Smršť prednášok - Smršť - je víkendovka plná prednášok so zameraním najmä (no nielen) na informatiku. Tešiť sa môžete na približne 10 prednáškových slotov, ale aj veľa zábavy zo starými aj novými kamarátmi. Pozor, kapacita je obmedzená.'
+link: https://ksp.mff.cuni.cz/akce/smrst/
+color: "#000"
