@@ -3,14 +3,14 @@ type: sustredenie
 sciences:
   - inf
 date:
-  start: "2023-11-11"
-  end: "2023-11-17"
+  start: "2024-01-08"
+  end: "2024-01-14"
 contestants:
   min: zs5
   max: ss1
 info: "je určené pre 36 najúspešnejších riešiteľov Semináru PRASK. Na sústredení spoznáš kopec skvelých ľudí s podobnými záujmami, vedúcich, ktorí opravovali tvoje riešenia, naučíš sa kopec algoritmov a zažiješ množstvo skvelých hier."
 places:
-  - TBD
+  - Floriho chata, Mníchovsky potok
 organizers:
   - trojsten
 link: https://prask.ksp.sk/akcie/sustredenia/
