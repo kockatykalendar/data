@@ -33,4 +33,4 @@ contestants:
   # Maximalny rocnik, ktory sa moze zapojit.
   max: zs7
 
-  inf:"Dátum konania záleží od okresu."
+  info: "Dátum konania záleží od okresu."
