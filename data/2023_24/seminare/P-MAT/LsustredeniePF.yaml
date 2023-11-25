@@ -1,0 +1,17 @@
+name: Letné Pikofyz sústredenie
+type: sustredenie
+sciences:
+  - fyz
+date:
+  start: "2024-06-30"
+  end: "2024-07-07"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - TBD
+volatile: true
+cancelled: false
+organizers:
+  - p-mat
+link: https://pikofyz.sk/

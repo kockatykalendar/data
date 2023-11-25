@@ -1,10 +1,10 @@
-name: Zimné Pikomat mladší sústredenie
+name: Letné Pikomat mladší sústredenie
 type: sustredenie
 sciences:
   - mat
 date:
-  start: "2024-02-04"
-  end: "2024-02-09"
+  start: "2024-07-02"
+  end: "2024-07-07"
 contestants:
   min: zs5
   max: zs6
