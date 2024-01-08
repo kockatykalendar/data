@@ -1,0 +1,16 @@
+name: KSP - H2 - Deadline odovzdávania seriálu
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2024-01-14"
+contestants:
+  min: zs9
+  max: ss4
+places:
+  - online
+organizers:
+  - ksp-praha
+info: 'Téma tohtoročného seriálu je strojové učenie. Seriál sa počíta do bodovania hlavnej kategórie. Termín odovzdávania úloh je tradične 32:00 (8:00 ráno ďalšieho dňa), úlohy seriálu je však možné za znížený počet bodov odovzdávať aj po termíne.'
+link: https://ksp.mff.cuni.cz/viz/36-2-S
+color: "#000"
