@@ -11,7 +11,7 @@ type: vikendovka
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2023-09-17"
+  start: "2023-09-23"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
@@ -31,3 +31,4 @@ contestants:
   min: zs5
   # Maximalny rocnik, ktory sa moze zapojit.
   max: zs9
+info: "Ide o celodennú akciu, ktorej cieľom je budúcim riešiteľom ukázať, ako prebieha deň na sústredení Riešok a tým ich motivovať k riešeniu. Ukážeme si prednášky, hry a športy, ktoré hrávame. Samozrejme sa potešíme aj všetkým aktívnym Rieškarom :)."

@@ -1,0 +1,17 @@
+name: Letné Pikomat mladší sústredenie
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2024-07-02"
+  end: "2024-07-07"
+contestants:
+  min: zs5
+  max: zs6
+places:
+  - Zliechov
+volatile: true
+cancelled: false
+organizers:
+  - p-mat
+link: https://pikomat.sk/

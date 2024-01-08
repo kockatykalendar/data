@@ -1,9 +1,9 @@
-name: 3. kolo letnej časti FKS
+name: FKS – 3. kolo letnej časti
 type: seminar
 sciences:
   - fyz
 date:
-  start: "2023-05-20"
+  start: "2024-05-20"
 contestants:
   min: ss1
   max: ss4

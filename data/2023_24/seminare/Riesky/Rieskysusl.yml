@@ -11,8 +11,8 @@ type: sustredenie
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2024-06-15"
-  end: "2024-06-20"
+  start: "2024-06-02"
+  end: "2024-06-07"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
@@ -33,4 +33,4 @@ contestants:
   # Maximalny rocnik, ktory sa moze zapojit.
   max: zs9
 
-info: "Presný termín akcie sa môže ešte zmeniť."
+info: "Sústredenie Riešok je 6-dňový pobyt podobný Škole v prírode pre najúspešnejších riešiteľov Riešok. Súčasťou sústredenia je odborný aj neodborný program vo forme matematických prednášok a hier."

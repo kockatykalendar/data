@@ -1,0 +1,15 @@
+name: Všetkovedko
+sciences:
+  - any
+type: sutaz
+date:
+  start: "2023-11-28"
+organizers:
+  - talentida
+link: https://www.vsetkovedko.sk
+places:
+  - škola
+contestants:
+  min: zs1
+  max: zs4
+info: "Všetkovedko je celoslovenská vedomostná súťaž. Obsahuje otázky zo všetkých oblastí, s ktorými sa žiaci doteraz stretli – vlastiveda, prírodoveda, slovenský jazyk a literatúra, matematika, informatická, dopravná, hudobná a výtvarná výchova."

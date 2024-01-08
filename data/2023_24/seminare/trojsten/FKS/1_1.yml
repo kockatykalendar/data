@@ -1,9 +1,9 @@
-name: 1. kolo zimnej časti FKS
+name: FKS – 1. kolo zimnej časti
 type: seminar
 sciences:
   - fyz
 date:
-  start: "2022-10-16"
+  start: "2023-10-16"
 contestants:
   min: ss1
   max: ss4

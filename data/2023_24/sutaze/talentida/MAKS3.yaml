@@ -1,0 +1,15 @@
+name: MAKS 3.kolo
+sciences:
+  - mat
+type: seminar
+date:
+  start: "2023-12-04"
+organizers:
+  - talentida
+link: https://maks.sk
+places:
+  - online
+contestants:
+  min: zs5
+  max: zs9
+info: "MAKS je 8-kolová on-line súťaž pre všetkých, ktorým to páli. Súťažiť môžu jednotlivci aj dvojice. Použiješ viac zdravý rozum ako poučky a vzorce. Netreba písať postup ani zdôvodnenie, stačí správny výsledok."

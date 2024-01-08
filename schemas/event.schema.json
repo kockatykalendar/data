@@ -14,7 +14,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["mat", "fyz", "inf", "other"]
+        "enum": ["mat", "fyz", "inf", "other", "any"]
       },
       "minItems": 1,
       "uniqueItems": true

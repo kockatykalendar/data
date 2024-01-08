@@ -1,9 +1,9 @@
-name: 3. kolo zimnej časti FKS
+name: FKS – 3. kolo zimnej časti
 type: seminar
 sciences:
   - fyz
 date:
-  start: "2022-12-18"
+  start: "2023-12-18"
 contestants:
   min: ss1
   max: ss4

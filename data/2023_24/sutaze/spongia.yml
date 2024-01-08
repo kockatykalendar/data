@@ -1,0 +1,17 @@
+name: Špongia
+type: sutaz
+sciences:
+  - inf
+date:
+  start: "2023-10-20"
+  end: "2023-11-06"
+contestants:
+  min: zs5
+  max: ss4
+places:
+  - online
+  - ŠpMNDaG
+organizers:
+  - spmndag
+info: Špongia je súťaž v programovaní počítačových hier pre študentov základných a stredných škôl. Súťažiaci majú 17 dní, aby na zadanú tému spravili najlepšiu hru, akú dokážu. Znie to zaujímavo? Zlož svoj 1-6 členný tím a prihlás sa do súťaže!
+link: http://www.smnd.sk/spongia

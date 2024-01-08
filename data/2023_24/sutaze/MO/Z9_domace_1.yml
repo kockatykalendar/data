@@ -1,0 +1,33 @@
+# Nazov udalosti
+name: Matematická olympiáda kategórie Z9, domáce kolo, 1.časť
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: olympiada
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2023-11-15"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - nivam
+  
+# Odkaz na stranku pre viac info (optional)
+link: https://skmo.sk/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - Celé Slovensko
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: zs9
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: zs9

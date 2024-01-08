@@ -1,0 +1,16 @@
+name: Jesenný GVOBOJ
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2023-11-10"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - Žilina
+link: https://gvoboj.gvoza.sk/
+organizers:
+  - gvoza 
+description: GVOboj je matematická súťaž pre žiakov siedmeho až deviateho ročníka základných škôl. Ukážeme Vám, že matematika dokáže byť zábavná a tímová práca dôležitá!
+

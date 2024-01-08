@@ -1,0 +1,14 @@
+name: 1. kolo KSM5
+sciences:
+    - mat
+type: seminar
+date:
+    start: "2023-12-04"
+organizers:
+    - gjh
+link: https://www.gjh.sk/aktivity-na-skole/ksm
+places:
+    - korešpondenčne
+contestants:
+    min: zs5
+    max: zs5

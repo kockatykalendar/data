@@ -1,0 +1,16 @@
+name: FKS sústredenie
+sciences:
+  - fyz
+type: sustredenie
+date:
+  start: "2024-06-23"
+  end: "2024-06-30"
+organizers:
+  - trojsten
+link: https://fks.sk/akcie/sustredenia/
+places:
+  - Chata Hámor, Kokava nad Rimavicou
+info: "Možno to bude KMS."
+contestants:
+  min: ss1
+  max: ss4

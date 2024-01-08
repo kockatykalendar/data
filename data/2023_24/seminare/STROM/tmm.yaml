@@ -1,0 +1,15 @@
+name: TMM - Tábor mladých matematikov
+type: tabor
+sciences:
+  - mat
+date:
+  start: "2024-07-29"
+  end: "2024-08-05"
+contestants:
+  min: zs6
+  max: ss1
+places:
+  - RS Zelený Breh - Kokošovce
+organizers:
+  - strom
+link: https://seminar.strom.sk/tmm

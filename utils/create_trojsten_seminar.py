@@ -80,8 +80,10 @@ info = {
         " sa občas zdá."
     ),
     "KMS": (
-        "Baví ťa matematika? Chceš z nej vedieť viac? Tak neváhaj a zapoj sa do"
-        " Korešpondenčného Matematického Semináru!"
+        "Baví ťa matematika? Tak neváhaj a zapoj sa do Korešpondenčného Matematického"
+        " Semináru! Ide o individuálnu súťaž pozostávajúcu z 10 úloh, pričom stačí"
+        " vyriešiť 5. Vyriešiť úlohu neznamená len nájsť výsledok. Treba aj ukázať,"
+        " že nájdený výsledok je správny."
     ),
     "KSP": (
         "Korešpondenčný seminár z programovania je súťaž v riešení algoritmických úloh."
@@ -102,17 +104,23 @@ info = {
         " riešenie ešte vylepšiť."
     ),
     "SUSI": (
-        "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená pre"
-        " jednotlivcov. Podľa skúseností môžeš riešiť šifry v jednej z troch kategórií"
-        " Agát, Blýskavica a Cíferský cech. V každom kole riešiš 5 zo 7 šifier, ktoré"
-        " stránka automaticky opraví."
+        "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená jednotlivcom."
+        " Podľa skúseností riešiš šifry v kategórií Agát, Blýskavica alebo Cíferský cech."
+        " V každom kole riešiš 5 šifier a na stránku odovzdávaš heslá, ktoré stránka"
+        " automaticky opraví."
     ),
 }
 
 susi_outdoor = (
     "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená pre jednotlivcov."
-    " V outdoorovom kole je 5 spoločných šifier pre všetky kategórie. Šifry v tomto"
-    " kole sú vždy nejak špecifické, napríklad môžu mať spoločnú tému."
+    " V objavnom kole riešiš 5 šifier zameraných na špecifickú tému a na stránku odovzdávaš"
+    " heslá, ktoré stránka automaticky opraví."
+)
+
+susi_outdoor_doprogramovanie = (
+    "Dva týždne pred koncom kola sa na stránke zverejní malá nápoveda spoločná pre všetky"
+    " šifry objavného kola. Po tomto termíne môžeš riešenia šifier odovzdávať za 7 bodov až"
+    " do zverejnenia veľkých nápovied."
 )
 
 info_doprogramovanie = {
@@ -123,8 +131,9 @@ info_doprogramovanie = {
         " úspešne naprogramovať."
     ),
     "SUSI": (
-        'Týždeň pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied ku'
-        " jednotlivým šifrám. Po tomto čase sa dajú riešenia odovzdávať iba za 4 body."
+        'Dva týždne pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied'
+        " k jednotlivým šifrám. Po tomto termíne môžeš riešenia šifier odovzdávať za 7"
+        " bodov až do zverejnenia veľkých nápovied."
     ),
 }
 
@@ -132,9 +141,17 @@ name_doprogramovanie = {"KSP": "Doprogramovanie", "SUSI": "Zverejnenie malej ná
 
 info_doprogramovanie2 = {
     "SUSI": (
-        "Tri dni pred koncom kola sa na stránke zverejní aj druhá sada takzvaných"
+        'Týždeň pred koncom kola sa na stránke zverejní aj druhá sada "veľkých" nápovied'
+        " k jednotlivým šifrám. Po tomto termíne môžeš riešenia šifier odovzdávať za 5"
+        " bodov až do skončenia kola."
+    ),
+}
+
+start = {
+    "SUSI": (
+        "Týždeň pred koncom kola sa na stránke zverejní aj druhá sada takzvaných"
         ' "veľkých" nápovied ku jednotlivým šifrám. Akonáhle sa tak stane, za riešenie'
-        " môžte získať maximálne 2 body."
+        " môžte získať maximálne 5 bodov."
     ),
 }
 
@@ -153,7 +170,7 @@ for part in range(1, parts + 1):
             encoding="utf-8",
         ) as f:
             f.write(
-                f"""name: {"Objavné" if round == "Outdoor" else f'{round}.'} kolo {"zimnej" if part == 1 else "letnej"} časti {"Suši" if args.seminar == "SUSI" else args.seminar}
+                f"""name: {"Suši" if args.seminar == "SUSI" else args.seminar} – {"Koniec " if args.seminar in start else ""}{"Objavného" if round == "Outdoor" else f'{round}.'} {"kola" if args.seminar in start else "kolo"} {"zimnej" if part == 1 else "letnej"} časti
 type: seminar
 sciences:
   - {sciences[args.seminar]}
@@ -177,12 +194,12 @@ link: https://{url[args.seminar]}.sk/
                 encoding="utf-8",
             ) as f:
                 f.write(
-                    f"""name: {name_doprogramovanie[args.seminar]} {"Objavného" if round == "Outdoor" else f'{round}.'} kola {"zimnej" if part == 1 else "letnej"} časti {"Suši" if args.seminar == "SUSI" else args.seminar}
+                    f"""name: {"Suši" if args.seminar == "SUSI" else args.seminar} – {name_doprogramovanie[args.seminar]} {"Objavného" if round == "Outdoor" else f'{round}.'} kola {"zimnej" if part == 1 else "letnej"} časti
 type: seminar
 sciences:
   - {sciences[args.seminar]}
 date:
-  start: "{ (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') - datetime.timedelta(days=7)).strftime('%Y-%m-%d') if args.seminar == 'SUSI' else (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') + datetime.timedelta(days=14)).strftime('%Y-%m-%d')}"
+  start: "{ (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') - datetime.timedelta(days=14)).strftime('%Y-%m-%d') if args.seminar == 'SUSI' else (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') + datetime.timedelta(days=14)).strftime('%Y-%m-%d')}"
 contestants:
   min: {min_year[args.seminar]}
   max: {max_year[args.seminar]}
@@ -190,7 +207,7 @@ places:
   - online
 organizers:
   - trojsten
-info: '{info_doprogramovanie[args.seminar]}'
+info: '{susi_outdoor_doprogramovanie if args.seminar == "SUSI" and round == "Outdoor" else info_doprogramovanie[args.seminar]}'
 link: https://{url[args.seminar]}.sk/
 """
                 )
@@ -201,12 +218,12 @@ link: https://{url[args.seminar]}.sk/
                 encoding="utf-8",
             ) as f:
                 f.write(
-                    f"""name: {name_doprogramovanie2[args.seminar]} {"Objavného" if round == "Outdoor" else f'{round}.'} kola {"zimnej" if part == 1 else "letnej"} časti {"Suši" if args.seminar == "SUSI" else args.seminar}
+                    f"""name: {"Suši" if args.seminar == "SUSI" else args.seminar} – {name_doprogramovanie2[args.seminar]} {"Objavného" if round == "Outdoor" else f'{round}.'} kola {"zimnej" if part == 1 else "letnej"} časti
 type: seminar
 sciences:
   - {sciences[args.seminar]}
 date:
-  start: "{ (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') - datetime.timedelta(days=3)).strftime('%Y-%m-%d')}"
+  start: "{ (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') - datetime.timedelta(days=7)).strftime('%Y-%m-%d')}"
 contestants:
   min: {min_year[args.seminar]}
   max: {max_year[args.seminar]}
@@ -215,6 +232,30 @@ places:
 organizers:
   - trojsten
 info: '{info_doprogramovanie2[args.seminar]}'
+link: https://{url[args.seminar]}.sk/
+"""
+                )
+        if args.seminar in start:
+            with open(
+                f"../data/{args.year}/seminare/trojsten/{args.seminar}/{part}_{round}_start.yml",
+                "w",
+                encoding="utf-8",
+            ) as f:
+                f.write(
+                    f"""name: {"Suši" if args.seminar == "SUSI" else args.seminar} – Zverejnenie {"Objavného" if round == "Outdoor" else f'{round}.'} kola {"zimnej" if part == 1 else "letnej"} časti
+type: seminar
+sciences:
+  - {sciences[args.seminar]}
+date:
+  start: "{ (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') - datetime.timedelta(days=42)).strftime('%Y-%m-%d')}"
+contestants:
+  min: {min_year[args.seminar]}
+  max: {max_year[args.seminar]}
+places:
+  - online
+organizers:
+  - trojsten
+info: '{start[args.seminar]}'
 link: https://{url[args.seminar]}.sk/
 """
                 )

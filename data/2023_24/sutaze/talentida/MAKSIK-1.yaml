@@ -1,0 +1,15 @@
+name: MAKSÍK 1.kolo
+sciences:
+  - mat
+type: seminar
+date:
+  start: "2023-10-02"
+organizers:
+  - talentida
+link: https://maksik.sk
+places:
+  - doma
+contestants:
+  min: zs2
+  max: zs4
+info: "Matematická súťaž pre bystré hlavy z radov druhákov, tretiakov a štvrtákov na ZŠ. Súťažiť môžu jednotlivci aj dvojice. Úlohy sú zakomponované do rozprávok a napínavých príbehov na pokračovanie. Zadania úloh sú ilustrované obrázkami samotných riešiteľov."

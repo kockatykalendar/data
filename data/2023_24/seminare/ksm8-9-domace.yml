@@ -1,0 +1,14 @@
+name: 1. kolo KSM8-9
+sciences:
+    - mat
+type: seminar
+date:
+    start: "2023-12-04"
+organizers:
+    - gjh
+link: https://www.gjh.sk/aktivity-na-skole/ksm
+places:
+    - korešpondenčne
+contestants:
+    min: zs8
+    max: zs9
