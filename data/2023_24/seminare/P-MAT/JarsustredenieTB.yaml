@@ -1,0 +1,17 @@
+name: Jarné Terabio sústredenie
+type: sustredenie
+sciences:
+  - other
+date:
+  start: "2024-04-02"
+  end: "2024-04-07"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - Súľov-Hradná
+volatile: true
+cancelled: false
+organizers:
+  - p-mat
+link: https://terabio.sk/
