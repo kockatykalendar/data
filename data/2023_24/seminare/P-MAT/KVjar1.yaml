@@ -12,8 +12,8 @@ type: vikendovka
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2023-04-19"
-  end: "2023-04-21"
+  start: "2024-04-19"
+  end: "2024-04-21"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
