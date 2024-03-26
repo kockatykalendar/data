@@ -11,8 +11,8 @@ type: sustredenie
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2023-02-04"
-  end: "2023-02-09"
+  start: "2024-02-04"
+  end: "2024-02-09"
 # nazov organizatora alebo zoznam organizatorov
 organizers:
   - strom
