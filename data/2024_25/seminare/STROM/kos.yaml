@@ -1,0 +1,14 @@
+name: Kôš - Košická šifrovačka
+type: sutaz
+sciences:
+  - other
+date:
+  start: "2024-09-28"
+contestants:
+  min: zs1
+  max: ss4
+places:
+  - online
+organizers:
+  - strom
+link: https://kos.strom.sk/
