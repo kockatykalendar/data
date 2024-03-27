@@ -1,0 +1,16 @@
+name: KSP - Z4 - Deadline odovzdávania série
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2024-03-31"
+contestants:
+  min: null
+  max: ss4
+places:
+  - online
+organizers:
+  - ksp-praha
+info: 'Kategória Z je určená začiatočníkom, ktorí sa chcú naučiť programovať. Počas roka prebieha 5 sérií - každá obsahuje zvyčajne tri praktické a jednu teoretickú úlohu. Termín odovzdávania úloh je tradične 32:00 (8:00 ráno ďalšieho dňa).'
+link: https://ksp.mff.cuni.cz/z/ulohy/36/zadani4.html
+color: "#000"
