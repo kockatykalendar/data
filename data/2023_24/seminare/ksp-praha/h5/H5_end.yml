@@ -1,0 +1,16 @@
+name: KSP - H5 - Deadline odovzdávania série
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2024-06-23"
+contestants:
+  min: zs9
+  max: ss4
+places:
+  - online
+organizers:
+  - ksp-praha
+info: 'Kategória H je určená pokročilým programátorom, súťaží sa o účasť na jesennom sústredení, prijatie na MFF UK bez prijímačiek a zaujímavé ceny. Série zvykne sprevádzať seriál. Termín odovzdávania úloh je tradične 32:00 (8:00 ráno ďalšieho dňa).'
+link: https://ksp.mff.cuni.cz/h/ulohy/36/zadani5.html
+color: "#000"
