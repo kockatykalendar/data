@@ -1,0 +1,47 @@
+# Nazov udalosti
+name: Metalympiáda - domáce kolo 2023/24
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat
+  - inf
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: sutaz
+
+organizers:
+  - metalympiada
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2024-05-01"
+  # Koniec udalosti (optional) YYYY-MM-DD
+  end: "2024-06-21"
+
+# Odkaz na stranku pre viac info (optional)
+link: https://metalympiada.matfyz.cz
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - online
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: zs1
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: ss4
+
+# Popis akcie
+short-info: "Olympiáda o Metalympiáde"
+
+# Zmena defaultnej farby, v tomto prípade modrej na červenú (optional)
+color: "#118282"
+
+# Udaje k notifikaciam. (optional)
+notifications:
+  # Zoznam poctu dni, kedy sa ma posielat mail zaujemcom.
+  remind_days_before: 
+    - 5
