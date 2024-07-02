@@ -1,0 +1,15 @@
+name: KMS spojené sústredenie
+sciences:
+  - mat
+type: sustredenie
+date:
+  start: "2024-06-14"
+  end: "2024-06-21"
+organizers:
+  - trojsten
+link: https://kms.sk/akcie/sustredenia/
+places:
+  - TO DO
+contestants:
+  min: ss2
+  max: ss4
