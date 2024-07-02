@@ -1,0 +1,13 @@
+name: KMS beta sústredenie
+sciences:
+  - mat
+type: sustredenie
+date:
+  start: "2025-01-24"
+  end: "2025-01-31"
+organizers:
+  - trojsten
+link: https://kms.sk/akcie/sustredenia/
+contestants:
+  min: ss2
+  max: ss4
