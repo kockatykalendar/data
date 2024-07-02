@@ -1,0 +1,7 @@
+#/bin/sh
+
+python create_trojsten_seminar.py SUSI    2024_25 14.10. 11.11.  9.12. 17.03. 14.04. 12.05.
+python create_trojsten_seminar.py FKS     2024_25 14.10. 11.11.  9.12. 24.03. 21.04. 19.05.
+python create_trojsten_seminar.py KSP     2024_25 21.10. 16.12.        16.1.  10.06.
+python create_trojsten_seminar.py KMS     2024_25  7.10.  4.11.  2.12. 17.02. 17.03. 14.04.
+python create_trojsten_seminar.py Riešky  2024_25 10.10.  7.11.  5.12. 20.02. 20.03. 17.04.

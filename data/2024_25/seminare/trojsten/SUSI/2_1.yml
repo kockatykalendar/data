@@ -1,0 +1,15 @@
+name: Suši – Koniec 1. kola letnej časti
+type: seminar
+sciences:
+  - other
+date:
+  start: "2025-03-17"
+contestants:
+  min: ss1
+  max: null
+places:
+  - online
+organizers:
+  - trojsten
+info: "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená jednotlivcom. Podľa skúseností riešiš šifry v kategórií Agát, Blýskavica alebo Cíferský cech. V každom kole riešiš 5 šifier a na stránku odovzdávaš heslá, ktoré stránka automaticky opraví."
+link: https://susi.trojsten.sk/

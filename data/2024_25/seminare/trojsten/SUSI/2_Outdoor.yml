@@ -1,0 +1,15 @@
+name: Suši – Koniec Objavného kola letnej časti
+type: seminar
+sciences:
+  - other
+date:
+  start: "2025-05-12"
+contestants:
+  min: ss1
+  max: null
+places:
+  - online
+organizers:
+  - trojsten
+info: "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená pre jednotlivcov. V objavnom kole riešiš 5 šifier zameraných na špecifickú tému a na stránku odovzdávaš heslá, ktoré stránka automaticky opraví."
+link: https://susi.trojsten.sk/

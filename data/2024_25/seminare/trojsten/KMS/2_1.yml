@@ -1,0 +1,15 @@
+name: KMS – 1. kolo letnej časti
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2025-02-17"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+info: "Baví ťa matematika? Tak neváhaj a zapoj sa do Korešpondenčného Matematického Semináru! Ide o individuálnu súťaž pozostávajúcu z 10 úloh, pričom stačí vyriešiť 5. Vyriešiť úlohu neznamená len nájsť výsledok. Treba aj ukázať, že nájdený výsledok je správny."
+link: https://kms.sk/

@@ -1,0 +1,15 @@
+name: KSP – Doprogramovanie 1. kola letnej časti
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2025-01-30"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+info: 'Po riadnom termíne nastáva fáza doprogramovávania. Počas tejto fázy sa nedajú odovzdávať slovné popisy, stále sa však dajú získať body za program. Navyše zverejníme aj vzorové riešenia, ktoré Vám vedia pomôcť úlohu vyriešiť a úspešne naprogramovať.'
+link: https://ksp.sk/

@@ -1,0 +1,15 @@
+name: KSP – 1. kolo letnej časti
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2025-01-16"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+info: "Korešpondenčný seminár z programovania je súťaž v riešení algoritmických úloh. Riešiš 5 z 8 úloh podľa tvojho levelu skúseností. Riešenie obvykle pozostáva z funkčného programu, ktorý stránka automaticky otestuje a textového popisu, čo program robí."
+link: https://ksp.sk/

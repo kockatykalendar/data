@@ -1,0 +1,15 @@
+name: FKS – 1. kolo letnej časti
+type: seminar
+sciences:
+  - fyz
+date:
+  start: "2025-03-24"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - trojsten
+info: "Fyzikálny korešpondenčný seminár je súťaž v riešení netradičných fyzikálnych problémov. Pomocou zaujímavých experimentov a situácií z bežného života sa snažíme ukázať, že fyzika nie je taká nudná, ba dokonca ani taká ťažká, ako sa občas zdá."
+link: https://fks.sk/

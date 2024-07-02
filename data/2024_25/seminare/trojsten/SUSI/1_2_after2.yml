@@ -1,0 +1,15 @@
+name: Suši – Zverejnenie veľkej nápovedy 2. kola zimnej časti
+type: seminar
+sciences:
+  - other
+date:
+  start: "2024-11-04"
+contestants:
+  min: ss1
+  max: null
+places:
+  - online
+organizers:
+  - trojsten
+info: 'Dva týždne pred koncom kola sa na stránke zverejní aj druhá sada "veľkých" nápovied k jednotlivým šifrám. Po tomto termíne môžeš riešenia šifier odovzdávať za 5 bodov až do skončenia kola.'
+link: https://susi.trojsten.sk/

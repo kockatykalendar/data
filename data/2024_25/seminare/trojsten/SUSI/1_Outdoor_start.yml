@@ -1,0 +1,15 @@
+name: Suši – Zverejnenie Objavného kola zimnej časti
+type: seminar
+sciences:
+  - other
+date:
+  start: "2024-10-28"
+contestants:
+  min: ss1
+  max: null
+places:
+  - online
+organizers:
+  - trojsten
+info: 'Dva týždne pred koncom kola sa na stránke zverejní aj druhá sada takzvaných "veľkých" nápovied ku jednotlivým šifrám. Akonáhle sa tak stane, za riešenie môžte získať maximálne 5 bodov.'
+link: https://susi.trojsten.sk/

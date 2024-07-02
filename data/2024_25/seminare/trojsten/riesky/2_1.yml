@@ -1,0 +1,15 @@
+name: Riešky 1. kolo, letná séria časti
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2025-02-20"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - online
+organizers:
+  - riesky
+info: "Riešky sú individuálna dlhodobá súťaž v riešení netradičných úloh. Pri riešeniach nás zaujíma hlavne postup a myšlienky, ktoré doviedli riešiteľa k výsledku a napíšeme k nim spätnú väzbu. Odmenou pre najúspešnejších riešiteľov je sústredenie."
+link: https://riesky.sk/

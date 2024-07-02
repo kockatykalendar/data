@@ -1,0 +1,15 @@
+name: Suši – Zverejnenie malej nápovedy 2. kola letnej časti
+type: seminar
+sciences:
+  - other
+date:
+  start: "2025-03-31"
+contestants:
+  min: ss1
+  max: null
+places:
+  - online
+organizers:
+  - trojsten
+info: 'Štyri týždne pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied k jednotlivým šifrám. Po tomto termíne môžeš riešenia šifier odovzdávať za 7 bodov až do zverejnenia veľkých nápovied.'
+link: https://susi.trojsten.sk/

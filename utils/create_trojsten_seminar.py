@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(
     description="Create rounds of trojsten competitions",
 )
 parser.add_argument(
-    "seminar", choices=["FKS", "KMS", "KSP", "UFO", "PRASK", "FX", "SUSI"]
+    "seminar", choices=["FKS", "KMS", "KSP", "UFO", "PRASK", "FX", "SUSI", "Riešky"]
 )
 parser.add_argument("year", help="year format eg. 2021_22")
 parser.add_argument(
@@ -40,6 +40,7 @@ sciences = {
     "PRASK": "inf",
     "FX": "fyz",
     "SUSI": "other",
+    "Riešky": "mat",
 }
 
 min_year = {
@@ -50,6 +51,7 @@ min_year = {
     "PRASK": "zs7",
     "FX": "ss1",
     "SUSI": "ss1",
+    "Riešky": "zs5",
 }
 
 max_year = {
@@ -60,6 +62,7 @@ max_year = {
     "PRASK": "ss1",
     "FX": "ss4",
     "SUSI": "null",
+    "Riešky": "zs9",
 }
 
 url = {
@@ -70,6 +73,7 @@ url = {
     "PRASK": "prask.ksp",
     "FX": "fx.fks",
     "SUSI": "susi.trojsten",
+    "Riešky": "riesky",
 }
 
 info = {
@@ -109,6 +113,12 @@ info = {
         " V každom kole riešiš 5 šifier a na stránku odovzdávaš heslá, ktoré stránka"
         " automaticky opraví."
     ),
+    "Riešky": (
+        "Riešky sú individuálna dlhodobá súťaž v riešení netradičných úloh."
+        " Pri riešeniach nás zaujíma hlavne postup a myšlienky, ktoré doviedli"
+        " riešiteľa k výsledku a napíšeme k nim spätnú väzbu."
+        " Odmenou pre najúspešnejších riešiteľov je sústredenie."
+    ),
 }
 
 susi_outdoor = (
@@ -118,7 +128,7 @@ susi_outdoor = (
 )
 
 susi_outdoor_doprogramovanie = (
-    "Dva týždne pred koncom kola sa na stránke zverejní malá nápoveda spoločná pre všetky"
+    "Štyri týždne pred koncom kola sa na stránke zverejní malá nápoveda spoločná pre všetky"
     " šifry objavného kola. Po tomto termíne môžeš riešenia šifier odovzdávať za 7 bodov až"
     " do zverejnenia veľkých nápovied."
 )
@@ -131,7 +141,7 @@ info_doprogramovanie = {
         " úspešne naprogramovať."
     ),
     "SUSI": (
-        'Dva týždne pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied'
+        'Štyri týždne pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied'
         " k jednotlivým šifrám. Po tomto termíne môžeš riešenia šifier odovzdávať za 7"
         " bodov až do zverejnenia veľkých nápovied."
     ),
@@ -141,7 +151,7 @@ name_doprogramovanie = {"KSP": "Doprogramovanie", "SUSI": "Zverejnenie malej ná
 
 info_doprogramovanie2 = {
     "SUSI": (
-        'Týždeň pred koncom kola sa na stránke zverejní aj druhá sada "veľkých" nápovied'
+        'Dva týždne pred koncom kola sa na stránke zverejní aj druhá sada "veľkých" nápovied'
         " k jednotlivým šifrám. Po tomto termíne môžeš riešenia šifier odovzdávať za 5"
         " bodov až do skončenia kola."
     ),
@@ -149,7 +159,7 @@ info_doprogramovanie2 = {
 
 start = {
     "SUSI": (
-        "Týždeň pred koncom kola sa na stránke zverejní aj druhá sada takzvaných"
+        "Dva týždne pred koncom kola sa na stránke zverejní aj druhá sada takzvaných"
         ' "veľkých" nápovied ku jednotlivým šifrám. Akonáhle sa tak stane, za riešenie'
         " môžte získať maximálne 5 bodov."
     ),
@@ -158,19 +168,20 @@ start = {
 name_doprogramovanie2 = {"SUSI": "Zverejnenie veľkej nápovedy"}
 
 i = 0
-os.makedirs(f"../data/{args.year}/seminare/trojsten/{args.seminar}", exist_ok=True)
+directory = "riesky" if args.seminar == "Riešky" else args.seminar
+os.makedirs(f"../data/{args.year}/seminare/trojsten/{directory}", exist_ok=True)
 for part in range(1, parts + 1):
     for r in range(1, rounds + 1):
         round = r
         if r == 3 and args.seminar == "SUSI":
             round = "Outdoor"
         with open(
-            f"../data/{args.year}/seminare/trojsten/{args.seminar}/{part}_{round}.yml",
+            f"../data/{args.year}/seminare/trojsten/{directory}/{part}_{round}.yml",
             "w",
             encoding="utf-8",
         ) as f:
             f.write(
-                f"""name: {"Suši" if args.seminar == "SUSI" else args.seminar} – {"Koniec " if args.seminar in start else ""}{"Objavného" if round == "Outdoor" else f'{round}.'} {"kola" if args.seminar in start else "kolo"} {"zimnej" if part == 1 else "letnej"} časti
+                f"""name: {f"Riešky {round}. kolo, {"zimná" if part == 1 else "letná"} séria" if args.seminar == "Riešky" else f"{"Suši" if args.seminar == "SUSI" else args.seminar} – {"Koniec " if args.seminar in start else ""}{"Objavného" if round == "Outdoor" else f'{round}.'} {"kola" if args.seminar in start else "kolo"} {"zimnej" if part == 1 else "letnej"}"} časti
 type: seminar
 sciences:
   - {sciences[args.seminar]}
@@ -182,14 +193,14 @@ contestants:
 places:
   - online
 organizers:
-  - trojsten
+  - {"riesky" if args.seminar == "Riešky" else "trojsten"}
 info: "{susi_outdoor if round == "Outdoor" else info[args.seminar]}"
 link: https://{url[args.seminar]}.sk/
 """
             )
         if args.seminar in info_doprogramovanie:
             with open(
-                f"../data/{args.year}/seminare/trojsten/{args.seminar}/{part}_{round}_after1.yml",
+                f"../data/{args.year}/seminare/trojsten/{directory}/{part}_{round}_after1.yml",
                 "w",
                 encoding="utf-8",
             ) as f:
@@ -206,14 +217,14 @@ contestants:
 places:
   - online
 organizers:
-  - trojsten
+  - {"riesky" if args.seminar == "Riešky" else "trojsten"}
 info: '{susi_outdoor_doprogramovanie if args.seminar == "SUSI" and round == "Outdoor" else info_doprogramovanie[args.seminar]}'
 link: https://{url[args.seminar]}.sk/
 """
                 )
         if args.seminar in name_doprogramovanie2:
             with open(
-                f"../data/{args.year}/seminare/trojsten/{args.seminar}/{part}_{round}_after2.yml",
+                f"../data/{args.year}/seminare/trojsten/{directory}/{part}_{round}_after2.yml",
                 "w",
                 encoding="utf-8",
             ) as f:
@@ -230,14 +241,14 @@ contestants:
 places:
   - online
 organizers:
-  - trojsten
+  - {"riesky" if args.seminar == "Riešky" else "trojsten"}
 info: '{info_doprogramovanie2[args.seminar]}'
 link: https://{url[args.seminar]}.sk/
 """
                 )
         if args.seminar in start:
             with open(
-                f"../data/{args.year}/seminare/trojsten/{args.seminar}/{part}_{round}_start.yml",
+                f"../data/{args.year}/seminare/trojsten/{directory}/{part}_{round}_start.yml",
                 "w",
                 encoding="utf-8",
             ) as f:
@@ -254,7 +265,7 @@ contestants:
 places:
   - online
 organizers:
-  - trojsten
+  - {"riesky" if args.seminar == "Riešky" else "trojsten"}
 info: '{start[args.seminar]}'
 link: https://{url[args.seminar]}.sk/
 """
