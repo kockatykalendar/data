@@ -1,9 +1,9 @@
-name: Suši – Zverejnenie veľkej nápovedy Objavného kola letnej časti
+name: Suši – Zverejnenie veľkej nápovedy 3. kola letnej časti
 type: seminar
 sciences:
   - other
 date:
-  start: "2025-05-12"
+  start: "2025-04-21"
 contestants:
   min: ss1
   max: null
