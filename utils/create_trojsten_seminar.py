@@ -172,8 +172,8 @@ os.makedirs(f"{directory}", exist_ok=True)
 for part in range(1, parts + 1):
     for r in range(1, rounds + 1):
         round = r
-        if r == 3 and args.seminar == "SUSI":
-            round = "Outdoor"
+        #if r == 3 and args.seminar == "SUSI":
+        #    round = "Outdoor"
         with open(
             f"{directory}/{part}_{round}.yml",
             "w",
