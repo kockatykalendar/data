@@ -109,9 +109,8 @@ info = {
     ),
     "SUSI": (
         "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená jednotlivcom."
-        " Podľa skúseností riešiš šifry v kategórií Agát, Blýskavica alebo Cíferský cech."
-        " V každom kole riešiš 5 šifier a na stránku odovzdávaš heslá, ktoré stránka"
-        " automaticky opraví."
+        " Podľa skúseností riešiš šifry v jednej z piatich kategórií."
+        " Riešenia až piatich šifier odovzdáš na stránku, ktorá ti automaticky overí ich správnosť."
     ),
     "Riešky": (
         "Riešky sú individuálna dlhodobá súťaž v riešení netradičných úloh."
@@ -122,15 +121,14 @@ info = {
 }
 
 susi_outdoor = (
-    "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená pre jednotlivcov."
-    " V objavnom kole riešiš 5 šifier zameraných na špecifickú tému a na stránku odovzdávaš"
-    " heslá, ktoré stránka automaticky opraví."
+    "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená jednotlivcom."
+    " Podľa skúseností riešiš šifry v jednej z piatich kategórií."
+    " Riešenia až piatich šifier odovzdáš na stránku, ktorá ti automaticky overí ich správnosť."
 )
 
 susi_outdoor_doprogramovanie = (
-    "Štyri týždne pred koncom kola sa na stránke zverejní malá nápoveda spoločná pre všetky"
-    " šifry objavného kola. Po tomto termíne môžeš riešenia šifier odovzdávať za 7 bodov až"
-    " do zverejnenia veľkých nápovied."
+    'Štyri týždne pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied k jednotlivým šifrám.'
+    " Po tomto termíne môžeš riešenia šifier odovzdávať za 7 bodov až do zverejnenia veľkých nápovied."
 )
 
 info_doprogramovanie = {
@@ -141,9 +139,8 @@ info_doprogramovanie = {
         " úspešne naprogramovať."
     ),
     "SUSI": (
-        'Štyri týždne pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied'
-        " k jednotlivým šifrám. Po tomto termíne môžeš riešenia šifier odovzdávať za 7"
-        " bodov až do zverejnenia veľkých nápovied."
+        'Štyri týždne pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied k jednotlivým šifrám.'
+        " Po tomto termíne môžeš riešenia šifier odovzdávať za 7 bodov až do zverejnenia veľkých nápovied."
     ),
 }
 
@@ -151,17 +148,15 @@ name_doprogramovanie = {"KSP": "Doprogramovanie", "SUSI": "Zverejnenie malej ná
 
 info_doprogramovanie2 = {
     "SUSI": (
-        'Dva týždne pred koncom kola sa na stránke zverejní aj druhá sada "veľkých" nápovied'
-        " k jednotlivým šifrám. Po tomto termíne môžeš riešenia šifier odovzdávať za 5"
-        " bodov až do skončenia kola."
+        'Dva týždne pred koncom kola sa na stránke zverejní aj druhá sada "veľkých" nápovied k jednotlivým šifrám.'
+        " Po tomto termíne môžeš riešenia šifier odovzdávať za 5 bodov až do skončenia kola."
     ),
 }
 
 start = {
     "SUSI": (
-        "Dva týždne pred koncom kola sa na stránke zverejní aj druhá sada takzvaných"
-        ' "veľkých" nápovied ku jednotlivým šifrám. Akonáhle sa tak stane, za riešenie'
-        " môžte získať maximálne 5 bodov."
+        'Dva týždne pred koncom kola sa na stránke zverejní aj druhá sada "veľkých" nápovied k jednotlivým šifrám.'
+        " Po tomto termíne môžeš riešenia šifier odovzdávať za 5 bodov až do skončenia kola."
     ),
 }
 
