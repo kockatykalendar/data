@@ -1,9 +1,9 @@
-name: Suši – Zverejnenie veľkej nápovedy Objavného kola zimnej časti
+name: Suši – Zverejnenie veľkej nápovedy 3. kola zimnej časti
 type: seminar
 sciences:
   - other
 date:
-  start: "2024-12-09"
+  start: "2024-11-25"
 contestants:
   min: ss1
   max: null
