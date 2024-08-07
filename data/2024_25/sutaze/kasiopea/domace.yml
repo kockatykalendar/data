@@ -1,0 +1,41 @@
+# Nazov udalosti
+name: Kasiopea - domáce kolo
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - inf
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: sutaz
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2024-11-23"
+  # Koniec udalosti (optional) YYYY-MM-DD
+  end: "2024-12-8"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - kasiopea
+
+# Odkaz na stranku pre viac info (optional)
+link: https://kasiopea.matfyz.cz/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - Online
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: ss1
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: ss4
+
+# Popis akcie
+short-info: "Kasiopea je súťaž v programovaní vhodná pre úplných začiatočníkov aj najskúsenejších kóderov. V domácom kole sa stretnete s deviatimi úlohami rôznej náročnosti a zabojujete o postup na finálne v Prahe."
+
+# Zmena defaultnej farby, v tomto prípade modrej na červenú (optional)
+color: "#331c47"
