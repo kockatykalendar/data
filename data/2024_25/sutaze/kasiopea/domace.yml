@@ -13,7 +13,7 @@ date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
   start: "2024-11-23"
   # Koniec udalosti (optional) YYYY-MM-DD
-  end: "2024-12-8"
+  end: "2024-12-08"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
