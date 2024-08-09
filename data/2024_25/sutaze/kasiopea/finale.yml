@@ -1,0 +1,39 @@
+# Nazov udalosti
+name: Kasiopea - Finále
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - inf
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: sutaz
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2025-02-13"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - kasiopea
+
+# Odkaz na stranku pre viac info (optional)
+link: https://kasiopea.matfyz.cz/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - Praha
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: ss1
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: ss4
+
+# Popis akcie
+short-info: "Na finále kasiopey sa počas 256 minút popasujete s ôsmimi úlohami a zabojujete o hodnotné ceny. Ale na finále sú všetci víťazi - čaká vás tam kopa pizze a iného jedla."
+
+# Zmena defaultnej farby, v tomto prípade modrej na červenú (optional)
+color: "#331c47"
