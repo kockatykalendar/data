@@ -1,0 +1,15 @@
+name: Attomat
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2024-09-17"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - online
+organizers:
+  - p-mat
+info: "Attomat je online individuálna matematická súťaž. Súťaž je určená hlavne pre žiakov siedmeho až deviateho ročníka ZŠ, resp. sekundu až kvartu OG. Môžete sa zapojiť aj v kategórii OPEN, ktorá je určená pre každého, kto rád rieši zaujímavé matematické úlohy."
+link: https://akcie.p-mat.sk/attomat/
