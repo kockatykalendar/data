@@ -1,0 +1,17 @@
+name: P-mat roadtrip 
+type: prednasky
+sciences:
+    - mat
+    - fyz
+    - other
+date:
+    start: "2025-09-09"
+    end: "2025-09-20"
+contestants:
+    min: zs5
+    max: zs9
+places:
+    - Slovensko
+organizers:
+    - P-mat
+#link: 
