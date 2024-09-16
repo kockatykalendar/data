@@ -1,0 +1,16 @@
+name: KSP - Z1 - Deadline odovzdávania praktických úloh za tretinu bodov
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2024-10-27"
+contestants:
+  min: null
+  max: ss4
+places:
+  - online
+organizers:
+  - ksp-praha
+info: 'Kategória Z je určená začiatočníkom, ktorí sa chcú naučiť programovať. Počas roka prebieha 5 sérií - každá obsahuje zvyčajne tri praktické a jednu teoretickú úlohu. Termín odovzdávania úloh je tradične 32:00 (8:00 ráno ďalšieho dňa).'
+link: https://ksp.mff.cuni.cz/z/ulohy/37/zadani1.html
+color: "#000"
