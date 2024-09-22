@@ -24,6 +24,8 @@ link: https://seminar.strom.sk/sk/matboj/
 places:
   - Gymnázium, Alejová 1, Košice
 
+info: Na Matboji si zasúťažíte v  štvorčlenných tímoch v troch 30-minútových kolách. V každom kole obdržíte 12 úloh a odpoveďový hárok, ktorý sa po ukončení kola pozbiera a následne oboduje, teda k úlohám z predchádzajúcich kôl sa vrátiť nedá.
+
 # Informacie o sutaziacich.
 contestants:
   # Minimalny rocnik, ktory sa moze zapojit.

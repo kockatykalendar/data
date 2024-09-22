@@ -24,6 +24,8 @@ link: https://masproblem.strom.sk/
 places:
   - online
 
+info: V online súťaži Máš problém?! budete mať 60 minút na to, aby ste zdolali 6 úrovní matematických úloh, pričom na odomknutie novej úrovne je vždy potrebné vyriešiť istý počet úloh z tej aktuálnej. Následne je možné riešiť všetky dostupné úlohy.
+
 # Informacie o sutaziacich.
 contestants:
   # Minimalny rocnik, ktory sa moze zapojit.
