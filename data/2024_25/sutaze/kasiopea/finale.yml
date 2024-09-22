@@ -1,37 +1,39 @@
 # Nazov udalosti
-name: Matik - 1. zimná séria
+name: Kasiopea - Finále
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
-  - mat
+  - inf
 
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
-type: seminar
+type: sutaz
 
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2024-10-21"
+  start: "2025-02-13"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
-  - strom
+  - kasiopea
 
 # Odkaz na stranku pre viac info (optional)
-link: https://matik.strom.sk/sk/prispevky/
+link: https://kasiopea.matfyz.cz/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - online
-
-
-info: Matik sa skladá z 2 semestrov, kde vás v každom čakajú 2 série po 6 úloh. Ku každému vášmu odovzdanému riešeniu úlohy vám napíšeme spätnú väzbu aj s bodmi. Na našej stránke a v časopisoch nájdete vzorové riešenia všetkých úloh.
-
+  - Praha
 
 # Informacie o sutaziacich.
 contestants:
   # Minimalny rocnik, ktory sa moze zapojit.
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
-  min: zs7
+  min: ss1
   # Maximalny rocnik, ktory sa moze zapojit.
-  max: zs9
+  max: ss4
+
+# Popis akcie
+short-info: "Na finále kasiopey sa počas 256 minút popasujete s ôsmimi úlohami a zabojujete o hodnotné ceny. Ale na finále sú všetci víťazi - čaká vás tam kopa pizze a iného jedla."
+
+# Zmena defaultnej farby, v tomto prípade modrej na červenú (optional)
+color: "#331c47"
