@@ -1,0 +1,33 @@
+# Nazov udalosti
+name: Pikofyz 3.séria
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - fyz
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: seminar
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2024-12-02"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - p-mat
+
+# Odkaz na stranku pre viac info (optional)
+link: https://pikofyz.sk
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - online
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: zs7
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: zs9

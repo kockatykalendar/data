@@ -1,0 +1,17 @@
+name: Zimné sústredenie Pikofyzu
+type: sustredenie
+sciences:
+  - fyz
+date:
+  start: "2025-02-10"
+  end: "2025-02-15"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - Zliechov
+volatile: true
+cancelled: false
+organizers:
+  - p-mat
+link: https://pikofyz.sk/
