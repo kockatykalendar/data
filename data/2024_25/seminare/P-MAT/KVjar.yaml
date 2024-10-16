@@ -1,0 +1,35 @@
+# Nazov udalosti
+name: Kockatý víkend
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat
+  - fyz
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: vikendovka
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2025-04-25"
+  end: "2025-04-27"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - p-mat
+
+# Odkaz na stranku pre viac info (optional)
+link: https://akcie.p-mat.sk/kockaty-vikend/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - tbd
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: zs5
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: zs9
