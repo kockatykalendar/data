@@ -1,0 +1,33 @@
+# Nazov udalosti
+name: Sezamko - stretnutie riešiteľov
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: sústredenie
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2024-12-07"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - sezam
+
+# Odkaz na stranku pre viac info (optional)
+link: https://sezam.sk/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - Žilina
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: zs5
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: zs6
