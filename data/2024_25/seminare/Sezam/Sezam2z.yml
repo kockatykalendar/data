@@ -1,5 +1,5 @@
 # Nazov udalosti
-name: Sezam 2. kolo, zimná séria
+name: Sezam 2. kolo, Sezamko 2. kolo, zimná séria
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
@@ -28,6 +28,6 @@ places:
 contestants:
   # Minimalny rocnik, ktory sa moze zapojit.
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
-  min: zs7
+  min: zs5
   # Maximalny rocnik, ktory sa moze zapojit.
   max: zs9
