@@ -6,7 +6,7 @@ sciences:
   - mat
 
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
-type: sústredenie
+type: sustredenie
 
 # Informacie k datumom.
 date:
