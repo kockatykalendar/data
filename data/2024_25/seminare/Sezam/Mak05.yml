@@ -1,0 +1,34 @@
+# Nazov udalosti
+name: MaK - Stretnutie Matematického Klubu
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: vikendovka
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2025-05-24"
+  end: "2025-05-25"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - sezam
+
+# Odkaz na stranku pre viac info (optional)
+link: https://sezam.sk/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - Žilina
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: ss1
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: ss4
