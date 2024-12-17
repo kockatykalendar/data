@@ -10,7 +10,6 @@ contestants:
   max: zs9
 places:
   - TBD
-volatile: true
 cancelled: false
 organizers:
   - p-mat

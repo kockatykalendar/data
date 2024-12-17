@@ -10,7 +10,6 @@ contestants:
   max: zs9
 places:
   - Zliechov
-volatile: true
 cancelled: false
 organizers:
   - p-mat

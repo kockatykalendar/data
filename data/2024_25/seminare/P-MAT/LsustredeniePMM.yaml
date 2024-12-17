@@ -1,4 +1,4 @@
-name: Letné Pikomat mladší sústredenie
+name: Letné sústredenie Pikomatu mladší
 type: sustredenie
 sciences:
   - mat
@@ -9,8 +9,7 @@ contestants:
   min: zs5
   max: zs6
 places:
-  - Zliechov
-volatile: true
+  - TBD
 cancelled: false
 organizers:
   - p-mat

@@ -10,7 +10,6 @@ contestants:
   max: zs6
 places:
   - Lazy pod Makytou
-volatile: true
 cancelled: false
 organizers:
   - p-mat
