@@ -1,4 +1,4 @@
-name: KMS beta sústredenie
+name: KMS spojené sústredenie
 sciences:
   - mat
 type: sustredenie
@@ -9,7 +9,7 @@ organizers:
   - trojsten
 link: https://kms.sk/akcie/sustredenia/
 places:
-- TO DO
+- ŠvP Kysak
 contestants:
   min: ss2
   max: ss4
