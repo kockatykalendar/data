@@ -1,4 +1,4 @@
-name: Letné sústredenie Pikomatu starších
+name: Letné sústredenie Pikomatu starší
 type: sustredenie
 sciences:
   - mat
@@ -10,7 +10,6 @@ contestants:
   max: zs9
 places:
   - TBD
-volatile: true
 cancelled: false
 organizers:
   - p-mat
