@@ -3,13 +3,13 @@ sciences:
   - mat
 type: sustredenie
 date:
-  start: "2025-06-14"
-  end: "2025-06-21"
+  start: "2025-06-15"
+  end: "2025-06-22"
 organizers:
   - trojsten
 link: https://kms.sk/akcie/sustredenia/
 places:
-  - ŠvP Kysak
+  - Chata Hámor pri Kokave nad Rimavicou
 contestants:
-  min: ss2
+  min: ss1
   max: ss4
