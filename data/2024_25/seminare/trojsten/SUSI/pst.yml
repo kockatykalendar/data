@@ -3,7 +3,7 @@ type: sutaz
 sciences:
     - other
 date:
-    start: "2025-07-12"
+    start: "2025-07-19"
 contestants:
     min: ss1
     max: ss4
@@ -11,5 +11,5 @@ places:
     - Bratislava
 organizers:
     - trojsten
-info: 'Piaty ročník PŠT, ktorá je súčasťou voľnočasového programu Letnej školy Trojstenu. Je zameraná hlavne na stredoškolákov, aj začiatočníkov, no na svoje si vedia prísť aj skúsenejšie, nie nutne stredoškolské tímy.'
+info: 'Štvrtý ročník PŠT, ktorá je súčasťou voľnočasového programu Letnej školy Trojstenu. Je zameraná hlavne na stredoškolákov, aj začiatočníkov, no na svoje si vedia prísť aj skúsenejšie, nie nutne stredoškolské tímy.'
 link: https://susi.trojsten.sk/pst/
