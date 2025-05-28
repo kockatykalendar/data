@@ -1,0 +1,35 @@
+# Nazov udalosti
+name: Lomihlav
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: sutaz
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2025-11-28"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - strom
+
+# Odkaz na stranku pre viac info (optional)
+link: https://matik.strom.sk/sk/lomihlav/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - Gymnázium, Alejová 1, Košice
+
+info: Na Lomihlave si zasúťažíte v štvorčlenných tímoch, kde budete mať 99 minút na vyriešenie čo najviac zo 40 matematických úloh, 4 hlavolamov a 4 hádaniek. Súťaž prebieha štafetovo, teda za správne vyriešený príklad získate zadanie ďalšieho.
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: zs7
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: zs9
