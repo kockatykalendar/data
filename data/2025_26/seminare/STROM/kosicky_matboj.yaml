@@ -1,0 +1,35 @@
+# Nazov udalosti
+name: Košický Matboj
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: sutaz
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2025-10-24"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - strom
+
+# Odkaz na stranku pre viac info (optional)
+link: https://seminar.strom.sk/sk/matboj/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - Gymnázium, Alejová 1, Košice
+
+info: Na Matboji si zasúťažíte v  štvorčlenných tímoch v troch 30-minútových kolách. V každom kole obdržíte 12 úloh a odpoveďový hárok, ktorý sa po ukončení kola pozbiera a následne oboduje, teda k úlohám z predchádzajúcich kôl sa vrátiť nedá.
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: ss1
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: ss4
