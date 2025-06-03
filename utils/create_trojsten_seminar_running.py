@@ -180,7 +180,7 @@ for part in range(1, parts + 1):
             encoding="utf-8",
         ) as f:
             f.write(
-                f"""name: {f"Riešky {round}. kolo, {"zimná" if part == 1 else "letná"} séria" if args.seminar == "Riešky" else f"{"Suši" if args.seminar == "SUSI" else args.seminar} – {"Koniec " if args.seminar in start else ""}{"Objavného" if round == "Outdoor" else f'{round}.'} {"kola" if args.seminar in start else "kolo"} {"zimnej" if part == 1 else "letnej"} časti"}
+                f"""name: {round}. kolo {"zimnej" if part == 1 else "letnej"} časti"
 type: seminar
 sciences:
   - {sciences[args.seminar]}
@@ -197,54 +197,7 @@ info: "{susi_outdoor if round == "Outdoor" else info[args.seminar]}"
 link: https://{url[args.seminar]}.sk/
 """
             )
-        if args.seminar in info_doprogramovanie:
-            with open(
-                f"{directory}/{part}_{round}_after1.yml",
-                "w",
-                encoding="utf-8",
-            ) as f:
-                f.write(
-                    f"""name: {"Suši" if args.seminar == "SUSI" else args.seminar} – {name_doprogramovanie[args.seminar]} {"Objavného" if round == "Outdoor" else f'{round}.'} kola {"zimnej" if part == 1 else "letnej"} časti
-type: seminar
-sciences:
-  - {sciences[args.seminar]}
-date:
-  start: "{ (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') - datetime.timedelta(days=28)).strftime('%Y-%m-%d') if args.seminar == 'SUSI' else (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') + datetime.timedelta(days=14)).strftime('%Y-%m-%d')}"
-contestants:
-  min: {min_year[args.seminar]}
-  max: {max_year[args.seminar]}
-places:
-  - online
-organizers:
-  - {"riesky" if args.seminar == "Riešky" else "trojsten"}
-info: '{susi_outdoor_doprogramovanie if args.seminar == "SUSI" and round == "Outdoor" else info_doprogramovanie[args.seminar]}'
-link: https://{url[args.seminar]}.sk/
-"""
-                )
-        if args.seminar in name_doprogramovanie2:
-            with open(
-                f"{directory}/{part}_{round}_after2.yml",
-                "w",
-                encoding="utf-8",
-            ) as f:
-                f.write(
-                    f"""name: {"Suši" if args.seminar == "SUSI" else args.seminar} – {name_doprogramovanie2[args.seminar]} {"Objavného" if round == "Outdoor" else f'{round}.'} kola {"zimnej" if part == 1 else "letnej"} časti
-type: seminar
-sciences:
-  - {sciences[args.seminar]}
-date:
-  start: "{ (datetime.datetime.strptime(f'{args.dates[i]}{args.year[:4] if part == 1 else int(args.year[:4])+1}', '%d.%m.%Y') - datetime.timedelta(days=14)).strftime('%Y-%m-%d')}"
-contestants:
-  min: {min_year[args.seminar]}
-  max: {max_year[args.seminar]}
-places:
-  - online
-organizers:
-  - {"riesky" if args.seminar == "Riešky" else "trojsten"}
-info: '{info_doprogramovanie2[args.seminar]}'
-link: https://{url[args.seminar]}.sk/
-"""
-                )
+        
         if args.seminar in start:
             with open(
                 f"{directory}/{part}_{round}_start.yml",
