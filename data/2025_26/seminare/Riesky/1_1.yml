@@ -3,7 +3,7 @@ type: seminar
 sciences:
   - mat
 date:
-  start: "2025-10-02"
+  start: "2025-10-09"
 contestants:
   min: zs5
   max: zs9
