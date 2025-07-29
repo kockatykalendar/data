@@ -1,0 +1,22 @@
+name: Noc Vedy
+type: other
+sciences:
+    - mat
+    - fyz
+    - inf
+color: red
+info: "Každoročne Ťa čaká celý deň plný prednášok a stánkov s rôznymi experimentmi a ukážkami z oblasti vedy a techniky. Vstup je voľný a každý si príde na svoje. V Bratislave sa môžte tešiť na stánky od vašich obľúbených organizácii Trojsten, Riešky, či P-mat."
+date:
+    start: "2025-09-26"
+contestants:
+    min: null
+    max: null
+places:
+    - Bratislava
+    - Banská Bystrica
+    - Žilina
+    - Poprad
+    - Košice
+organizers:
+    - sovva
+link: https://nocvedy.sk/
