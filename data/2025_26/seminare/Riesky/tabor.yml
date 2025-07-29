@@ -1,0 +1,36 @@
+# Nazov udalosti
+name: Letný tábor Riešok
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - mat
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: tabor
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2025-08-21"
+  end: "2025-08-30"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - riesky
+
+# Odkaz na stranku pre viac info (optional)
+link: https://riesky.sk/novinky/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - TO DO
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit.
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  min: zs5
+  # Maximalny rocnik, ktory sa moze zapojit.
+  max: ss1
+info: "Letný tábor Riešok je určený pre každého, koho baví matematika, a teda nie len pre riešiteľov semináru. Ide o 10 dňový pobyt v blízkosti prírody, ktorého súčasťou je odborný aj neodborný program vo forme prednášok, netradičných hier a športov."
+  
