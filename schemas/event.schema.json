@@ -3,7 +3,7 @@
   "$id": "https://kockatykalendar.sk/v0.0.6/event.schema.json",
   "title": "Event",
   "description": "An event in the calendar",
-  "type": "object",
+  "type": ["object", "null"],
   "properties": {
     "name": {
       "description": "Name of the event",
