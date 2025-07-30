@@ -1,0 +1,17 @@
+name: KSP - Jesenné sústredenie
+type: sustredenie
+sciences:
+  - inf
+date:
+  start: "2025-09-13"
+  end: "2025-09-20"
+contestants:
+  min: null
+  max: ss4
+places:
+  - Zdobnice v Orlických horách
+organizers:
+  - ksp-praha
+info: 'Jesenné sústredenie je určené pre pokročilých riešiteľov, pozýva sa najmä na základe výsledkov hlavnej kategórie. Program je plný zaujímavých informatických aj "polnočných" prednášok, výletov a hier. Nechýba úžasný kolektív a veľa čaju.'
+link: https://ksp.mff.cuni.cz/akce/sous/2025-podzimni/
+color: "#000"

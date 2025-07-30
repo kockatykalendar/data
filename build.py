@@ -81,6 +81,8 @@ for directory in os.walk(os.path.join(ROOT, "data")):
             event_data = yaml.safe_load(f)
             try:
                 event_data = validate_event(event_data)
+                if event_data is None: continue # Allows empty files (or files with all lines commented out)
+
                 for organizer in event_data["organizers"]:
                     if organizer not in OUTPUT_ORGANIZERS:
                         raise JsonSchemaValueException(
