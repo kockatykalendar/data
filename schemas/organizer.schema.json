@@ -41,6 +41,12 @@
         { "enum": ["red", "orange", "yellow", "green", "blue", "purple", "black"] },
         { "pattern": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" }
       ]
+    },
+    "country": {
+      "description": "The country where the organization resides",
+      "type": "string",
+      "enum": ["sk", "cz"],
+      "default": "sk"
     }
   },
   "required": ["name", "web", "icon"]
