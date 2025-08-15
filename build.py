@@ -42,6 +42,12 @@ parser = argparse.ArgumentParser()
 parser.add_argument(
     "--dry", action="store_true", help="Only validate, do not build output files."
 )
+parser.add_argument(
+    "--new", action="store_true", help="Only show warnings for events from current (school) year."
+)
+parser.add_argument(
+    "--no-warn", action="store_true", help="Don't show any warnings."
+)
 args = parser.parse_args()
 
 
@@ -79,6 +85,7 @@ for directory in os.walk(os.path.join(ROOT, "organizers")):
 
 print("\nValidating events")
 
+current_year = int(school_year_from_date(datetime.now())[:4])
 for directory in os.walk(os.path.join(ROOT, "data")):
     directory_year_string = year_from_directory_name(directory[0])
     for file in directory[2]:
@@ -97,17 +104,22 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                             "Organizer %s is not in organizers." % (organizer)
                         )
                 event_date = datetime.strptime(event_data["date"]["start"], "%Y-%m-%d").date()
+                event_year = int(school_year_from_date(event_date)[:4])
                 
                 if directory_year_string is not None:
-                    event_year, directory_year = int(school_year_from_date(event_date)[:4]), int(directory_year_string)
+                    directory_year = int(directory_year_string)
                     if event_year < directory_year:
                         raise JsonSchemaValueException(
-                            "Event \"%s\" with date %s is in directory %s" % (event_data["name"], event_data["date"]["start"], directory_year_string) 
-                        ) # Raise an exception, this is certainly a mistake
+                            "Event \"%s\" with date %s is in year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
+                        # Raise an exception, this is certainly a mistake
                     if event_year > directory_year:
-                        print(
-                            "\nEvent \"%s\" with date %s is in directory %s" % (event_data["name"], event_data["date"]["start"], directory_year_string)
-                        ) # Don't raise an exception, this is quite usual and probably not a mistake
+                        if ((not args.new or event_year == current_year) and not args.no_warn):
+                            print("\n" + "Event \"%s\" with date %s is in year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
+                        # Don't raise an exception, this is quite usual and probably not a mistake
+
+                if not "places" in event_data.keys() or len(event_data["places"]) == 0:
+                    if ((not args.new or event_year == current_year) and not args.no_warn):
+                        print("\n" + "Event \"%s\" in year %s has missing or empty attribute \"places\"." % (event_data["name"], event_year))
                 
                 if not args.dry:
                     OUTPUT[school_year_from_date(event_date)].append(event_data)

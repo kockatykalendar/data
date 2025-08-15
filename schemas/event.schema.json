@@ -119,6 +119,6 @@
       "required": ["remind_days_before"]
     }
   },
-  "required": ["name", "sciences", "type", "date", "organizers", "places", "contestants"]
+  "required": ["name", "sciences", "type", "date", "organizers", "contestants"]
 }
 

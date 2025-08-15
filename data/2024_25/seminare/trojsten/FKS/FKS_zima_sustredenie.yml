@@ -8,8 +8,8 @@ date:
 organizers:
   - trojsten
 link: https://fks.sk/akcie/sustredenia/
-places:
-  - ???
+# places:
+#   - ???
 contestants:
   min: ss1
   max: ss4
