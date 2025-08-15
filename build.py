@@ -5,6 +5,7 @@ import shutil
 import sys
 from collections import defaultdict, namedtuple
 from datetime import date, datetime
+import re
 
 import fastjsonschema
 import yaml
@@ -18,8 +19,16 @@ def school_year_from_date(date: date) -> str:
 
 
 def years_from_school_year(school_year):
+    print(school_year)
     start_year = int(school_year.split("_")[0])
     return (start_year, start_year + 1)
+
+def year_from_directory_name(dir_name):
+    years = re.findall(r"\d{4}", dir_name)
+    if len(years) == 0: return None # Root directory
+    if len(years) > 1: print(f"String {dir_name} contains more than one year-like number.") # But we should take the first one
+    # return datetime.strptime(years[0], "%Y").date()
+    return years[0]
 
 
 logos = ["icon", "logo"]
@@ -71,6 +80,7 @@ for directory in os.walk(os.path.join(ROOT, "organizers")):
 print("\nValidating events")
 
 for directory in os.walk(os.path.join(ROOT, "data")):
+    directory_year_string = year_from_directory_name(directory[0])
     for file in directory[2]:
         name, ext = os.path.splitext(file)
         if ext.lower() not in [".yaml", ".yml"]:
@@ -86,10 +96,20 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                         raise JsonSchemaValueException(
                             "Organizer %s is not in organizers." % (organizer)
                         )
+                event_date = datetime.strptime(event_data["date"]["start"], "%Y-%m-%d").date()
+                
+                if directory_year_string is not None:
+                    event_year, directory_year = int(school_year_from_date(event_date)[:4]), int(directory_year_string)
+                    if event_year < directory_year:
+                        raise JsonSchemaValueException(
+                            "Event \"%s\" with date %s is in directory %s" % (event_data["name"], event_data["date"]["start"], directory_year_string) 
+                        ) # Raise an exception, this is certainly a mistake
+                    if event_year > directory_year:
+                        print(
+                            "\nEvent \"%s\" with date %s is in directory %s" % (event_data["name"], event_data["date"]["start"], directory_year_string)
+                        ) # Don't raise an exception, this is quite usual and probably not a mistake
+                
                 if not args.dry:
-                    event_date = datetime.strptime(
-                        event_data["date"]["start"], "%Y-%m-%d"
-                    ).date()
                     OUTPUT[school_year_from_date(event_date)].append(event_data)
                 print(".", end="", flush=True)
             except JsonSchemaException as e:
