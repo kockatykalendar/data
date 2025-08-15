@@ -9,8 +9,8 @@ contestants:
     min: zs5
     max: ss1
 info: "je určené pre 36 najúspešnejších riešiteľov Semináru PRASK. Na sústredení spoznáš kopec skvelých ľudí s podobnými záujmami, vedúcich, ktorí opravovali tvoje riešenia, naučíš sa kopec algoritmov a zažiješ množstvo skvelých hier."
-# places:
-#     - ???
+places:
+    - ???
 organizers:
     - trojsten
 link: https://prask.ksp.sk/akcie/sustredenia/

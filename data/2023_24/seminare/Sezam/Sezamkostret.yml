@@ -20,15 +20,9 @@ organizers:
 # Odkaz na stranku pre viac info (optional)
 link: https://sezam.sk/
 
-<<<<<<< Updated upstream
 # # Miesto, alebo zoznam miest, kde sa akcia kona
 # places:
 #   - ???
-=======
-# Miesto, alebo zoznam miest, kde sa akcia kona
-#places:
-#  - ???
->>>>>>> Stashed changes
 
 # Informacie o sutaziacich.
 contestants:
