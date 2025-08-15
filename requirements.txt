@@ -1,2 +1,2 @@
 fastjsonschema==2.15.3
-PyYAML==6.0
+PyYAML==5.3.1
