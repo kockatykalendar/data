@@ -35,5 +35,5 @@ contestants:
 # Popis akcie
 short-info: "Na finále kasiopey sa počas 256 minút popasujete s ôsmimi úlohami a zabojujete o hodnotné ceny. Ale na finále sú všetci víťazi - čaká vás tam kopa pizze a iného jedla."
 
-# Zmena defaultnej farby, v tomto prípade modrej na červenú (optional)
+# Zmena defaultnej farby
 color: "#331c47"
