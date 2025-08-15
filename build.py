@@ -45,6 +45,9 @@ parser.add_argument(
 parser.add_argument(
     "--new", action="store_true", help="Only show warnings for events from current (school) year."
 )
+parser.add_argument(
+    "--no-warn", action="store_true", help="Don't show any warnings."
+)
 args = parser.parse_args()
 
 
@@ -110,12 +113,12 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                             "Event \"%s\" with date %s is in year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
                         # Raise an exception, this is certainly a mistake
                     if event_year > directory_year:
-                        if (not args.new or event_year == current_year):
+                        if ((not args.new or event_year == current_year) and not args.no_warn):
                             print("\n" + "Event \"%s\" with date %s is in year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
                         # Don't raise an exception, this is quite usual and probably not a mistake
 
                 if not "places" in event_data.keys() or len(event_data["places"]) == 0:
-                    if (not args.new or event_year == current_year):
+                    if ((not args.new or event_year == current_year) and not args.no_warn):
                         print("\n" + "Event \"%s\" in year %s has missing or empty attribute \"places\"." % (event_data["name"], event_year))
                 
                 if not args.dry:
