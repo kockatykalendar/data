@@ -22,8 +22,13 @@ organizers:
 link: https://riesky.sk/novinky/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
+<<<<<<< Updated upstream
 # places:
 #   - ???
+=======
+#places:
+#  - ???
+>>>>>>> Stashed changes
 
 # Informacie o sutaziacich.
 contestants:
