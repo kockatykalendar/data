@@ -3,7 +3,7 @@ type: sutaz
 sciences:
     - fyz
 date:
-    start: "2025-02-15"
+    start: "2026-02-13"
 info: "Největší fyzikální týmová soutěž v Evropě."
 contestants:
     min: ss1
@@ -11,5 +11,5 @@ contestants:
 places:
     - Praha
 organizers:
-    - FYKOS
+    - fykos
 link: https://fyziklani.cz/
