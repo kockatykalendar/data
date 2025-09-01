@@ -8,8 +8,8 @@ date:
 contestants:
   min: zs5
   max: ss1
-places:
-  - TBD
+# places:
+#   - TBD
 organizers:
   - riesky
 link: https://riesky.sk/

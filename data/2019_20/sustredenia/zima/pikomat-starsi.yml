@@ -8,8 +8,8 @@ date:
 contestants:
   min: zs7
   max: zs9
-places:
-  - TBD
+# places:
+#   - TBD
 organizers:
   - p-mat
 link: https://www.pikomat.sk/sustredenia.html

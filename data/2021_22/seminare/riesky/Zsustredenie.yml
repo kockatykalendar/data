@@ -9,8 +9,8 @@ contestants:
   min: zs5
   max: zs9
 volatile: true
-places:
-  - TBD
+# places:
+#   - TBD
 organizers:
   - riesky
 link: https://riesky.sk/

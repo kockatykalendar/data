@@ -8,8 +8,8 @@ date:
 contestants:
   min: ss1
   max: ss2
-places:
-  - TBD
+# places:
+#   - TBD
 organizers:
   - trojsten
 link: https://ksp.sk/akcie/sustredenia/

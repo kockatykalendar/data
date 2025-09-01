@@ -22,8 +22,8 @@ organizers:
 link: https://www.iuventa.sk/olympiady/ucitel-organizator/fyzikalna-olympiada/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
-places:
-  - TBD
+# places:
+#   - TBD
 
 # Informacie o sutaziacich.
 contestants:

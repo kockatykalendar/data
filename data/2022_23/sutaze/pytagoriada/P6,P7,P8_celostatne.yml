@@ -22,8 +22,8 @@ organizers:
 link: https://www.iuventa.sk/olympiady/ziak/pytagoriada/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
-places:
-  - TBD
+# places:
+#   - TBD
 
 # Informacie o sutaziacich.
 contestants:

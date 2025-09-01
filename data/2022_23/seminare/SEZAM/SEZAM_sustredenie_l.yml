@@ -21,8 +21,8 @@ organizers:
 link: https://www.sezam.sk/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
-places:
-  - TBD
+# places:
+#   - TBD
 
 # Informacie o sutaziacich.
 contestants:

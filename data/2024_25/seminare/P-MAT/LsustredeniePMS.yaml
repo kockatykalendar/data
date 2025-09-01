@@ -8,8 +8,8 @@ date:
 contestants:
   min: zs7
   max: zs9
-places:
-  - TBD
+# places:
+#   - TBD
 cancelled: false
 organizers:
   - p-mat

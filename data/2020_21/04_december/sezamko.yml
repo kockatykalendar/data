@@ -7,8 +7,8 @@ date:
 contestants:
   min: zs5
   max: zs6
-places:
-  - TBD
+# places:
+#   - TBD
 organizers:
   - sezam
 link: https://www.sezam.sk/sezamko/

@@ -8,8 +8,8 @@ date:
 contestants:
   min: ss1
   max: ss4
-places:
-  - TBD
+# places:
+#   - TBD
 organizers:
   - strom
 link: https://seminar.strom.sk/

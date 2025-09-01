@@ -10,8 +10,8 @@ date:
 contestants:
   min: ss1
   max: ss4
-places:
-  - TBD
+# places:
+#   - TBD
 organizers:
   - trojsten
 link: https://leto.trojsten.sk/
