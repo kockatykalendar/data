@@ -1,0 +1,13 @@
+name: PraSe víkendovka
+info: "Nultý ročník PraSečího minisoustředění."
+sciences:
+  - mat
+type: sustredenie
+date:
+  start: "2025-11-14"
+  end: "2025-11-17"
+organizers:
+  - prase
+contestants:
+  min: ss1
+  max: ss4

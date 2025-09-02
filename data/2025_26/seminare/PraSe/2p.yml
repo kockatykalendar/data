@@ -1,0 +1,12 @@
+name: PraSe odevzdávání 2. podzimní série
+info: "Potrénuj svou matematickou dedukci a sepisování logických úvah! Přijatá řešení opravíme a pošleme se zpětnou vazbou zpět. Seminář probíhá celoročně a nejlepší řešitelé každého pololetí mohou jet na námi pořádaná soustředění."
+sciences:
+  - mat
+type: seminar
+date:
+  start: "2025-11-03"
+organizers:
+  - prase
+contestants:
+  min: ss1
+  max: ss4
