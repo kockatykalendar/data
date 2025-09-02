@@ -1,0 +1,16 @@
+name: PraSečí půlmaraton
+info: "PraSe není jen matika! Pojď si s námi v Praze zaběhnout sám nebo ve štafetě půlmaraton"
+sciences:
+  - mat
+type: other
+date:
+  start: "2025-10-19"
+organizers:
+  - prase
+link: https://docs.google.com/forms/d/e/1FAIpQLSdwMsqTu421bj9JzFFk77bOym8Ocg5rdiuGK03RDyixV68gvg/viewform?usp=header
+places: 
+  - Kolej 17. listopadu, Praha
+color: red
+contestants:
+  min: ss1
+  max: ss4
