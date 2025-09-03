@@ -7,6 +7,8 @@ date:
   start: "2025-11-03"
 organizers:
   - prase
+places:
+  - online
 contestants:
   min: ss1
   max: ss4
