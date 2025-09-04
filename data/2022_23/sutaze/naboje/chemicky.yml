@@ -1,7 +1,7 @@
 name: Chemický NÁBOJ
 type: sutaz
 sciences:
-  - other
+  - chem
 date:
   start: "2022-11-11"
 info: "Chemický Náboj je nová súťaž štvorčlenných tímov. Náboj trvá 90 minút, za tento čas budete musieť vyriešiť čo najviac úloh. Pri riešení treba uplatniť logické myslenie – nie sú to úlohy zamerané na memorovanie údajov."
