@@ -14,7 +14,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["mat", "fyz", "inf", "other", "any"]
+        "enum": ["mat", "fyz", "inf", "bio", "chem", "other", "any"]
       },
       "minItems": 1,
       "uniqueItems": true
@@ -90,7 +90,7 @@
       "description": "Override default color based on first science",
       "type": "string",
       "anyOf": [
-        { "enum": ["red", "orange", "yellow", "green", "blue", "purple"] },
+        { "enum": ["red", "orange", "yellow", "green", "blue", "purple", "lime"] },
         { "pattern": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" }
       ]
     },
