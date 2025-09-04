@@ -90,7 +90,7 @@
       "description": "Override default color based on first science",
       "type": "string",
       "anyOf": [
-        { "enum": ["red", "orange", "yellow", "green", "blue", "purple", "lime"] },
+        { "enum": ["red", "orange", "yellow", "green", "blue", "purple"] },
         { "pattern": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" }
       ]
     },
