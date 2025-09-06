@@ -1,7 +1,7 @@
 # Nazov udalosti
 name: Naboj JUNIOR
 
-# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf, bio, chem a other.
 sciences:
   - mat
   - fyz
