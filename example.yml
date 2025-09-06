@@ -1,3 +1,5 @@
+# Mriežkou sa označujú komentáre
+
 # Nazov udalosti
 name: Naboj JUNIOR
 
@@ -13,9 +15,9 @@ type: sutaz
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
   start: "2020-01-01"
-  # Koniec udalosti (optional) YYYY-MM-DD
+  # (optional) Koniec udalosti YYYY-MM-DD
   end: "2020-01-02"
-  # Text, ktory sa zobrazi miesto datumu. (optional) Vyuzitie ak nie je este znamy presny datum napr.
+  # (optional) Text, ktory sa zobrazi miesto datumu. Vyuzitie napriklad ak nie je este znamy presny datum
   text: "január/február"
 
 # nazov organizatora alebo zoznam organizatorov
@@ -23,29 +25,29 @@ organizers:
   - trojsten
   - strom
 
-# Odkaz na stranku pre viac info (optional)
+# (optional) Odkaz na stranku pre viac info
 link: https://junior.naboj.org/
 
-# Miesto, alebo zoznam miest, kde sa akcia kona
+# (optional) Miesto, alebo zoznam miest, kde sa akcia kona
 places:
   - Bratislava
 
 # Informacie o sutaziacich.
 contestants:
-  # Minimalny rocnik, ktory sa moze zapojit.
-  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+  # Minimalny rocnik, ktory sa moze zapojit
   min: zs5
-  # Maximalny rocnik, ktory sa moze zapojit.
+  # Maximalny rocnik, ktory sa moze zapojit
   max: zs9
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
 
 # Popis akcie
 short-info: "Náboj Junior je súťaž pre štvorčlenné tímy. Celá súťaž trvá 120 minút, počas ktorých sa tímy snažia vyriešiť čo najviac úloh. V náboji nejde o bezhlavú aplikáciu už nadobudnutých vedomostí. Úlohy vyžadujú istú dávku invencie a dôvtipu."
 
-# Zmena defaultnej farby, v tomto prípade modrej na červenú (optional)
+# (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
 color: "red"
 
-# Udaje k notifikaciam. (optional)
+# (optional) Udaje k notifikaciam
 notifications:
-  # Zoznam poctu dni, kedy sa ma posielat mail zaujemcom.
+  # Zoznam poctu dni pred akciou, kedy sa ma posielat mail zaujemcom
   remind_days_before: 
     - 5
