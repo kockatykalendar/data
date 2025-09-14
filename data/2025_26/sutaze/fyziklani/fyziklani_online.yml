@@ -1,0 +1,15 @@
+name: Fyziklání Online
+type: sutaz
+sciences:
+    - fyz
+date:
+    start: "2025-11-26"
+info: "Fyziklání Online je internetová týmová soutěž pro každého, kdo má zájem o fyziku. Až pětičlenné týmy se snaží v časovém limitu tří hodin vyřešit co nejvíce zadaných fyzikálních úloh v lítém boji stovek týmů z celého světa. Každý tým začíná se sedmi úlohami, za každou správně vyřešenou úlohu dostává novou, obtížnější úlohu."
+contestants:
+    min: ss1
+    max: ss4
+places:
+    - online
+organizers:
+    - fykos
+link: https://online.fyziklani.cz/

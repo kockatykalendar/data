@@ -1,0 +1,15 @@
+name: Fyziklání
+type: sutaz
+sciences:
+    - fyz
+date:
+    start: "2026-02-13"
+info: "Fyziklání je týmová fyzikální soutěž pro studenty středních škol se zájmem o fyziku. Maximálně pětičlenné týmy mohou být složeny ze studentů až dvou škol. Jejich úlohou je vyřešit co nejvíce z připravených úloh v časovém limitu tří hodin. Každý tým začíná se stejnými sedmi úlohami, za vyřešenou úlohu dostává nový, často obtížnější příklad."
+contestants:
+    min: ss1
+    max: ss4
+places:
+    - Praha
+organizers:
+    - fykos
+link: https://fyziklani.cz/
