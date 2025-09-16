@@ -8,8 +8,7 @@ date:
 organizers:
   - fykos
 link: https://fykos.cz/akce/soustredeni/2026-jaro
-places:
-  - ???
+# places:
 contestants:
   min: ss1
   max: ss4
