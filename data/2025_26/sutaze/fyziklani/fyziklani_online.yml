@@ -4,7 +4,7 @@ sciences:
     - fyz
 date:
     start: "2025-11-26"
-info: "Fyziklání Online je internetová týmová soutěž pro každého, kdo má zájem o fyziku. Až pětičlenné týmy se snaží v časovém limitu tří hodin vyřešit co nejvíce zadaných fyzikálních úloh v lítém boji stovek týmů z celého světa. Každý tým začíná se sedmi úlohami, za každou správně vyřešenou úlohu dostává novou, obtížnější úlohu."
+info: "Fyziklání Online je internetová týmová soutěž pro každého, kdo má zájem o fyziku. Až pětičlenné týmy se snaží v časovém limitu 3 hodin vyřešit co nejvíce zadaných úloh, pričemž tým začína se 7 úlohami a za každou správně vyřešenou úlohu dostává novou."
 contestants:
     min: ss1
     max: ss4
