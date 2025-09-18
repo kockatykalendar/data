@@ -1,0 +1,15 @@
+name: Pikopretek
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2026-05-15"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - Železná studienka, Bratislava
+organizers:
+  - p-mat
+info: "Športovo-logická súťaž v exteriéri. Tímy prechádzajú po trase, kde plnia pohybové a logické úlohy na stanoviskách."
+link: https://akcie.p-mat.sk/pikopretek/
