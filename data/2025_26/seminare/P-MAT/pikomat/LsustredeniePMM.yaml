@@ -1,0 +1,16 @@
+name: Letné sústredenie Pikomatu mladší
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2026-07-06"
+  end: "2026-07-11"
+contestants:
+  min: zs5
+  max: zs6
+# places:
+#   - TBD
+cancelled: false
+organizers:
+  - p-mat
+link: https://pikomat.sk/

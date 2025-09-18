@@ -1,0 +1,14 @@
+name: Jesenné sústredenie Terabio
+type: sustredenie
+sciences:
+  - other
+date:
+  start: "2025-09-06"
+  end: "2025-09-12"
+contestants:
+  min: zs5
+  max: zs9
+cancelled: false
+organizers:
+  - p-mat
+link: https://terabio.sk/

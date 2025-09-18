@@ -1,0 +1,16 @@
+name: Zimné sústredenie Pikomatu starších
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2026-02-08"
+  end: "2026-02-13"
+contestants:
+  min: zs7
+  max: zs9
+# places:
+#   - Zliechov
+cancelled: false
+organizers:
+  - p-mat
+link: https://pikomat.sk/
