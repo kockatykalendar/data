@@ -6,6 +6,15 @@
 
 ## Pridávanie udalostí
 
+### Prístupové práva
+
+Ak chceš pridávať udalosti, máš dve základné možnosti:
+- Preferovaná možnost: Pridať sa do [data-contributors](https://github.com/orgs/kockatykalendar/teams/data-contributors) tímu,
+napríklad tak, že kontaktuješ niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers).
+- Spraviť si fork a z neho spraviť pull-request.
+
+To ti umožní pridávať zmeny nanečisto a vytvárať pull-requesty, ktoré potom niekto z data-managers skontroluje a zverejní.
+
 ### Priečinky
 
 Každá udalosť má svoj `.yml` súbor v priečinku `data`. Kalendáru v princípe nezáleží, kde sa tento súbor v priečinku nachádza, ale pre prehľadnosť sme zvolili takúto štruktúru:
