@@ -4,7 +4,7 @@ parts:
   - "letnej"
 rounds: 3
 sciences:
-  - mat
+  - bio
 min_year: "zs5"
 max_year: "zs9"
 organizer: p-mat
