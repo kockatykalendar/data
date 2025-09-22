@@ -9,8 +9,8 @@ type: vikendovka
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2025-10-26"
-  end: "2025-10-28"
+  start: "2025-10-24"
+  end: "2025-10-26"
 # nazov organizatora alebo zoznam organizatorov
 organizers:
   - p-mat
@@ -26,4 +26,3 @@ contestants:
   min: zs5
   # Maximalny rocnik, ktory sa moze zapojit.
   max: zs9
-  
