@@ -4,7 +4,7 @@ sciences:
     - fyz
 date:
     start: "2026-02-13"
-info: "Největší fyzikální týmová soutěž v Evropě."
+info: "Fyziklání je největší týmová fyzikální soutěž pro studenty středních škol se zájmem o fyziku. Maximálně pětičlenné týmy, skládající se ze studentů až dvou škol, se snaží vyřešit co nejvíce zadaných fyzikálních úloh v časovém limitu tří hodin."
 contestants:
     min: ss1
     max: ss4

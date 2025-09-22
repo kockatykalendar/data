@@ -1,0 +1,15 @@
+name: FYKOS - 6. série"
+type: seminar
+sciences:
+  - fyz
+date:
+  start: "2026-05-11"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - online
+organizers:
+  - fykos
+info: "FYKOS (FYzikální KOrespondenční Seminář) je dlouhodobá individuální soutěž, která středoškolákům umožňuje si zajímavým způsobem rozšířit chápání fyziky a světa kolem nás, a to např. skrze naše úlohy, vzorová řešení, učební texty či účast na našich akcích."
+link: https://fykos.cz/

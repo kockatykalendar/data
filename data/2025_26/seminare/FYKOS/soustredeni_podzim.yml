@@ -1,0 +1,15 @@
+name: Soustředení FYKOSu
+sciences:
+  - fyz
+type: sustredenie
+date:
+  start: "2025-09-20"
+  end: "2025-09-28"
+organizers:
+  - fykos
+link: https://fykos.cz/akce/soustredeni/2025-podzim
+places:
+  - Lázně Libverda
+contestants:
+  min: ss1
+  max: ss4
