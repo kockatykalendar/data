@@ -3,6 +3,8 @@ type: sutaz
 sciences:
   - mat
   - fyz
+  - chem
+  - bio
   - other
 date:
   start: "2024-09-24"
