@@ -1,0 +1,17 @@
+name: {{ title }}
+type: seminar
+sciences:
+{% for science in sciences %}
+  - {{ science }}
+{% endfor %}
+date:
+  start: "{{ date }}"
+contestants:
+  min: {{ min_year }}
+  max: {{ max_year }}
+places:
+  - online
+organizers:
+  - {{ organizer }}
+info: {{ info }}
+link: {{ url }}

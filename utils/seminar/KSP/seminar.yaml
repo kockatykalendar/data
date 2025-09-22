@@ -1,0 +1,20 @@
+seminar: KSP
+parts:
+  - "zimnej"
+  - "letnej"
+rounds: 2
+sciences:
+  - inf
+min_year: "ss1"
+max_year: "ss4"
+organizer: trojsten
+url: "https://ksp.sk"
+variations:
+  - info: "Korešpondenčný seminár z programovania je súťaž v riešení algoritmických úloh. Riešiš 5 z 8 úloh podľa tvojho levelu skúseností. Riešenie obvykle pozostáva z funkčného programu, ktorý stránka automaticky otestuje a textového popisu, čo program robí."
+    offset: 0
+    name: ""
+    title: "{{ seminar }} – {{ round }}. kolo {{ part }} časti"
+  - info: "Po riadnom termíne nastáva fáza doprogramovávania. Počas tejto fázy sa nedajú odovzdávať slovné popisy, stále sa však dajú získať body za program. Navyše zverejníme aj vzorové riešenia, ktoré Vám vedia pomôcť úlohu vyriešiť a úspešne naprogramovať."
+    offset: 14
+    name: "_doprogramovanie"
+    title: "{{ seminar }} – Doprogramovanie {{ round }}. kola {{ part }} časti"

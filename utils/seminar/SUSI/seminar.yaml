@@ -1,0 +1,28 @@
+seminar: SUŠI
+parts:
+  - "zimnej"
+  - "letnej"
+rounds: 3
+sciences:
+  - other
+min_year: "ss1"
+max_year: null
+organizer: trojsten
+url: "https://susi.sk"
+variations:
+  - info: "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená jednotlivcom. Podľa skúseností riešiš šifry v jednej z piatich kategórií. Riešenia až piatich šifier odovzdáš na stránku, ktorá ti automaticky overí ich správnosť."
+    offset: -56
+    name: "_start"
+    title: "{{ seminar }} – {{ round }}. kolo {{ part }} časti"
+  - info: 'Štyri týždne pred koncom kola sa na stránke zverejní prvá sada "malých" nápovied k jednotlivým šifrám. Po tomto termíne môžeš riešenia šifier odovzdávať za 7 bodov až do zverejnenia veľkých nápovied.'
+    offset: -28
+    name: "_hint1"
+    title: "{{ seminar }} – {{ round }}. kolo {{ part }} časti"
+  - info: 'Dva týždne pred koncom kola sa na stránke zverejní aj druhá sada "veľkých" nápovied k jednotlivým šifrám. Po tomto termíne môžeš riešenia šifier odovzdávať za 5 bodov až do skončenia kola.'
+    offset: -14
+    name: "_hint2"
+    title: "{{ seminar }} – {{ round }}. kolo {{ part }} časti"
+  - info: "Na rozdiel od tradičných šifrovačiek je Súťaž v Šifrovaní určená jednotlivcom. Podľa skúseností riešiš šifry v jednej z piatich kategórií. Riešenia až piatich šifier odovzdáš na stránku, ktorá ti automaticky overí ich správnosť."
+    offset: 0
+    name: "_end"
+    title: "{{ seminar }} – {{ round }}. kolo {{ part }} časti"

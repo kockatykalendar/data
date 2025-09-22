@@ -1,0 +1,16 @@
+seminar: Terabio
+parts:
+  - "zimnej"
+  - "letnej"
+rounds: 3
+sciences:
+  - mat
+min_year: "zs5"
+max_year: "zs9"
+organizer: p-mat
+url: "https://terabio.sk"
+variations:
+  - info: ""
+    offset: 0
+    name: ""
+    title: "{{ seminar }} {{ round }}. séria"
