@@ -1,0 +1,60 @@
+# Mriežkou sa označujú komentáre
+
+# Nazov udalosti
+name: Jarní MaSo 2026
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf, bio, chem a other.
+sciences:
+  - mat
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: sutaz
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2026-05-13"
+  # (optional) Koniec udalosti YYYY-MM-DD
+  # end: "2020-01-02"
+  # (optional) Text, ktory sa zobrazi miesto datumu. Vyuzitie napriklad ak nie je este znamy presny datum
+  # text: "január/február"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - maso
+
+# (optional) Odkaz na stranku pre viac info
+link: https://maso.mff.cuni.cz/
+
+# (optional) Miesto, alebo zoznam miest, kde sa akcia kona
+# places:
+#  - Praha
+#  - Brno
+#  - Česká Lípa
+#  - Plzeň
+#  - Písek
+#  - Opava
+#  - Děčín
+#  - Olomouc
+#  - Třinec
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit
+  min: zs6
+  # Maximalny rocnik, ktory sa moze zapojit
+  max: zs9
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
+
+# Popis akcie
+short-info: "MaSo je týmová matematická soutěž pro žáky šestých až devátých tříd základních škol a odpovídajících ročníků víceletých gymnázií, která se koná dvakrát ročně. Nejde tu ovšem jen o počítání příkladů. Za spočítané příklady získávají týmy tahy do hry, která je pak hlavním zdrojem jejich bodů do celkového hodnocení. Hra je každý rok jiná. Týmy, které se již účastnily, tedy nemají výhodu její znalosti."
+
+# (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
+color: "yellow"
+
+# (optional) Udaje k notifikaciam
+notifications:
+  # Zoznam poctu dni pred akciou, kedy sa ma posielat mail zaujemcom
+  remind_days_before: 
+    - 45
+    - 30
