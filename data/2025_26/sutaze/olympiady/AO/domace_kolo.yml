@@ -1,7 +1,8 @@
 name: Astronomická olympiáda - domáce kolo
 type: sutaz
 sciences:
-    - fyz, other
+    - fyz
+    - other
 date:
     start: "2025-12-06"
     end: "2025-02-16"

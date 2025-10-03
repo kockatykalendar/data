@@ -1,7 +1,8 @@
 name: Astronomická olympiáda - regionálne kolo
 type: sutaz
 sciences:
-    - fyz, other
+    - fyz
+    - other
 date:
     start: "2025-03-23"
 info: "Regionálne kolo prebieha súbežne na viacerých miestach po celom Slovensku. Najlepší riešitelia zo stredoškolskej kategórie postupujú do celoštátneho kola."

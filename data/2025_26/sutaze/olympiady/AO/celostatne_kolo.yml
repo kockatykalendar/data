@@ -1,7 +1,8 @@
 name: Astronomická olympiáda - celoštátne kolo
 type: sutaz
 sciences:
-    - fyz, other
+    - fyz
+    - other
 date:
     start: "2025-05-03"
     end: "2025-05-05"
