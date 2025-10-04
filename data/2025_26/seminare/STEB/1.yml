@@ -14,9 +14,9 @@ type: seminar
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2025-11-03"
+  start: "2025-10-03"
   # (optional) Koniec udalosti YYYY-MM-DD
-  end: "2025-10-03"
+  end: "2025-11-03"
 
 
 # nazov organizatora alebo zoznam organizatorov
@@ -28,7 +28,7 @@ link: https://www.edub.sk/steb/aktu%C3%A1lne-s%C3%A9rie
 
 # (optional) Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - Online
+  - online
 
 # Informacie o sutaziacich.
 contestants:
