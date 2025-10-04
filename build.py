@@ -17,7 +17,6 @@ def school_year_from_date(date: date) -> str:
         return "%d_%d" % (date.year - 1, date.year % 100)
     return "%d_%d" % (date.year, (date.year + 1) % 100)
 
-
 def years_from_school_year(school_year):
     print(school_year)
     start_year = int(school_year.split("_")[0])
@@ -43,10 +42,13 @@ parser.add_argument(
     "--dry", action="store_true", help="Only validate, do not build output files."
 )
 parser.add_argument(
-    "--new", action="store_true", help="Only show warnings for events from current (school) year."
+    "--now", action="store_true", help="Only show warnings for events from current (school) year."
 )
 parser.add_argument(
     "--no-warn", action="store_true", help="Don't show any warnings."
+)
+parser.add_argument(
+    "--no-warn-missing-place", action="store_true", help="Ignore warnings about missing places."
 )
 args = parser.parse_args()
 
@@ -113,12 +115,17 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                             "Event \"%s\" with date %s is in year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
                         # Raise an exception, this is certainly a mistake
                     if event_year > directory_year:
-                        if ((not args.new or event_year == current_year) and not args.no_warn):
+                        if ((not args.now or event_year == current_year) and not args.no_warn):
                             print("\n" + "Event \"%s\" with date %s is in year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
                         # Don't raise an exception, this is quite usual and probably not a mistake
+                
+                if "end" in event_data["date"].keys():
+                    end_date = datetime.strptime(event_data["date"]["end"], "%Y-%m-%d").date()
+                    if end_date < event_date:
+                        raise JsonSchemaValueException("Event \"%s\" ends before it starts." % event_data["name"])
 
                 if not "places" in event_data.keys() or len(event_data["places"]) == 0:
-                    if ((not args.new or event_year == current_year) and not args.no_warn):
+                    if ((not args.now or event_year == current_year) and not args.no_warn and not args.no_warn_missing_place):
                         print("\n" + "Event \"%s\" in year %s has missing or empty attribute \"places\"." % (event_data["name"], event_year))
                 
                 if not args.dry:
