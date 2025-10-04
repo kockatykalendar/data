@@ -8,10 +8,9 @@
 
 ### Prístupové práva
 
-Ak chceš pridávať udalosti, máš dve možnosti:
+Ak chceš pridávať udalosti, máš dve základné možnosti:
 - Preferovaná možnost: Pridať sa do [data-contributors](https://github.com/orgs/kockatykalendar/teams/data-contributors) tímu,
-tak, že kontaktuješ niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers),
-napríklad [Jančiho](https://github.com/Jajopi) alebo [Krtka](https://github.com/krtko1). *Tímy sú viditeľné iba pre ľudí v tímoch.*
+napríklad tak, že kontaktuješ niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers).
 - Spraviť si fork a z neho spraviť pull-request.
 
 To ti umožní pridávať zmeny nanečisto a vytvárať pull-requesty, ktoré potom niekto z data-managers skontroluje a zverejní.
