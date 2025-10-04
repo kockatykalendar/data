@@ -35,7 +35,7 @@ contestants:
   max: ss4
 
 # Popis akcie
-short-info: "Kasiopea je súťaž v programovaní vhodná pre úplných začiatočníkov aj najskúsenejších kóderov. V domácom kole sa stretnete s deviatimi úlohami rôznej náročnosti a zabojujete o postup na finále v Prahe."
+info: "Kasiopea je súťaž v programovaní vhodná pre úplných začiatočníkov aj najskúsenejších kóderov. V domácom kole sa stretnete s deviatimi úlohami rôznej náročnosti a zabojujete o postup na finále v Prahe."
 
 # Zmena defaultnej farby
 color: "#331c47"

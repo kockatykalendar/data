@@ -41,7 +41,7 @@ contestants:
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
 
 # Popis akcie
-short-info: "Náboj Junior je súťaž pre štvorčlenné tímy. Celá súťaž trvá 120 minút, počas ktorých sa tímy snažia vyriešiť čo najviac úloh. V náboji nejde o bezhlavú aplikáciu už nadobudnutých vedomostí. Úlohy vyžadujú istú dávku invencie a dôvtipu."
+info: "Náboj Junior je súťaž pre štvorčlenné tímy. Celá súťaž trvá 120 minút, počas ktorých sa tímy snažia vyriešiť čo najviac úloh. V náboji nejde o bezhlavú aplikáciu už nadobudnutých vedomostí. Úlohy vyžadujú istú dávku invencie a dôvtipu."
 
 # (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
 color: "red"
