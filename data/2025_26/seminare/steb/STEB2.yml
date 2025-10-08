@@ -1,0 +1,49 @@
+# Nazov udalosti
+name: Druhá séria STEB
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf, bio, chem a other.
+sciences:
+  - bio
+  - other
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: seminar
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2025-11-15"
+  # (optional) Koniec udalosti YYYY-MM-DD
+  end: "2025-12-22"
+
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - edub
+
+# (optional) Odkaz na stranku pre viac info
+link: https://www.edub.sk/steb/aktu%C3%A1lne-s%C3%A9rie
+
+# (optional) Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - online
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit
+  min: ss1
+  # Maximalny rocnik, ktory sa moze zapojit
+  max: ss4
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
+
+# Popis akcie
+info: "Selected Topics in Evolutionary Biology je korešpondenčný seminár zameraný na aktuálne témy súčasných vedeckých výskumov a na evolučné súvislosti v biológii. Úspešní riešitelia náročnej kategórie naviac majú možnosť zúčastniť sa sústredenia v ISTA pri Viedni."
+
+# (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
+color: "yellow"
+
+# (optional) Udaje k notifikaciam
+notifications:
+  # Zoznam poctu dni pred akciou, kedy sa ma posielat mail zaujemcom
+  remind_days_before: 
+    - 3
