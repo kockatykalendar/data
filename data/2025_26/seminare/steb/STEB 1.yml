@@ -39,8 +39,7 @@ contestants:
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
 
 # Popis akcie
-info: "Selected Topics in Evolutionary Biology, alebo STEB je korešpondenčný seminár - súťaž pre stredoškolákov, zameraná na aktuálne témy súčasných vedeckých výskumov a na evolučné súvislosti v biológii. Súťažiť môžeš v dvoch kategóriách: základnej alebo náročnej. V každej z nich sa jeden ročník súťaže skladá z piatich sérií. Každá séria obsahuje materiál na štúdium a súťažné otázky. Víťayov náročnej kategórie čakajú rôzne ceny a možnosť zúčastniť sa niekoľkodňového sústredenia vo Viedni v ISTA (Institute of Science and Technology Austria)."
-
+info: "Selected Topics in Evolutionary Biology je korešpondenčný seminár zameraný na aktuálne témy súčasných vedeckých výskumov a na evolučné súvislosti v biológii. Úspešní riešitelia náročnej kategórie naviac majú možnosť zúčastniť sa sústredenia v ISTA pri Viedni."
 # (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
 color: "yellow"
 
