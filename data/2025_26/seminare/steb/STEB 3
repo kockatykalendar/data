@@ -1,0 +1,49 @@
+# Nazov udalosti
+name: Tretia séria STEB
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf, bio, chem a other.
+sciences:
+  - bio
+  - other
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: seminar
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2026-01-15"
+  # (optional) Koniec udalosti YYYY-MM-DD
+  end: "2026-02-23"
+
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - edub
+
+# (optional) Odkaz na stranku pre viac info
+link: https://www.edub.sk/steb/aktu%C3%A1lne-s%C3%A9rie
+
+# (optional) Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - online
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit
+  min: ss1
+  # Maximalny rocnik, ktory sa moze zapojit
+  max: ss4
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
+
+# Popis akcie
+info: "Selected Topics in Evolutionary Biology, alebo STEB je korešpondenčný seminár - súťaž pre stredoškolákov, zameraná na aktuálne témy súčasných vedeckých výskumov a na evolučné súvislosti v biológii. Súťažiť môžeš v dvoch kategóriách: základnej alebo náročnej. V každej z nich sa jeden ročník súťaže skladá z piatich sérií. Každá séria obsahuje materiál na štúdium a súťažné otázky. Víťayov náročnej kategórie čakajú rôzne ceny a možnosť zúčastniť sa niekoľkodňového sústredenia vo Viedni v ISTA (Institute of Science and Technology Austria)."
+
+# (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
+color: "yellow"
+
+# (optional) Udaje k notifikaciam
+notifications:
+  # Zoznam poctu dni pred akciou, kedy sa ma posielat mail zaujemcom
+  remind_days_before: 
+    - 3
