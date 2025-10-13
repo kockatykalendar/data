@@ -30,8 +30,8 @@ places:
 contestants:
   # Minimalny rocnik, ktory sa moze zapojit.
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
-  min: zs3
-  max: null
+  min: zs3  # Limitace není daná ročníkem ZŠ, ale věkem (od 9 let), byť u ZŠ je ten mapping docela těsný
+  max: null # Soutěž je i pro VŠ studenty do 24 let, což taky vyjádřit nejde
 
 # Popis akcie
 info: Kybersoutěž je česká soutěž v kyberbezpečnosti. Nejúspěšnější studenti budou pozvaní na letní soustředění a mohou se dostat do českého národního týmu na ECSC. Finále je ve formátu CTF, rozdělené do samostatné a týmové části.
