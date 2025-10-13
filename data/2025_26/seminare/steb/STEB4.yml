@@ -37,8 +37,7 @@ contestants:
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
 
 # Popis akcie
-info: "Selected Topics in Evolutionary Biology je korešpondenčný seminár zameraný na aktuálne témy vedeckých výskumov a na evolučné súvislosti v biológii. Úspešní riešitelia náročnej kategórie sú pozvanaí na sústredenie v ISTA blízko Viedne."
-
+info: "Selected Topics in Evolutionary Biology je korešpondenčný seminár zameraný na aktuálne témy vedeckých výskumov a na evolučné súvislosti v biológii. Úspešní riešitelia náročnej kategórie sú pozvaní na sústredenie v ISTA blízko Viedne."
 # (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
 color: "yellow"
 
