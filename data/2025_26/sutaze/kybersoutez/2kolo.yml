@@ -31,16 +31,7 @@ contestants:
   # Minimalny rocnik, ktory sa moze zapojit.
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
   min: zs3
+  max: null
 
 # Popis akcie
-info: |
-  Kybersoutěž je česká národní soutěž v kyberbezpečnosti. Soutěže se mohou
-  zúčastnit žáci a studenti ZŠ, SŠ a VŠ ve věku od 9 do 24 let. Soutěž je
-  rozdělena do tří kol, osvětového prvního kola, druhého kola ve formátu CTF a
-  prezenčního finále. Nejúspěšnější studenti budou pozvaní na letní soustředění
-  a mohou se dostat do českého národního týmu na ECSC (European Cybersecurity
-  Challenge).
-
-  Druhé kolo probíhá formou soutěže CTF (Capture The Flag) a jednotlivé úlohy
-  je možné řešit po celou dobu tvání druhého kola. Ti nejlepší studenti jsou
-  poté pozváni na prezenční finále.
+info: Kybersoutěž je česká soutěž v kyberbezpečnosti. Nejúspěšnější studenti budou pozvaní na letní soustředění a mohou se dostat do českého národního týmu na ECSC. Druhé kolo je ve formátu CTF a na řešení úloh máte celý měsíc.
