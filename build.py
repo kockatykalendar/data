@@ -59,7 +59,7 @@ with open(os.path.join(ROOT, "schemas", "event.schema.json")) as f:
 with open(os.path.join(ROOT, "schemas", "organizer.schema.json")) as f:
     validate_organizer = fastjsonschema.compile(json.load(f))
 
-print("validating orgnanizers")
+print("validating organizers")
 
 for directory in os.walk(os.path.join(ROOT, "organizers")):
     for file in directory[2]:
