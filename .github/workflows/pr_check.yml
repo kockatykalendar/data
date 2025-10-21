@@ -23,4 +23,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run check
-        run: python build.py --dry
+        run: python build.py --dry --now
