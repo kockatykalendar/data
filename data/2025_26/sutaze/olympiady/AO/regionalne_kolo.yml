@@ -1,0 +1,16 @@
+name: Astronomická olympiáda - regionálne kolo
+type: sutaz
+sciences:
+    - fyz
+    - other
+date:
+    start: "2026-03-23"
+info: "Regionálne kolo prebieha súbežne na viacerých miestach po celom Slovensku. Najlepší riešitelia zo stredoškolskej kategórie postupujú do celoštátneho kola."
+contestants:
+    min: zs1
+    max: ss4
+places:
+    - "Hurbanovo, Prešov, Žiar nad Hronom, Žilina"
+organizers:
+    - ao
+link: "https://www.astronomickaolympiada.sk/ulohy/"

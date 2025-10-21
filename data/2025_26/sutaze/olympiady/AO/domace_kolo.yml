@@ -1,0 +1,17 @@
+name: Astronomická olympiáda - domáce kolo
+type: sutaz
+sciences:
+    - fyz
+    - other
+date:
+    start: "2025-12-06"
+    end: "2026-02-16"
+info: "Domáce kolo AO prebieha online. Na riešenie úloh máte viac než dva mesiace času. Tešiť sa môžete na výpočtové úlohy z astrofyziky aj experimentálne úlohy ako pozorovania."
+contestants:
+    min: zs1
+    max: ss4
+places:
+    - online
+organizers:
+    - ao
+link: "https://www.astronomickaolympiada.sk/ulohy/"

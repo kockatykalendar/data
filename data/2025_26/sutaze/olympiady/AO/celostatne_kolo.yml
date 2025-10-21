@@ -1,0 +1,17 @@
+name: Astronomická olympiáda - celoštátne kolo
+type: sutaz
+sciences:
+    - fyz
+    - other
+date:
+    start: "2026-05-03"
+    end: "2026-05-05"
+info: "Najlepší riešitelia celoštátneho kola dostanú možnosť reprezenotvať Slovensko na medzinárodnej olympiáde z astronómie a astrofyziky (IOAA)."
+contestants:
+    min: ss1
+    max: ss4
+places:
+    - "Hurbanovo"
+organizers:
+    - ao
+link: "https://www.astronomickaolympiada.sk/ulohy/"
