@@ -2,6 +2,7 @@
 INPUT_FILE_NAME = "tabulka-olympiad.txt"
 
 import os
+import shutil
 
 def load_olympiads_from_table(file_name=INPUT_FILE_NAME):
     olympiads = [[]]
@@ -48,7 +49,7 @@ contestants:
   max: {max_age}
 """
 
-def generate_olympiad_files(olympiad: list):
+def generate_olympiad_files(olympiad: list, reset=True):
     assert len(olympiad) > 1
 
     if len(olympiad[0].split("\t")) == 1: name, webpage = olympiad[0], ""
@@ -56,9 +57,10 @@ def generate_olympiad_files(olympiad: list):
     if len(webpage) == 0: webpage = "https://nivam.sk/"
     if not "https://" in webpage: webpage = "https://" + webpage
 
-    print(name)
+    print(f"{name}...", end="")
 
-    dir_name = name.replace(" ", "_").lower()
+    dir_name = "./" + name.replace(" ", "_").lower()
+    if (reset): shutil.rmtree(dir_name)
     if not os.path.isdir(dir_name): os.mkdir(dir_name)
 
     for line in map(lambda l: l.split("\t"), olympiad[1:]):
@@ -74,6 +76,7 @@ def generate_olympiad_files(olympiad: list):
             file_name = f"{category}{" " if len(category) > 0 else ""}{round}.yml".replace(" ", "_").lower()
             with open(f"{dir_name}/{file_name}", "w") as file:
                 file.write(text)
+    print(" ✅")
             
 if __name__ == "__main__":
     for olympiad in load_olympiads_from_table():
