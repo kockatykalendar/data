@@ -79,7 +79,8 @@ Prečo mám rád slovenčinu, prečo mám rád Slovensko
 zs1	ss4	kategória 1, 2A, 2B, 3, 4		do 31.1.2026			4.6.2026
 
 Turnaj mladých fyzikov
-ss1	ss4				10.2.2026	27.-27.3.2026
+: Turnaj mladých fyzikov je súťaž pre stredoškolské tímy, počas ktorej riešia reálne vedecké problémy, experimentujú, tvoria teórie a prezentujú svoje riešenia pred porotou. Úlohou je nasimulovať vedeckú prácu a obhájiť si svoje výsledky.
+ss1	ss4					10.-11.2.2026	27.3.2026
 
 Olympiáda ľudských práv
 ss1	ss4		do 12.12.2025		13.2.2026	16.04-16.4.2026
@@ -103,4 +104,5 @@ zs4	zs9	kategória I, II		do 20.1.2026	do 16.2.2026	do 16.3.2026	15-17.4.2026
 ss1	ss4	kategória III, IV		do 20.1.2026		do 16.3.2026	15.-17.4.2026
 
 Olympiáda mladých vedcov
+: Olympiáda mladých vedcov (IJSO) je medzinárodná vedomostná súťaž, ktorá testuje vedomosti a zručnosti vo fyzike, chémii a biológii. Súťaž pozostáva z teoretických a praktických úloh a jej cieľom je podporovať vedecké talenty mladšie než 16 rokov.
 zs5	ss1		16.3.2026		21.4.2026	31.5.-4.6.2026
