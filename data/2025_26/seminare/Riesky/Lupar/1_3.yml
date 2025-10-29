@@ -1,0 +1,14 @@
+name: Lupár 3. kolo, zimná séria
+type: seminar
+sciences:
+  - other
+date:
+  start: "2025-11-27"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - online
+organizers:
+  - riesky
+info: "Lupár je individuálna dlhodobá súťaž v riešení logických úloh. Obsahuje aj kategóriu Open, ktorá nie je vekovo omedzená."
