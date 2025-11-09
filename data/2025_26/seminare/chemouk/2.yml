@@ -1,0 +1,16 @@
+name: CHeMoUk
+type: seminar
+sciences:
+  - chem
+date:
+  start: "2026-01-05"
+  end:   "2026-02-08"
+contestants:
+  min: ss2
+  max: ss3
+places:
+  - online
+organizers:
+  - prifuk
+info: 'Korešpondenčný seminár z rôznych oblastí chémie - analytickej, anorganickej, fyzikálnej, materiálovej, organickej, teoretickej chémie a toxikológie. Najúspešnejší riešitelia sú počas leta pozvaní na týždňové sústredenie na prírodovedeckej fakulte.'
+link: https://fns.uniba.sk/chemouk/

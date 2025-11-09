@@ -1,0 +1,16 @@
+name: CHeMoUk
+type: seminar
+sciences:
+  - chem
+date:
+  start: "2025-11-03"
+  end:   "2025-12-07"
+contestants:
+  min: ss2
+  max: ss3
+places:
+  - online
+organizers:
+  - prifuk
+info: 'Korešpondenčný seminár z rôznych oblastí chémie. Najúspešnejší riešitelia sú počas leta pozvaní na týždňové sústredenie na prírodovedeckej fakulte. Registrácia je možná do 30. 11. 2025.'
+link: https://fns.uniba.sk/chemouk/
