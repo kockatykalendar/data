@@ -1,0 +1,18 @@
+# ignore
+name: Krutá Smršť Přednášek
+type: vikendovka
+sciences:
+  - inf
+date:
+  start: "2025-11-28"
+  end: "2025-11-30"
+contestants:
+  min: zs9
+  max: ss4
+places:
+  - Hradec Králové
+organizers:
+  - ksp-praha
+info: 'Krutá Smršť Prědnášek - Smršť - je víkendovka plná prědnášek se zameřením hlavně (ale nejen) na informatiku. Tešit se můžete kromě přednášek na hodně zábavy se starými i novými kamarády. Pozor, kapacita je omezená.'
+link: https://ksp.mff.cuni.cz/akce/smrst/
+color: "#000"

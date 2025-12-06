@@ -1,5 +1,4 @@
-H[2-5]*
-Z[2-5]*
-sus_jarni
-sus_podzimni
-smrst
+H[3-5]*
+Z[3-5]*
+sus_jarni*
+sus_podzimni*
