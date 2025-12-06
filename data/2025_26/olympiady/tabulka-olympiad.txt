@@ -1,73 +1,70 @@
 Matematická olympiáda	skmo.sk
 ss3	ss4	kategória A	do 2.12.2025	9.12.2025		13.1.2026	15.3 - 18.3.2026
-ss2		kategórie B, C	do 21.1.2026	27.1.2026		31.3.2026	
+ss2		kategórie B, C	do 21.1.2026	27.1.2026		31.3.2026
 zs5		kategória Z5 (časť I.)	do 14.11.2025
 zs5		kategória Z5 (časť II.)	do 12.12.2025
-zs5		kategória Z5			26.1.2026		
-zs6	zs8	kategórie Z6, Z7, Z8			1.4.2026		
-zs6	zs8	kategórie Z6, Z7, Z8 (časť I.)	do 16.1.2026				
-zs6	zs8	kategórie Z6, Z7, Z8 (časť II.)	do 3.3.2026				
+zs5		kategória Z5			26.1.2026
+zs6	zs8	kategórie Z6, Z7, Z8			1.4.2026
+zs6	zs8	kategórie Z6, Z7, Z8 (časť I.)	do 16.1.2026
+zs6	zs8	kategórie Z6, Z7, Z8 (časť II.)	do 3.3.2026
 zs9		kategória Z9 (časť I.)	do 14.11.2025
 zs9		kategória Z9 (časť II.)	do 12.12.2025
-zs9		kategória Z9			26.1.2026	27.3.2026	
+zs9		kategória Z9			26.1.2026	27.3.2026
 
 Fyzikálna olympiáda
 ss4		kategória A	do 16.1.2026			28.1.2026	9.-12.4.2026
-ss1	ss3	kategórie B, C, D	do 30.4.2026			13.5.2026	
-zs9		kategória E	do 13.2.2026		11.3.2026	15.4.2026	
-zs8		kategória F	do 13.2.2026		11.3.2026		
-zs7		kategória G	do 30.4.2026		18.-22.5.2026		
+ss1	ss3	kategórie B, C, D	do 30.4.2026			13.5.2026
+zs8	zs9	kategórie E, F	do 13.2.2026		11.3.2026
+zs9		kategória E 			15.4.2026
+zs7		kategória G	do 30.4.2026		18.-22.5.2026
 
 Chemická olympiáda	chemickaolympiada.sk
 ss3	ss4	kategória A	do 28.11.2025	5.12.2025		21.-22.1.2026	4.-7.3.2026
-ss2		kategória B	do 13.2.2026	13.3.2026		9.4.2026	
-ss1		kategória C	do 27.3.2026	17.4.2026		14.5.2026	
-zs8	zs9	kategória D	do 30.1.2026	6.2.2026	12.3.2026	23.4.2026	
+ss2		kategória B	do 13.2.2026	13.3.2026		9.4.2026
+ss1		kategória C	do 27.3.2026	17.4.2026		14.5.2026
+zs8	zs9	kategória D	do 30.1.2026	6.2.2026	12.3.2026	23.4.2026
 ss1	ss4	kategórie E, F	do 12.12.2025	29.-30.1.2026			4.-7.3.2026
 
 Biologická olympiáda
-ss3	ss4	kategória A, teoreticko-praktická časť		do 3.12.2025		4.2.2026	27.3-29.3.2026
-ss3	ss4	kategória A, projektová časť		do 3.12.2025		4.2.2026	17.04-19.4.2026
-ss1	ss2	kategória B, teoreticko-praktická časť		do 4.12.2025		5.2.2026	27.3-29.3.2026
-ss1	ss2	kategória B, projektová časť		do 4.12.2025		5.2.2026	17.4-19.4.2026
-zs8	zs9	kategória C		16.1.2026	10.2.2026	13.3.2026	19.-19.4.2026
-zs6	zs7	kategória D		26.3.2026	28.4.2026		
-zs5	zs9	kategória E (botanika, zoológia, geológia)	19.1.2026	9.4.2026	6.5.2026	05.6.-06.6.2026
-zs3	zs5	kategória F		do 10.4.2026	14.5.2026		
+ss3	ss4	kategória A		do 3.12.2025		4.2.2026
+ss1	ss2	kategória B		do 4.12.2025		5.2.2026
+ss1	ss4	kategórie A, B - teoreticko-praktická časť					27.3-29.3.2026
+ss1	ss4	kategórie A, B - projektová časť					17.04-19.4.2026
+zs8	zs9	kategória C		16.1.2026	10.2.2026	13.3.2026	19.4.2026
+zs6	zs7	kategória D		26.3.2026	28.4.2026
+zs5	zs9	kategória E - botanika, zoológia, geológia	19.1.2026	9.4.2026	6.5.2026	05.6.-06.6.2026
+zs3	zs5	kategória F		do 10.4.2026	14.5.2026
 
 Geografická olympiáda
-ss1	ss4	kategória A		do 6.2.2026		20.3.2026	24.-26.4.2026
-ss1	ss4	kategória Z		6.2.2026		20.3.2026	24.-26.4.2026
-zs8	zs9	kategória E		13.1.2026	17.3.2026	16.4.2026	15.-16.5.2026
-zs6	zs7	kategória F		13.1.2026	17.3.2026	16.4.2026	
-zs4	zs5	kategória G		13.1.2026	17.3.2026		
+ss1	ss4	kategórie A, Z		6.2.2026		20.3.2026	24.-26.4.2026
+zs8	zs9	kategória E					15.-16.5.2026
+zs6	zs9	kategórie E, F				16.4.2026
+zs4	zs9	kategórie E, F, G		13.1.2026	17.3.2026
 
 Olympiáda v ruskom jazyku
 zs5	ss4	kategórie A1, A2, A3, B1, B2, B3, B4	do 28.11.2025		6.2.2026	10.4.-11.4.2026
 
 Pytagoriáda
-zs4	zs5	kategórie P4, P5		9.12.2025	13.4.2026		
+zs4	zs5	kategórie P4, P5		9.12.2025	13.4.2026
 zs6	zs8	kategórie P6, P7, P8		10.12.2025	14.4.2026		9.-10.6.2026
 
 Poznaj slovenskú reč
-zs3	zs7	kategória 1, 2, 3		do 13.2.2026	do 13.3.2026	14.4.2026	10.-12.6.2026
-ss1	ss4	kategória 4		do 13.2.2026		14.4.2026	10.-12.6.2026
+zs3	zs7	kategória 1, 2, 3			do 13.3.2026
+zs3	ss4	kategória 1, 2, 3, 4		do 13.2.2026		14.4.2026	10.-12.6.2026
 
 Olympiáda v informatike	oi.sk
-ss1	ss4	kategória A	do 15.11.2025			20.1.2026	18.03-21.3.2026
-zs1	ss2	kategória B	do 30.11.2025			20.1.2026	
+ss1	ss4	kategória A	do 15.11.2025				18.03-21.3.2026
+zs1	ss2	kategória B	do 30.11.2025
+zs1	ss4	kategórie A, B				20.1.2026
 
 Olympiáda v anglickom jazyku
-zs5	zs9	kategórie 1A, 1B		do 28.11.2025	14.1.2026	11.2.2026	26.-27.4.2026
-zs5	zs9	kategória 1C		do 28.11.2025		11.2.2026	26.-27.4.2026
-ss1	ss4	kategórie 2A, 2B, 2C2, 2D		do 28.11.2025	14.1.2026	11.2.2026	26.-27.4.2026
-ss1	ss4	kategória 2C1		do 28.11.2025		11.2.2026	26.-27.4.2026
+zs5	ss4	kategórie 1A, 1B, 1C, 2A, 2B, 2C1, 2C2, 2D		do 28.11.2025		11.2.2026	26.-27.4.2026
+zs5	ss4	kategórie 1A, 1B, 2A, 2B, 2C2, 2D			14.1.2026
 
 Olympiáda v nemeckom jazyku
-zs5	zs9	kategórie 1A, 1B		do 1.12.2025	15.1.2026	12.2.2026	15.-16.3.2026
-zs5	zs9	kategória 1C		do 10.12.2025		12.2.2026	15.-16.3.2026
-ss1	ss4	kategórie 2A, 2B, 2D		do 1.12.2025	15.1.2026	12.2.2026	15.-16.3.2026
-ss1	ss4	kategória 2C		do 10.12.2025		12.2.2026	15.-16.3.2026
+zs5	ss4	kategórie 1A, 1B, 2A, 2B, 2D		do 1.12.2025	15.1.2026
+zs5	ss4	kategórie 1C, 2C		do 10.12.2025
+zs5	ss4	kategórie 1A, 1B, 2A, 2B, 2D, 1C, 2C				12.2.2026	15.-16.3.2026
 
 Olympiáda vo francúzskom jazyku
 zs1	ss4	kategórie 1A, 1B, 1C, 2A, 2B, 2C		do 12.12.2025		23.1.2026	26.-27.3.2026
@@ -86,22 +83,23 @@ Olympiáda ľudských práv
 ss1	ss4		do 12.12.2025		13.2.2026	16.04-16.4.2026
 
 Dejepisná olympiáda
-ss1	ss4	kategórie A, B		do 13.02.2026		22.04.2026	8.-10.6.2026
-zs8	zs9	kategórie C, D		do 05.12.2025	4.02.2026	22.04.2026	8.-10.6.2026
-zs7		kategória E		do 05.12.2025	4.02.2026	22.04.2026	
-zs6		kategória F		do 05.12.2025	4.02.2026		
+ss1	ss4	kategórie A, B		do 13.02.2026
+zs7	ss4	kategórie A, B, C, D, E				22.04.2026
+zs8	ss4	kategórie A, B, C, D					8.-10.6.2026
+zs6	zs9	kategórie C, D, E, F		do 05.12.2025	4.02.2026
 
 Olympiáda zo slovenského jazyka a literatúry
-ss1	ss4	kategórie A, B		do 12.12.2025		3.2.2026	20.-21.4.2026
-zs8	zs9	kategória C		do 17.10.2025	14.11.2025	3.2.2026	20.-21.4.2026
+ss1	ss4	kategórie A, B		do 12.12.2025
+zs8	ss4	kategórie A, B, C				3.2.2026	20.-21.4.2026
+zs8	zs9	kategória C		do 17.10.2025	14.11.2025
 
 Technická olympiáda
-zs8	zs9	kategória A		8.10.2025	20.11.2025	27.1.2026	6.-7.5.2026
-zs5	zs7	kategória B		8.10.2025	20.11.2025	27.1.2026	
+zs8	zs9	kategória A					6.-7.5.2026
+zs5	zs9	kategórie A, B		8.10.2025	20.11.2025	27.1.2026
 
 Pekná maďarská reč
-zs4	zs9	kategória I, II		do 20.1.2026	do 16.2.2026	do 16.3.2026	15-17.4.2026
-ss1	ss4	kategória III, IV		do 20.1.2026		do 16.3.2026	15.-17.4.2026
+zs4	zs9	kategórie I, II, III, IV		do 20.1.2026		do 16.3.2026	15-17.4.2026
+zs4	zs9	kategórie I, II			do 16.2.2026
 
 Olympiáda mladých vedcov
 : Olympiáda mladých vedcov (IJSO) je medzinárodná vedomostná súťaž, ktorá testuje vedomosti a zručnosti vo fyzike, chémii a biológii. Súťaž pozostáva z teoretických a praktických úloh a jej cieľom je podporovať vedecké talenty mladšie než 16 rokov.
