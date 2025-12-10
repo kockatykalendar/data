@@ -42,7 +42,7 @@ kto skotroluje a akceptuje zmeny (inak by chvíľu trvalo, kým si tvoj pull-req
 
 Niekoľko užitočných konvencií, ktoré sa oplatí dodrživať, aby jednotlivé udalosti vyzerali konzistentne.
 
-#### Názvy
+#### Názvy
 
 Pokiaľ sa jedná o kolo konkrétnej súťaže / semináru, názov udalosti by mal obsahovať aj názov súťaže / semináru, nie len dané kolo.
 Táto informácia totiž nie je zobrazená na žiadnom inom mieste.
@@ -101,6 +101,7 @@ Teraz môžeš zbuildiť výstupné súbory pomocou `python build.py`. Výstup s
 Ak chceš iba skontrolovať, či sú YML súbory správne, môžeš spustiť `python build.py --dry`.
 
 `build.py` má zopár ďalších nastavení súvisiacich s testovaním, tie si môžeš pozrieť pomocou `python build.py -h`.
+
 
 ## VSCode
 
