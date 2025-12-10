@@ -1,0 +1,15 @@
+name: Matboj
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2026-03-26"
+contestants:
+  min: zs7
+  max: zs9
+places:
+  - UPeCe Bratislava
+organizers:
+  - p-mat
+info: "Matematická súťaž pre 4-členné tímy. Prepája riešenie úloh s hraním strategickej hry."
+link: https://akcie.p-mat.sk/matboj/
