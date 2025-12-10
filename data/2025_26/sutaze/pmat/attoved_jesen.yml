@@ -3,7 +3,8 @@ type: sutaz
 sciences:
   - mat
   - fyz
-  - other
+  - chem
+  - bio
 date:
   start: "2025-09-25"
 contestants:
@@ -14,4 +15,4 @@ places:
 organizers:
   - p-mat
 info: "Attoved je individuálna súťaž z prírodných vied. Na súťažiacich čakajú vedomostné a experimentálne úlohy z biológie, fyziky a chémie. Okrem tých sa stretnú aj s takzvaným Vedeckým mixom. Ten preverí ich vedomosti a logické myslenie zo súvisiacich vied."
-#link:
+link: https://akcie.p-mat.sk/attoved/
