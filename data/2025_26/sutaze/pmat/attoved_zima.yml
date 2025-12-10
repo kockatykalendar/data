@@ -3,7 +3,8 @@ type: sutaz
 sciences:
   - mat
   - fyz
-  - other
+  - chem
+  - bio
 date:
   start: "2026-01-22"
 contestants:
