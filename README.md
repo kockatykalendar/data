@@ -102,8 +102,8 @@ napríklad pokiaľ vieš, že súťaž má počas roka 5 sérií, ale len prvá 
 Vtedy si môžeš vyrobiť všetky súbory s popismi, ale niektoré z nich schovať.
 
 Robí sa to jednoducho tak, že zmažeš z názvu súboru príponu `.yml`.
-Vďaka tomu ho bude git ignorovať (ako každý súbor v priečinku `data` bez prípony)
-a pri testovaní správnosti sa nebude kontrolovať (takže v ňom môžu napríklad chýbať dátumy).
+Vďaka tomu ho bude git ignorovať (zostane iba u teba na počítači, ako každý súbor v priečinku `data` bez prípony)
+a pri kontrole súborov sa nebude kontrolovať (takže v ňom môžu napríklad chýbať dátumy).
 
 ## Kontrola súborov (a buildovanie)
 
