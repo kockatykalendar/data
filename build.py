@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 import json
 import os
@@ -107,7 +109,7 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                         )
                 event_date = datetime.strptime(event_data["date"]["start"], "%Y-%m-%d").date()
                 event_year = int(school_year_from_date(event_date)[:4])
-                
+
                 if directory_year_string is not None:
                     directory_year = int(directory_year_string)
                     if event_year < directory_year:
@@ -118,7 +120,7 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                         if ((not args.now or event_year == current_year) and not args.no_warn):
                             print("\n" + "Event \"%s\" with date %s is in year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
                         # Don't raise an exception, this is quite usual and probably not a mistake
-                
+
                 if "end" in event_data["date"].keys():
                     end_date = datetime.strptime(event_data["date"]["end"], "%Y-%m-%d").date()
                     if end_date < event_date:
@@ -127,7 +129,7 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                 if not "places" in event_data.keys() or len(event_data["places"]) == 0:
                     if ((not args.now or event_year == current_year) and not args.no_warn and not args.no_warn_missing_place):
                         print("\n" + "Event \"%s\" in year %s has missing or empty attribute \"places\"." % (event_data["name"], event_year))
-                
+
                 if not args.dry:
                     OUTPUT[school_year_from_date(event_date)].append(event_data)
                 print(".", end="", flush=True)
