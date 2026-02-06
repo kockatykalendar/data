@@ -23,7 +23,7 @@ link: https://riesky.sk/novinky/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 # places:
-#   - ???
+#   -
 
 # Informacie o sutaziacich.
 contestants:
@@ -33,4 +33,3 @@ contestants:
   # Maximalny rocnik, ktory sa moze zapojit.
   max: ss1
 info: "Letný tábor Riešok je určený pre každého, koho baví matematika, a teda nie len pre riešiteľov semináru. Ide o 10 dňový pobyt v blízkosti prírody, ktorého súčasťou je odborný aj neodborný program vo forme prednášok, netradičných hier a športov."
-  

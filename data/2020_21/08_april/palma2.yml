@@ -8,7 +8,7 @@ contestants:
   min: ss1
   max: ss4
 places:
-  - Online
+  - online
 organizers:
   - strom
 info: "Cieľom PALMA (Programovanie Algoritmy Matematika) je dať príležitosť všetkým, ktorí si chcú zasúťažiť, otestovať svoje schopnosti analyzovať problémy, hľadať algoritmy na ich riešenie a vedieť ich rýchlo, efektívne a korektne naprogramovať."

@@ -10,7 +10,7 @@ contestants:
   min: ss1
   max: ss4
 places:
-  - Online
+  - online
 volatile: true
 organizers:
   - trojsten

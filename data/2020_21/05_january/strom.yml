@@ -9,7 +9,7 @@ contestants:
   min: ss1
   max: ss4
 places:
-  - Online
+  - online
 organizers:
   - strom
 link: https://seminar.strom.sk/

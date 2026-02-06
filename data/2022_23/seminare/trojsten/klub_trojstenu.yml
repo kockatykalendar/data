@@ -6,7 +6,7 @@ sciences:
   - mat
   - fyz
   - inf
-  
+
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
 type: vikendovka
 
@@ -24,7 +24,7 @@ link: https://klub.trojsten.sk/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 # places:
-#   - TBD
+#   -
 
 # Informacie o sutaziacich.
 contestants:
