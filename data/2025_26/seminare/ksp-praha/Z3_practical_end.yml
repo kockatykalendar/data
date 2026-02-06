@@ -1,4 +1,4 @@
-name: KSP - Z3 - Deadline odevzdávání série za třetinu bodů
+name: KSP – Z3 – Deadline odevzdávání série za třetinu bodů
 type: seminar
 sciences:
   - inf
@@ -11,6 +11,6 @@ places:
   - online
 organizers:
   - ksp-praha
-info: 'Kategorie Z je určena začátečníkům, kteří se chtějí naučiť programovat. Během roka probíhá 5 sérií - každá obsahuje zpravidla tři praktické a jednu teoretickou úlohu. Termín odevzdávání úloh je tradičně 32:00 (8:00 ráno ďalšího dne).'
+info: 'Kategorie Z je určena začátečníkům, kteří se chtějí naučiť programovat. Během roka probíhá 5 sérií – každá obsahuje zpravidla tři praktické a jednu teoretickou úlohu. Termín odevzdávání úloh je tradičně 32:00 (8:00 ráno ďalšího dne).'
 link: https://ksp.mff.cuni.cz/z/ulohy/38/zadani3.html
 color: "#000"

@@ -1,5 +1,5 @@
 # Nazov udalosti
-name: Kasiopea - Finále
+name: Kasiopea – Finále
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
@@ -33,7 +33,7 @@ contestants:
   max: ss4
 
 # Popis akcie
-info: "Na finále kasiopey sa počas 256 minút popasujete s ôsmimi úlohami a zabojujete o hodnotné ceny. Ale na finále sú všetci víťazi - čaká vás tam kopa pizze a iného jedla."
+info: "Na finále kasiopey sa počas 256 minút popasujete s ôsmimi úlohami a zabojujete o hodnotné ceny. Ale na finále sú všetci víťazi – čaká vás tam kopa pizze a iného jedla."
 
 # Zmena defaultnej farby, v tomto prípade modrej na červenú (optional)
 color: "#331c47"
