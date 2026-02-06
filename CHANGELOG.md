@@ -1,6 +1,9 @@
 # Changelog
 
-Všetky podstatné zmeny tohto projektu sú zaznamenané v tomto súbore.
+Všetky podstatné zmeny tohto projektu by mali byť zaznamenané v tomto súbore.
+
+**Ale posledných pár rokov sme to nerobili.
+Takže podstatné (aktuálne) informácie sú v README a example schémach.**
 
 Formát changelogu založený na [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 používame [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
