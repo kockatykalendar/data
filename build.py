@@ -117,7 +117,7 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                             "Event \"%s\" with date %s is in year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
                         # Raise an exception, this is certainly a mistake
                     elif event_year == directory_year + 1:
-                        if ((not args.now or event_year == current_year) and not args.no_warn):
+                        if ((not args.now or event_year == current_year or event_year == current_year + 1) and not args.no_warn):
                             print("\n" + "Event \"%s\" with date %s is in previous year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
                         # Don't raise an exception, this is quite usual and probably not a mistake
 
