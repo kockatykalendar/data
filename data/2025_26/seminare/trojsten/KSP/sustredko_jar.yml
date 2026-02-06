@@ -4,7 +4,7 @@ sciences:
     - inf
 date:
     start: "2026-03-26"
-    end: "2025-04-02"
+    end: "2026-04-02"
 contestants:
     min: ss1
     max: ss4
