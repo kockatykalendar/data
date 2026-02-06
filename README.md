@@ -4,52 +4,66 @@
 </p>
 
 
+Tento repozitár obsahuje všetky dáta, ktoré sa zobrazujú v Kockatom Kalendári.
+
+V tomto návode sa dozvieš, ako do Kalendára pridávať nové udalosti (a ich organizátorov).
+<!--Ak nevieš pracovať s gitom a s githubom, odporúčame pozrieť si TODO návod.-->
+
 ## Pridávanie udalostí
 
 ### Prístupové práva
 
 Ak chceš pridávať udalosti, máš dve možnosti:
 - Preferovaná možnost: Pridať sa do [data-contributors](https://github.com/orgs/kockatykalendar/teams/data-contributors) tímu,
-tak, že kontaktuješ niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers),
-napríklad [Jančiho](https://github.com/Jajopi), prípadne [Krtka](https://github.com/krtko1). *Tímy sú viditeľné iba pre ľudí v tímoch.*
-- Spraviť si fork a z neho spraviť pull-request.
+  tak, že kontaktuješ niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers),
+  napríklad [Jančiho](https://github.com/Jajopi) ([mail](jan.plachy+kk@trojsten.sk)),
+  prípadne [Krtka](https://github.com/krtko1). *Tímy sú viditeľné iba pre ľudí v tímoch.*
+- Druhá možnosť: Spraviť si fork repozitára.
 
-To ti umožní pridávať zmeny nanečisto a vytvárať pull-requesty, ktoré potom niekto z data-managers skontroluje a zverejní.
+To ti umožní pridávať zmeny nanečisto, teda vytvárať nové branche ("vetvy")
+a vytvárať z nich pull-requesty ("žiadosti o zlúčenie") do hlavnej vetvy `master`, ktorá sa zverejňuje.
+Tvoje zmeny potom niekto z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers) skontroluje a zverejní.
 
 ### Priečinky
 
-Každá udalosť má svoj `.yml` súbor v priečinku `data`. Kalendáru v princípe nezáleží, kde sa tento súbor v priečinku nachádza, ale pre prehľadnosť sme zvolili takúto štruktúru:
-- Priečinok `data` má podpriečinky, ktoré vyjadrujú školské roky (`2020_21`, `2019_20`...).
-  - V priečinku školského roka sú ďalšie podpriečinky podľa typu udalosti (`prednasky`, `seminare`, `sutaze`, `olympiady`).
+Každá udalosť má svoj YAML (`.yml`) súbor v priečinku `data`.
 
-Priečinky školských rokov sa používajú na kontrolu správneho dátumu udalosti (pozri viac v časti Testovanie správnosti).
+Pre prehľadnosť sme zvolili takúto štruktúru:
+- Priečinok `data` má podpriečinky pre jednotlivé školské roky (`2024_25`, `2025_26`...).
+  - V priečinku školského roka sú ďalšie podpriečinky podľa typu udalosti (`prednasky`, `seminare`, `sutaze`, `olympiady`).
+    - Tie obsahujú konkrétne priečinky pre jednotlivé akcie (pokiaľ majú tieto akcie viac udalostí, napríklad viac kôl súťaže).
+      Inak sú v nich priamo súbory udalostí.
+
+Priečinky školských rokov sa používajú na kontrolu správneho dátumu udalosti (pozri viac v časti Kontrola súborov).
+Inak Kalendáru v podstate vôbec nezáleží na tom, kde sa tento súbor udalosti nachádza.
+Ale nám na tom záleží, aby sme mali dáta prehľadné.
 
 ### Súbory
 
-YML súbor udalosti má presne definovanú štruktúru, ktorá je [zverejnená tu](https://github.com/kockatykalendar/data/blob/master/schemas/event.schema.json).
-
+YAML súbor udalosti má presne definovanú štruktúru, ktorú nájdeš [tu](https://github.com/kockatykalendar/data/blob/master/schemas/event.schema.json).
 Užitočnejší ale pre teba bude [príklad, ako sa používa](https://github.com/kockatykalendar/data/blob/master/example.yml).
+
 Najjednoduchší spôsob, ako vyrobiť novú udalosť, je skopírovať si príklad (`example.yml`) alebo udalosť z minulého roka a zmeniť relevantné údaje.
 
 ### Pull-requesty
 
-- Na pridanie udalosti si musíš v gite vyrobiť novú vetvu ("branch", hlavná vetva `master`, ktorá sa premieta do kalendára, je totiž chránená).
+- Na pridanie udalosti si musíš v gite vyrobiť novú vetvu ("branch", hlavná vetva `master`, ktorá sa premieta do Kalendára, je totiž chránená).
 - Keď pridáš všetky potrebné udalosti, vo webovom rozhraní Githubu vyrob pull-request.
 - Môžeš tiež v pravom stĺpci v sekcií Reviewers pridať niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers) tímu,
-kto skotroluje a akceptuje zmeny (inak by chvíľu trvalo, kým si tvoj pull-request niekto všimne).
+aby skotroloval a schválil zmeny (inak bude chvíľu trvať, kým si tvoj pull-request niekto všimne).
 
 ### Obsah súborov
 
-Niekoľko užitočných konvencií, ktoré sa oplatí dodrživať, aby jednotlivé udalosti vyzerali konzistentne.
+Niekoľko užitočných konvencií, ktoré sa oplatí dodrživať, aby jednotlivé udalosti vyzerali v Kalendári konzistentne.
 
 #### Názvy
 
 Pokiaľ sa jedná o kolo konkrétnej súťaže / semináru, názov udalosti by mal obsahovať aj názov súťaže / semináru, nie len dané kolo.
-Táto informácia totiž nie je zobrazená na žiadnom inom mieste.
-Takže ideálne `KSP - prvé kolo zimnej časti`, nie ~~`Prvé kolo zimnej časti`~~.
+Táto informácia totiž nie je inak dostatočne viditeľná.
+Takže ideálne `KSP - prvé kolo zimnej časti`, nie iba ~~`Prvé kolo zimnej časti`~~.
 
 Skratky môžu byť aj rozpísané, ale rozpísaním sa znižuje prehľadnosť danej udalosti.
-Pokiaľ sú teda skratky dobre známe, neoplatí sa to.
+Pokiaľ sú teda skratky dobre známe, pravdepodobne sa to robiť neoplatí.
 
 Názov má byť stručný.
 Pokiaľ má daná súťaž viac podobných udalostí, chcú byť v názve iba skutočnosti, ktoré sa medzi nimi líšia (napríklad číslo kola),
@@ -63,7 +77,7 @@ To najmä preto, aby na stránke nezaberali priveľa miesta.
 Nemal by to však byť problém -- popis má iba vysvetľovať, čo je dána udalosť zač, ak to nie je jasné z nadpisu, prípadne jej robiť reklamu niečim zaujímavým.
 
 Popis nemusí (ba priam nemá) obsahovať:
-- Kde a kedy udalosť prebieha -- sú na to samostatné vlastnosti
+- Kde a kedy udalosť prebieha -- sú na to samostatné vlastnosti, ktoré sa zobrazia pod ním
 - Pre koho je udalosť určená (z hľadiska ročníku) -- je na to samostatná vlastnosť
 	- Informácia, že udalosť má aj "open" kategóriu bez vekového obmedzenia, sa naopak do popisu hodí
 - Akej oblasti (vedy) sa udalosť týka -- je na to samostatná vlastnosť
@@ -78,34 +92,56 @@ Ak si s popisom nevieš rady, kľudne nenapíš nič, alebo proste napíš nieč
 Vlastnosť miesta je po novom nepovinná.
 
 Pokiaľ udalosť prebieha online, konvencia je napísať `online` (s malým písmenom).
-Pokiaľ miesto nie je známe alebo nie je dôležité, vlastnosť sa vynecháva (takže prosím žiadne `TODO`, `TBA`, `TO DO`, `TRAMTADADÁ` a podobne -- DO zo slova TODO už nikdy nikto ne-).
+Pokiaľ miesto nie je známe alebo nie je dôležité, vlastnosť sa vynecháva
+(takže prosím žiadne `TODO`, `TBA`, `TBD`, `TO DO`, `???` a podobne -- DO zo slova TODO už nikdy nikto nespraví).
+
+### Nedokončené / skryté súbory
+
+Občas sa oplatí vyrobiť si naraz viac súborov, než chceš nahrať --
+napríklad pokiaľ vieš, že súťaž má počas roka 5 sérií, ale len prvá má známe termíny.
+Vtedy si môžeš vyrobiť všetky súbory s popismi, ale niektoré z nich schovať.
+
+Robí sa to jednoducho tak, že zmažeš z názvu súboru príponu `.yml`.
+Vďaka tomu ho bude git ignorovať (ako každý súbor v priečinku `data` bez prípony)
+a pri testovaní správnosti sa nebude kontrolovať (takže v ňom môžu napríklad chýbať dátumy).
+
+## Kontrola súborov (a buildovanie)
+
+Kontrola slúži na automatické hľadanie chýb ako nesprávny formát súboru, jeho jednotlivých vlastností (napríklad dátumu),
+alebo toho, že udalosť má dátum mimo školského roka, v ktorom je uložená.
+
+Kontrola sa spúšťa automaticky pri každom pull-requeste, takže ju robiť v princípe nemusíš.
+Výsledok kontroly sa ukazuje na githube priamo v pull-requeste, k detailom sa dá dostať postupným klikaním na krížiky / fajky.
+
+### Kontrola lokálne
+
+Na spustenie potrebuješ `Python 3`, `pip` (súčasť Pythonu) a knižnice, ktoré nainštaluješ pomocou `pip install -r requirements.txt`.
+Pokiaľ používaš Python aj na niečo iné, odporúčame sa naučiť používať `venv`
+([virtuálne prostredie](https://rcd.ucsb.edu/sites/default/files/2023-12/DLS-202312-Venv.pdf)).
+
+Na kontrolu sa používa script `build.py`, ktorý sa okrem toho používa aj na buildovanie súborov, ktoré sa priamo zverejňujú.
+**To robiť nemusíš**. Priečinok `build`, ktorý pri tom vzniká, môžeš u seba kľudne zmazať.
+
+Na kontrolu, či sú YML súbory správne, stačí spustiť `python build.py --dry --now`.
+- `--dry` znamená, že sa nič nebuilduje (teda nevznikne priečinok `build`)
+- `--now` znamená, že sa kontrolujú len zmeny z aktuálneho školského roka
+- `build.py` má zopár ďalších nastavení súvisiacich s testovaním, tie si môžeš pozrieť pomocou `python build.py -h`.
+
+Väčšinou dostaneš na výstupe výpis s množstvo udalostí, ktorým chýbajú miesta (tie sú ale voliteľné).
+Na konci bude potom buď riadok s `Validation successful...`, keď je všetko v poriadku,
+alebo výpis chýb, ktoré treba opraviť. 
 
 ## Pridávanie organizátorov
 
 Každý organizátor má svoj `.yml` súbor v priečinku `organizers`. Kalendáru nezáleží, kde sa tento súbor v priečinku nachádza, ale zatiaľ ich dávame priamo do tohoto priečinku.
 Taktiež v tomto priečinku môžu byť uložené `logo` a `icon` (malé logo) organizátora, na ktoré treba v `.yml` súbore uviesť relatívny odkaz.
 
-
-## Buildovanie a kontrola výstupných súborov
-
-**Build nemusíš robiť, deje sa automaticky pri aktualizácií kalendára.**
-Testy zároveň bežia pre každý pull-request, takže o prípadných chybách sa dozvieš.
-Ale môže to byť užitočné na nájdenie prípadných chýb skôr, než ich nahráš.
-
-Najprv potrebuješ `Python 3`, `pip` a knižnice, ktoré nainštaluješ pomocou `pip install -r requirements.txt`.
-
-Teraz môžeš zbuildiť výstupné súbory pomocou `python build.py`. Výstup sa objaví v priečinku `build`.
-
-### Testovanie správnosti
-
-Ak chceš iba skontrolovať, či sú YML súbory správne, môžeš spustiť `python build.py --dry`.
-
-`build.py` má zopár ďalších nastavení súvisiacich s testovaním, tie si môžeš pozrieť pomocou `python build.py -h`.
-
-
 ## VSCode
 
-Ak používaš Visual Studio Code na úpravu dát, odporúčame si nainštalovať [YAML extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml). Potom v nastaveniach projektu (`.vscode/settings.json`) môžeš zadefinovať, že chceš používať schému a aktivuješ si tak autocomplete:
+Ak používaš Visual Studio Code na úpravu dát, odporúčame si nainštalovať
+[YAML extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml).
+Potom v nastaveniach projektu (`.vscode/settings.json`) môžeš zadefinovať,
+že chceš používať schému a aktivuješ si tak autocomplete:
 
 ```json
 {
@@ -115,3 +151,7 @@ Ak používaš Visual Studio Code na úpravu dát, odporúčame si nainštalova�
     }
 }
 ```
+
+## README
+
+Ak nájdeš v tomto texte chybu alebo niečo, čo nie je dostatočne vysvetlené, neváhaj upraviť súbor `README.md` a otvoriť si pull-request.

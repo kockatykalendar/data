@@ -143,6 +143,8 @@ if len(ERRORS):
     for error in ERRORS:
         print("Error validating file %s:\n\t%s" % (error.file, error.message))
     sys.exit(1)
+else:
+    if args.dry: print("Validation successful, no errors found. Please check for relevant warnings above.")
 
 if not args.dry:
     os.makedirs(os.path.join(ROOT, "build"), exist_ok=True)
