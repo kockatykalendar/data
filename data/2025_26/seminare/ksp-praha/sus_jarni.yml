@@ -1,0 +1,17 @@
+name: KSP - Jarní soustředění
+type: sustredenie
+sciences:
+  - inf
+date:
+  start: "2026-04-18"
+  end: "2026-04-25"
+contestants:
+  min: null
+  max: ss4
+places:
+  - Strážné vedle Vrchlabí
+organizers:
+  - ksp-praha
+info: 'Jarní soustředění je určeno prědevším začátečníkům, přednost mají řešitelé KSP, no podmínka účasti to není! Program je plný zajímavých informatických i "půlnočních" přednášek, výletů a zábavných her. Nechybí úžasný kolektiv a hodně čaje.'
+link: https://ksp.mff.cuni.cz/akce/sous/2026-jarni/letak.html
+color: "#000"

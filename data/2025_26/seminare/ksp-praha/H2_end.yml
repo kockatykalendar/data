@@ -1,0 +1,16 @@
+name: KSP - H2 - Deadline odevzdávání série
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2025-12-21"
+contestants:
+  min: zs9
+  max: ss4
+places:
+  - online
+organizers:
+  - ksp-praha
+info: 'Kategorie H je určena pokročilým programátorům, soutěží se o účasť na podzimním soustředění, prominutí přijímaček na MFF UK a zajímavé ceny. Sérii zvykne doprovázet seriál. Termín odevzdávání úloh je tradičně 32:00 (8:00 ráno dalšího dne).'
+link: https://ksp.mff.cuni.cz/h/ulohy/38/zadani2.html
+color: "#000"
