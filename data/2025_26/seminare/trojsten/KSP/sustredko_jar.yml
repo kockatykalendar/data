@@ -1,0 +1,14 @@
+name: KSP sústredenie
+type: sustredenie
+sciences:
+    - inf
+date:
+    start: "2026-03-26"
+    end: "2025-04-02"
+contestants:
+    min: ss1
+    max: ss4
+info: "Sústredenie je určené pre najúspešnejších riešiteľov Korešpondenčného Seminára z Programovania. Spoznáš skvelých ľudí s podobnými záujmami, vedúcich, ktorí opravovali tvoje riešenia, naučíš sa kopec algoritmov a zažiješ množstvo skvelých hier."
+organizers:
+    - trojsten
+link: https://ksp.sk/akcie/sustredenia/
