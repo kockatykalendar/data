@@ -95,6 +95,19 @@ Pokiaľ udalosť prebieha online, konvencia je napísať `online` (s malým pís
 Pokiaľ miesto nie je známe alebo nie je dôležité, vlastnosť sa vynecháva
 (takže prosím žiadne `TODO`, `TBA`, `TBD`, `TO DO`, `???` a podobne -- DO zo slova TODO už nikdy nikto nespraví).
 
+#### Dátumy
+
+Štandardne musí mať každá udalosť začiatok, voliteľne môže mať aj koniec.
+Pokiaľ koniec nemá, považuje sa za jednodňovú, teda končiacu v rovnaký deň ako sa začína.
+
+Pokiaľ ide napríklad o kolo korešpondenčého semináru, zvykne sa uvádzať len termín jeho konca
+(pričom je ale z technických príčin vyplnená iba vlastnosť `start`).
+Hlavný dôvod je pravdepodobne taký, že začiatky často nie sú jednoznačne určené / nestíhajú sa / nie sú až tak dôležité.
+
+Nevýhoda tohto prístupu ale je, že kalendár nezobrazuje kolo ako prebiehajúcu udalosť.
+Ak chceš teda maximalizovať viditeľnosť nejakej prebiehajúcej súťaže, odporúčame nastaviť aj jej začiatok.
+Vlastne to odporúčame za každých okolností.
+
 ### Nedokončené / skryté súbory
 
 Občas sa oplatí vyrobiť si naraz viac súborov, než chceš nahrať --
