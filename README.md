@@ -1,13 +1,17 @@
 <p align="center">
-	<h1 align="center">Dáta</h1>
-	<p align="center">💾 Dáta Kockatého Kalendára</p>
+	<h1 align="center">💾 Dáta Kockatého Kalendára</h1>
 </p>
 
+Tento repozitár slúži ako zdroj údajov o všetkých udalostiach, ktoré sa zobrazujú v Kockatom Kalendári.
 
-Tento repozitár obsahuje všetky dáta, ktoré sa zobrazujú v Kockatom Kalendári.
+<hr>
 
-V tomto návode sa dozvieš, ako do Kalendára pridávať nové udalosti (a ich organizátorov).
-<!--Ak nevieš pracovať s gitom a s githubom, odporúčame pozrieť si TODO návod.-->
+V tomto návode sa dozvieš, ako do Kalendára pridávať nové udalosti (a organizátorov).
+
+Pokiaľ nevieš pracovať s gitom alebo Githubom, odporúčame si prečítať
+[jednoduchý tutoriál na prácu s Githubom](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+alebo
+[komplexnejší tutoriál, Github + git](https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/).
 
 ## Pridávanie udalostí
 
