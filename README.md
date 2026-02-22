@@ -111,6 +111,10 @@ Hlavný dôvod je pravdepodobne taký, že začiatky často nie sú jednoznačne
 Nevýhoda tohto prístupu ale je, že kalendár nezobrazuje kolo ako prebiehajúcu udalosť.
 Ak chceš teda maximalizovať viditeľnosť nejakej prebiehajúcej súťaže, odporúčame nastaviť aj jej začiatok.
 Vlastne to odporúčame za každých okolností.
+#### Notifikácie
+
+V príklade schémy je vlastnosť `notifications`. Janči momentálne netuší, či funguje, či niekedy fungovala, ani ako presne.
+Je ale v pláne ju nejakým spôsobom implementovať, takže ju môžeš použiť podľa príkladu, kopírovať do ďalších rokov, a v budúcnosti by mala fungovať.
 
 ### Nedokončené / skryté súbory
 
