@@ -28,6 +28,21 @@ To ti umožní pridávať zmeny nanečisto, teda vytvárať nové branche ("vetv
 a vytvárať z nich pull-requesty ("žiadosti o zlúčenie") do hlavnej vetvy `master`, ktorá sa zverejňuje.
 Tvoje zmeny potom niekto z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers) skontroluje a zverejní.
 
+### Pull-requesty
+
+- Na pridanie udalosti si musíš v gite vyrobiť novú vetvu ("branch", hlavná vetva `master`, ktorá sa premieta do Kalendára, je totiž chránená).
+- Keď pridáš všetky potrebné udalosti, vo webovom rozhraní Githubu vyrob pull-request.
+- Môžeš tiež v pravom stĺpci v sekcií Reviewers pridať niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers) tímu,
+aby skotroloval a schválil zmeny (inak bude chvíľu trvať, kým si tvoj pull-request niekto všimne).
+
+#### Pull-request sa sťažuje
+
+Ak pri pull-requeste po submitnutí nevidíš zelenú fajku, ale červený, krížik, v súboroch je niečo zle a treba to opravť ďalšími commitmi.
+
+Klikaním na červené krížiky, dokým sa to dá, a potom na `details`, sa dostaneš k masívnemu bloku textu rozdelenému podľa jednotlivých operácii, ktoré github robil na overenie obsahu. Väčšina z nich je nepodstatná, dôležité hlášky sú tie, ktorými text končí pred vypísaním chyby (sú po anglicky). Konkrétne tam bude veľa bodiek `.`, občas prerušených sťažnosťami na veci, ktoré môžu alebo nemusia byť chyby, a zoznam kritických chýb vypísaných na konci.
+
+Malo by z nich byť zrejmé, aký je so súbormi problém. Ak nie, pingni niekoho z data-managers a sťažuj sa v komentároch k pull-requestu.
+
 ### Priečinky
 
 Každá udalosť má svoj YAML (`.yml`) súbor v priečinku `data`.
@@ -48,13 +63,6 @@ YAML súbor udalosti má presne definovanú štruktúru, ktorú nájdeš [tu](ht
 Užitočnejší ale pre teba bude [príklad, ako sa používa](https://github.com/kockatykalendar/data/blob/master/example.yml).
 
 Najjednoduchší spôsob, ako vyrobiť novú udalosť, je skopírovať si príklad (`example.yml`) alebo udalosť z minulého roka a zmeniť relevantné údaje.
-
-### Pull-requesty
-
-- Na pridanie udalosti si musíš v gite vyrobiť novú vetvu ("branch", hlavná vetva `master`, ktorá sa premieta do Kalendára, je totiž chránená).
-- Keď pridáš všetky potrebné udalosti, vo webovom rozhraní Githubu vyrob pull-request.
-- Môžeš tiež v pravom stĺpci v sekcií Reviewers pridať niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers) tímu,
-aby skotroloval a schválil zmeny (inak bude chvíľu trvať, kým si tvoj pull-request niekto všimne).
 
 ### Obsah súborov
 
@@ -91,9 +99,11 @@ Popis nemusí (ba priam nemá) obsahovať:
 
 Ak si s popisom nevieš rady, kľudne nenapíš nič, alebo proste napíš niečo, a nejaký data-manager to upraví alebo ti povie, čo zmeniť.
 
+Popisy sa momentálne nezobrazujú na mobile. Plán do budúcnosti je spraviť ich v mobilnom rozhraní rozkliknuteľné.
+
 #### Miesta
 
-Vlastnosť miesta je po novom nepovinná.
+Vlastnosť miesta je nepovinná.
 
 Pokiaľ udalosť prebieha online, konvencia je napísať `online` (s malým písmenom).
 Pokiaľ miesto nie je známe alebo nie je dôležité, vlastnosť sa vynecháva
@@ -111,6 +121,7 @@ Hlavný dôvod je pravdepodobne taký, že začiatky často nie sú jednoznačne
 Nevýhoda tohto prístupu ale je, že kalendár nezobrazuje kolo ako prebiehajúcu udalosť.
 Ak chceš teda maximalizovať viditeľnosť nejakej prebiehajúcej súťaže, odporúčame nastaviť aj jej začiatok.
 Vlastne to odporúčame za každých okolností.
+
 #### Notifikácie
 
 V príklade schémy je vlastnosť `notifications`. Janči momentálne netuší, či funguje, či niekedy fungovala, ani ako presne.
@@ -126,15 +137,15 @@ Robí sa to jednoducho tak, že zmažeš z názvu súboru príponu `.yml`.
 Vďaka tomu ho bude git ignorovať (zostane iba u teba na počítači, ako každý súbor v priečinku `data` bez prípony)
 a pri kontrole súborov sa nebude kontrolovať (takže v ňom môžu napríklad chýbať dátumy).
 
-## Kontrola súborov (a buildovanie)
+### Kontrola súborov (a buildovanie)
 
 Kontrola slúži na automatické hľadanie chýb ako nesprávny formát súboru, jeho jednotlivých vlastností (napríklad dátumu),
-alebo toho, že udalosť má dátum mimo školského roka, v ktorom je uložená.
+alebo toho, že udalosť má dátum mimo školského roka, v ktorom je uložená, obsahuje nedefinované miesto, a podobne.
 
-Kontrola sa spúšťa automaticky pri každom pull-requeste, takže ju robiť v princípe nemusíš.
+Kontrola sa spúšťa automaticky pri každom commite, takže ju robiť v princípe nemusíš.
 Výsledok kontroly sa ukazuje na githube priamo v pull-requeste, k detailom sa dá dostať postupným klikaním na krížiky / fajky.
 
-### Kontrola lokálne
+#### Kontrola lokálne
 
 Na spustenie potrebuješ `Python 3`, `pip` (súčasť Pythonu) a knižnice, ktoré nainštaluješ pomocou `pip install -r requirements.txt`.
 Pokiaľ používaš Python aj na niečo iné, odporúčame sa naučiť používať `venv`
