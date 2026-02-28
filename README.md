@@ -21,7 +21,7 @@ Ak chceš pridávať udalosti, máš dve možnosti:
 - Preferovaná možnost: Pridať sa do [data-contributors](https://github.com/orgs/kockatykalendar/teams/data-contributors) tímu,
   tak, že kontaktuješ niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers),
   napríklad [Jančiho](https://github.com/Jajopi) ([mail](jan.plachy+kk@trojsten.sk)),
-  prípadne [Krtka](https://github.com/krtko1). *Tímy sú viditeľné iba pre ľudí v tímoch.*
+  prípadne [Krtka](https://github.com/krtko1), a dáš nám vedieť, aký máš Github username. *Tímy sú viditeľné iba pre ľudí v tímoch.*
 - Druhá možnosť: Spraviť si fork repozitára.
 
 To ti umožní pridávať zmeny nanečisto, teda vytvárať nové branche ("vetvy")
