@@ -95,7 +95,7 @@
       ]
     },
     "volatile": {
-      "description": "If true, the event may not take place due to COVID-19 restrictions",
+      "description": "If true, the event may not take place due to future circumstances",
       "type": "boolean",
       "default": false
     },
@@ -121,4 +121,3 @@
   },
   "required": ["name", "sciences", "type", "date", "organizers", "contestants"]
 }
-
