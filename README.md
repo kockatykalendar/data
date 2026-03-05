@@ -165,8 +165,12 @@ alebo výpis chýb, ktoré treba opraviť.
 
 ## Pridávanie organizátorov
 
-Každý organizátor má svoj `.yml` súbor v priečinku `organizers`. Kalendáru nezáleží, kde sa tento súbor v priečinku nachádza, ale zatiaľ ich dávame priamo do tohoto priečinku.
-Taktiež v tomto priečinku môžu byť uložené `logo` a `icon` (malé logo) organizátora, na ktoré treba v `.yml` súbore uviesť relatívny odkaz.
+Každý organizátor má svoj `.yml` súbor v priečinku `organizers`.
+Kalendáru nezáleží, kde sa tento súbor v priečinku nachádza, ale priečinok zatiaľ nie je konkrétnejšie štruktúrovaný.
+V podpriečinku `logos` sú uložené logá, na ktoré je zo súboru uvedený relatívny odkaz v atribúte `icon`.
+
+Dĺžka názvu organizátora je limitovaná na 32 znakov, aby sa rozumne zmestil na jeden riadok aj pri zobrazení na mobile.
+Ak je to problém, sťažuj sa, na niečo spolu prídeme.
 
 ## VSCode
 
