@@ -7,7 +7,8 @@
   "properties": {
     "name": {
       "description": "Name of the organization",
-      "type": "string"
+      "type": "string",
+      "maxLength": 32
     },
     "icon": {
       "description": "Link to small web optimized logo",
@@ -32,7 +33,6 @@
       "description": "Short description of organization",
       "type": "string",
       "maxLength": 512
-    
     },
     "color": {
       "description": "Override default color based on first science",
