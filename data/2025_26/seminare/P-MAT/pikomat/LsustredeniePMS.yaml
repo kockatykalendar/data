@@ -3,12 +3,13 @@ type: sustredenie
 sciences:
   - mat
 date:
-  start: "2026-07-04"
-  end: "2026-07-11"
+  start: "2026-07-06"
+  end: "2026-07-13"
 contestants:
   min: zs7
   max: zs9
-
+places:
+  - Hnilčík
 cancelled: false
 organizers:
   - p-mat
