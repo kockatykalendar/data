@@ -3,13 +3,13 @@ type: sustredenie
 sciences:
   - fyz
 date:
-  start: "2026-06-27"
-  end: "2026-07-04"
+  start: "2026-06-29"
+  end: "2026-07-06"
 contestants:
   min: zs7
   max: zs9
-
-cancelled: false
+places:
+  - Hnilčík
 organizers:
   - p-mat
 link: https://pikofyz.sk/

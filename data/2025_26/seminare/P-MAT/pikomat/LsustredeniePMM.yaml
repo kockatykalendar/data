@@ -8,8 +8,8 @@ date:
 contestants:
   min: zs5
   max: zs6
-
-cancelled: false
+places:
+  - RD Látky
 organizers:
   - p-mat
 link: https://pikomat.sk/
