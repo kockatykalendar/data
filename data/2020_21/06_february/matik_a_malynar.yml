@@ -9,7 +9,7 @@ contestants:
   min: zs5
   max: zs9
 places:
-  - Online
+  - online
 volatile: true
 organizers:
   - strom

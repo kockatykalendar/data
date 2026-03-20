@@ -17,13 +17,13 @@ date:
 # nazov organizatora alebo zoznam organizatorov
 organizers:
   - nivam
-  
+
 # Odkaz na stranku pre viac info (optional)
 link: https://skmo.sk/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 # places:
-#   - TBD
+#   -
 
 # Informacie o sutaziacich.
 contestants:

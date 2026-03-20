@@ -17,13 +17,13 @@ date:
 # nazov organizatora alebo zoznam organizatorov
 organizers:
   - iuventa
-  
+
 # Odkaz na stranku pre viac info (optional)
 link: http://oi.sk/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 # places:
-#   - TBD
+#   -
 
 # Informacie o sutaziacich.
 contestants:

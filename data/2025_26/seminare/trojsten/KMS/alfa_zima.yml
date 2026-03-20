@@ -1,0 +1,13 @@
+name: Zimné sústredenie KMS Alfa
+sciences:
+  - mat
+type: sustredenie
+date:
+  start: "2026-02-08"
+  end: "2026-02-15"
+organizers:
+  - trojsten
+link: https://kms.sk/akcie/sustredenia/
+contestants:
+  min: ss1
+  max: ss4

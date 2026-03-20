@@ -1,5 +1,5 @@
 # Nazov udalosti
-name: Kasiopea - domáce kolo
+name: Kasiopea – domáce kolo
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
@@ -24,7 +24,7 @@ link: https://kasiopea.matfyz.cz/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - Online
+  - online
 
 # Informacie o sutaziacich.
 contestants:

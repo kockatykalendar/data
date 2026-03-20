@@ -1,0 +1,13 @@
+name: Letné sústredenie KMS Beta
+sciences:
+  - mat
+type: sustredenie
+date:
+  start: "2026-06-13"
+  end: "2026-06-20"
+organizers:
+  - trojsten
+link: https://kms.sk/akcie/sustredenia/
+contestants:
+  min: ss2
+  max: ss4

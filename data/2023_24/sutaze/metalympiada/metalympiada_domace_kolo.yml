@@ -1,5 +1,5 @@
 # Nazov udalosti
-name: Metalympiáda - domáce kolo 2023/24
+name: Metalympiáda – domáce kolo 2023/24
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
 sciences:
@@ -43,5 +43,5 @@ color: "#118282"
 # Udaje k notifikaciam. (optional)
 notifications:
   # Zoznam poctu dni, kedy sa ma posielat mail zaujemcom.
-  remind_days_before: 
+  remind_days_before:
     - 5

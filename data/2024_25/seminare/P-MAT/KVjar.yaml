@@ -23,8 +23,8 @@ organizers:
 link: https://akcie.p-mat.sk/kockaty-vikend/
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
-places:
-  - tbd
+# places:
+#   -
 
 # Informacie o sutaziacich.
 contestants:

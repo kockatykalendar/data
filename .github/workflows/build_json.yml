@@ -17,9 +17,9 @@ jobs:
           persist-credentials: false
 
       - name: Install python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.8'
+          python-version: '3.13'
 
       - name: Install dependencies
         run: |
@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build
-        run: python build.py --now --no-warn-missing-place
+        run: python build.py --now
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
@@ -36,7 +36,7 @@ jobs:
           FOLDER: build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SINGLE_COMMIT: true
-      
+
       - name: Rebuild iCal
         uses: peter-evans/repository-dispatch@v1
         with:
