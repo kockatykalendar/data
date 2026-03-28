@@ -39,7 +39,9 @@ aby skotroloval a schválil zmeny (inak bude chvíľu trvať, kým si tvoj pull-
 
 Ak pri pull-requeste po submitnutí nevidíš zelenú fajku, ale červený, krížik, v súboroch je niečo zle a treba to opravť ďalšími commitmi.
 
-Klikaním na červené krížiky, dokým sa to dá, a potom na `details`, sa dostaneš k masívnemu bloku textu rozdelenému podľa jednotlivých operácii, ktoré github robil na overenie obsahu. Väčšina z nich je nepodstatná, dôležité hlášky sú tie, ktorými text končí pred vypísaním chyby (sú po anglicky). Konkrétne tam bude veľa bodiek `.`, občas prerušených sťažnosťami na veci, ktoré môžu alebo nemusia byť chyby, a zoznam kritických chýb vypísaných na konci.
+Klikaním na červené krížiky, dokým sa to dá, a potom na `details`, sa dostaneš k masívnemu bloku textu rozdelenému podľa jednotlivých operácii,
+ktoré github robil na overenie obsahu. Väčšina z nich je nepodstatná, dôležité hlášky sú tie, ktorými text končí pred vypísaním chyby (sú po anglicky).
+Konkrétne tam bude veľa bodiek `.`, občas prerušených sťažnosťami na veci, ktoré môžu alebo nemusia byť chyby, a zoznam kritických chýb vypísaných na konci.
 
 Malo by z nich byť zrejmé, aký je so súbormi problém. Ak nie, pingni niekoho z data-managers a sťažuj sa v komentároch k pull-requestu.
 
@@ -72,7 +74,8 @@ Niekoľko užitočných konvencií, ktoré sa oplatí dodrživať, aby jednotliv
 
 Pokiaľ sa jedná o kolo konkrétnej súťaže / semináru, názov udalosti by mal obsahovať aj názov súťaže / semináru, nie len dané kolo.
 Táto informácia totiž nie je inak dostatočne viditeľná.
-Takže ideálne `KSP - prvé kolo zimnej časti`, nie iba ~~`Prvé kolo zimnej časti`~~.
+Najlepšie je dať názov akcie na začiatok názvu, potom pomlčku ("–") a číslo kola / špecifikáciu udalosti – aby jednotlivé udalosti vyzerali v kalendári konzistentne.
+Takže ideálne `KSP – prvé kolo zimnej časti`, nie iba ~~`Prvé kolo zimnej časti`~~.
 
 Skratky môžu byť aj rozpísané, ale rozpísaním sa znižuje prehľadnosť danej udalosti.
 Pokiaľ sú teda skratky dobre známe, pravdepodobne sa to robiť neoplatí.
