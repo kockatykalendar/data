@@ -1,4 +1,4 @@
-name: Letné sústredenie KMS Beta
+name: Spojené sústredenie KMS
 sciences:
   - mat
 type: sustredenie
@@ -9,5 +9,5 @@ organizers:
   - trojsten
 link: https://kms.sk/akcie/sustredenia/
 contestants:
-  min: ss2
+  min: ss1
   max: ss4
