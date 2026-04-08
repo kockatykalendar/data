@@ -1,0 +1,13 @@
+name: PRASK – 1. kolo jesennej časti
+type: seminar
+sciences:
+    - inf
+date:
+    start: "2026-04-27"
+contestants:
+    min: zs5
+    max: ss1
+info: "PRASK je súťaž určená pre všetkých základoškolákov, ktorých zaujíma matematika, informatika, chceli by sa naučiť programovať alebo len radi rozmýšľajú a prijímajú výzvy."
+organizers:
+    - trojsten
+link: https://prask.ksp.sk/
