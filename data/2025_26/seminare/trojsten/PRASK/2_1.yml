@@ -1,9 +1,9 @@
-name: PRASK 1. kolo jesennej časti
+name: PRASK – 1. kolo jesennej časti
 type: seminar
 sciences:
     - inf
 date:
-    end: "2026-04-27"
+    start: "2026-04-27"
 contestants:
     min: zs5
     max: ss1
