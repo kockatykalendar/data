@@ -1,7 +1,7 @@
 # Mriežkou sa označujú komentáre
 
 # Nazov udalosti
-name: BRKOS - letní soustředění
+name: BRKOS – letní soustředění
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf, bio, chem a other.
 sciences:
@@ -39,6 +39,3 @@ contestants:
 
 # Popis akcie, dlzka najviac 255 znakov
 info: "Pojďte si s námi užít týdenní soustředění plné her, matematických přednášek a hlavně zábavy ve skvělém kolektivu. Soustředění je převážně pro řešitele BRKOSu, ale ne vždy se zaplní všechna místa, takže se neváhejte přihlásit."
-
-
-
