@@ -1,0 +1,38 @@
+# Mriežkou sa označujú komentáre
+
+# Nazov udalosti
+name: BRKOS - 5.série
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf, bio, chem a other.
+sciences:
+  - mat
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: seminar
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2026-03-09"
+  # (optional) Koniec udalosti YYYY-MM-DD
+  end: "2026-04-20"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - brkos
+
+# (optional) Odkaz na stranku pre viac info
+link: https://brkos.math.muni.cz/
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit
+  min: ss1
+  # Maximalny rocnik, ktory sa moze zapojit
+  max: ss4
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
+
+# Popis akcie, dlzka najviac 255 znakov
+info: "Součástí série je celkem 8 úloh různých obtížností. První čtyři úlohy jsou zaměřené na množiny. Pokud máte čas a chuť, neváhejte tuto sérii vyzkoušet!"
+
+
