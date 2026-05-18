@@ -1,0 +1,16 @@
+seminar: FKS
+parts:
+  - "zimnej"
+  - "letnej"
+rounds: 3
+sciences:
+  - fyz
+min_year: "ss1"
+max_year: "ss4"
+organizer: trojsten
+url: "https://fks.sk"
+variations:
+  - info: "Fyzikálny korešpondenčný seminár je súťaž v riešení netradičných fyzikálnych problémov. Pomocou zaujímavých experimentov a situácií z bežného života sa snažíme ukázať, že fyzika nie je taká nudná, ba dokonca ani taká ťažká, ako sa občas zdá."
+    offset: 0
+    name: ""
+    title: "{{ seminar }} – {{ round }}. kolo {{ part }} časti"

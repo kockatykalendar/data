@@ -14,7 +14,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["mat", "fyz", "inf", "other", "any"]
+        "enum": ["mat", "fyz", "inf", "bio", "chem", "other", "any"]
       },
       "minItems": 1,
       "uniqueItems": true
@@ -95,7 +95,7 @@
       ]
     },
     "volatile": {
-      "description": "If true, the event may not take place due to COVID-19 restrictions",
+      "description": "If true, the event may not take place due to future circumstances",
       "type": "boolean",
       "default": false
     },
@@ -119,6 +119,5 @@
       "required": ["remind_days_before"]
     }
   },
-  "required": ["name", "sciences", "type", "date", "organizers", "places", "contestants"]
+  "required": ["name", "sciences", "type", "date", "organizers", "contestants"]
 }
-

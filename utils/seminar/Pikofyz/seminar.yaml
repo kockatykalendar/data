@@ -1,0 +1,16 @@
+seminar: Pikofyz
+parts:
+  - "zimnej"
+  - "letnej"
+rounds: 3
+sciences:
+  - fyz
+min_year: "zs7"
+max_year: "zs9"
+organizer: p-mat
+url: "https://pikofyz.sk"
+variations:
+  - info: ""
+    offset: 0
+    name: ""
+    title: "{{ seminar }} {{ round }}. séria"

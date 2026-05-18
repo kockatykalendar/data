@@ -1,0 +1,6 @@
+# Ignore all files without an extension in this directory
+# If you want to hide non-finished file from both git and build.py checker, simply remove ".yml" from the name
+
+*
+!/**/
+!*.*

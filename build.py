@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 import json
 import os
@@ -16,7 +18,6 @@ def school_year_from_date(date: date) -> str:
     if date.month < 9:
         return "%d_%d" % (date.year - 1, date.year % 100)
     return "%d_%d" % (date.year, (date.year + 1) % 100)
-
 
 def years_from_school_year(school_year):
     print(school_year)
@@ -42,6 +43,15 @@ parser = argparse.ArgumentParser()
 parser.add_argument(
     "--dry", action="store_true", help="Only validate, do not build output files."
 )
+parser.add_argument(
+    "--now", action="store_true", help="Only show warnings for events from current (school) year."
+)
+parser.add_argument(
+    "--no-warn", action="store_true", help="Don't show any warnings."
+)
+parser.add_argument(
+    "--warn-missing-places", action="store_true", help="Show warnings about missing places (hidden by default)."
+)
 args = parser.parse_args()
 
 
@@ -51,7 +61,7 @@ with open(os.path.join(ROOT, "schemas", "event.schema.json")) as f:
 with open(os.path.join(ROOT, "schemas", "organizer.schema.json")) as f:
     validate_organizer = fastjsonschema.compile(json.load(f))
 
-print("validating orgnanizers")
+print("Validating organizers")
 
 for directory in os.walk(os.path.join(ROOT, "organizers")):
     for file in directory[2]:
@@ -71,6 +81,8 @@ for directory in os.walk(os.path.join(ROOT, "organizers")):
                         raise JsonSchemaValueException(
                             "Invalid path to %s, %s" % (logo, organizer_data[logo])
                         )
+                if " - " in organizer_data["name"]:
+                    print("\n" + "Organizer \"%s\" has a hyphen (short dash) in its name, please use '–' (a longer one)." % (organizer_data["name"]))
                 OUTPUT_ORGANIZERS[name] = organizer_data
                 print(".", end="", flush=True)
             except JsonSchemaException as e:
@@ -79,6 +91,7 @@ for directory in os.walk(os.path.join(ROOT, "organizers")):
 
 print("\nValidating events")
 
+current_year = int(school_year_from_date(datetime.now())[:4])
 for directory in os.walk(os.path.join(ROOT, "data")):
     directory_year_string = year_from_directory_name(directory[0])
     for file in directory[2]:
@@ -93,22 +106,40 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                 event_data = validate_event(event_data)
                 for organizer in event_data["organizers"]:
                     if organizer not in OUTPUT_ORGANIZERS:
-                        raise JsonSchemaValueException(
-                            "Organizer %s is not in organizers." % (organizer)
-                        )
+                        raise JsonSchemaValueException("Organizer %s is not in organizers." % (organizer))
                 event_date = datetime.strptime(event_data["date"]["start"], "%Y-%m-%d").date()
-                
+                event_year = int(school_year_from_date(event_date)[:4])
+
                 if directory_year_string is not None:
-                    event_year, directory_year = int(school_year_from_date(event_date)[:4]), int(directory_year_string)
-                    if event_year < directory_year:
+                    directory_year = int(directory_year_string)
+                    if event_year < directory_year or event_year > directory_year + 1:
                         raise JsonSchemaValueException(
-                            "Event \"%s\" with date %s is in directory %s" % (event_data["name"], event_data["date"]["start"], directory_year_string) 
-                        ) # Raise an exception, this is certainly a mistake
-                    if event_year > directory_year:
-                        print(
-                            "\nEvent \"%s\" with date %s is in directory %s" % (event_data["name"], event_data["date"]["start"], directory_year_string)
-                        ) # Don't raise an exception, this is quite usual and probably not a mistake
-                
+                            "Event \"%s\" with date %s is in year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
+                        # Raise an exception, this is certainly a mistake
+                    elif event_year == directory_year + 1:
+                        if ((not args.now or event_year == current_year or event_year == current_year + 1) and not args.no_warn):
+                            print("\n" + "Event \"%s\" with date %s is in previous year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
+                        # Don't raise an exception, this is quite usual and probably not a mistake
+
+                if "end" in event_data["date"].keys():
+                    end_date = datetime.strptime(event_data["date"]["end"], "%Y-%m-%d").date()
+                    if end_date < event_date:
+                        raise JsonSchemaValueException("Event \"%s\" ends before it starts." % event_data["name"])
+
+                if not "places" in event_data.keys() or len(event_data["places"]) == 0:
+                    if ((not args.now or event_year == current_year) and not args.no_warn and args.warn_missing_places):
+                        print("\n" + "Event \"%s\" in year %s has missing or empty attribute \"places\"." % (event_data["name"], event_year))
+                else:
+                    for place in event_data["places"]:
+                        for forbidden_place in ["TODO", "TO DO", "TBA", "TBD", "?"]:
+                            if forbidden_place in place.upper():
+                                raise JsonSchemaValueException(
+                                    "Event \"%s\" in year %s has a place \"%s\" containing \"%s\", which is a meaningless placeholder. Remove the places attribute instead." % (event_data["name"], event_year, place, forbidden_place))
+
+                if " - " in event_data["name"] or " - " in event_data.get("info", ""):
+                    if ((not args.now or event_year == current_year) and not args.no_warn):
+                        print("\n" + "Event \"%s\" in year %s has a hyphen (short dash) in its name or info string, please use '–' (a longer one)." % (event_data["name"], event_year))
+
                 if not args.dry:
                     OUTPUT[school_year_from_date(event_date)].append(event_data)
                 print(".", end="", flush=True)
@@ -122,6 +153,8 @@ if len(ERRORS):
     for error in ERRORS:
         print("Error validating file %s:\n\t%s" % (error.file, error.message))
     sys.exit(1)
+else:
+    if args.dry: print("Validation successful, no errors found. Please check for relevant warnings above.")
 
 if not args.dry:
     os.makedirs(os.path.join(ROOT, "build"), exist_ok=True)

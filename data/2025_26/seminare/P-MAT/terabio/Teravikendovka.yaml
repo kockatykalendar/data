@@ -1,0 +1,15 @@
+name: Teravíkendovka
+type: vikendovka
+sciences:
+  - bio
+date:
+  start: "2026-06-05"
+  end: "2026-06-07"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - Veľký Lel
+organizers:
+  - p-mat
+link: https://terabio.sk/

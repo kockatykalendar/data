@@ -1,0 +1,15 @@
+name: Zimné sústredenie Pikomatu mladších
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2027-02-02"
+  end: "2027-02-07"
+contestants:
+  min: zs5
+  max: zs6
+# places:
+#   - Lazy pod Makytou
+organizers:
+  - p-mat
+link: https://pikomat.sk/

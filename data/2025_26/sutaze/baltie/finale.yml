@@ -1,0 +1,14 @@
+name: Baltie – finále
+type: sutaz
+sciences:
+    - inf
+date:
+    start: "2026-05-29"
+info: "Medzinárodná súťaž v programovaní v jazyku Baltík. Pozor, ak sa chcete zúčastniť krajského kola, musíte domáce a školské kolo absolvovať s dostatočným predstihom."
+contestants:
+    min: null
+    max: zs9
+organizers:
+    - sgp
+link: https://baltie.net
+color: "#662F73"
