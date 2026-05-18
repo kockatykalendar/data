@@ -1,0 +1,13 @@
+name: PraSe podzimní soustředění
+info: "Podzimní soustředění pro nejlepší řešitele jarní části matematického korespondenčního semináře PraSe."
+sciences:
+  - mat
+type: sustredenie
+date:
+  start: "2025-09-20"
+  end: "2025-09-28"
+organizers:
+  - prase
+contestants:
+  min: ss1
+  max: ss4

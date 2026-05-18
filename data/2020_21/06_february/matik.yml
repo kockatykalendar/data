@@ -8,8 +8,6 @@ date:
 contestants:
   min: zs7
   max: zs9
-places:
-  - tbd
 volatile: true
 cancelled: true
 organizers:
