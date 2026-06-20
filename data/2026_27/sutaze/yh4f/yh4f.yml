@@ -1,0 +1,37 @@
+# Nazov udalosti
+name: Youth Hacking 4 Freedom
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf a other.
+sciences:
+  - inf
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: sutaz
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2027-01-01"
+  # Koniec udalosti (optional) YYYY-MM-DD
+  end: "2027-06-30"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - fsfe
+
+# Odkaz na stranku pre viac info (optional)
+link: https://fsfe.org/activities/yh4f/
+
+# Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - online
+
+# Informacie o sutaziacich.
+contestants:
+  # Limit nie je daný ročníkom, ale vekom: súťaž je pre 14 až 18-ročných.
+  min: zs8
+  max: ss4
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4
+
+# Popis akcie
+info: "Polročná súťaž, v ktorej mladí programátori z celej Európy tvoria vlastný slobodný softvér (free software) na ľubovoľnú tému. Šestica najlepších získa finančné ceny až do 4096 € a pozvánku na slávnostné finále do Bruselu."
