@@ -1,0 +1,15 @@
+name: PŠT – Prázdninová šifrovačka Trojstenu
+type: sutaz
+sciences:
+  - other
+date:
+  start: "2027-07-17"
+contestants:
+  min: null
+  max: null
+places:
+  - Bratislava
+organizers:
+  - trojsten
+info: 'Začiatočnícka šifrovačka prebiehajúca počas Letnej školy Trojstenu. Zúčastniť sa môžu aj pokročilé timy v samostatnej kategórii s náročnejšími šiframi.'
+link: https://pst.susi.sk

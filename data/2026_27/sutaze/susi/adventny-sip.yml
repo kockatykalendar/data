@@ -1,0 +1,16 @@
+name: Adventný šíp
+type: sutaz
+sciences:
+  - other
+date:
+  start: "2026-12-01"
+  end: "2026-12-31"
+contestants:
+  min: null
+  max: null
+places:
+  - online
+organizers:
+  - trojsten
+info: 'Online tímová začiatočnícka adventná šifrovačka. Každý deň do Vianoc zverejníme jednu jednoduchú šifru, po určitom čase k šifrám pribúdajú aj nápovedy. Každý rok si pripravíme novú stránku zladenú s témou.'
+link: https://advent.susi.sk
