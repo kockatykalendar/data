@@ -30,7 +30,7 @@ Tvoje zmeny potom niekto z [data-managers](https://github.com/orgs/kockatykalend
 
 ### Pull-requesty
 
-- Na pridanie udalosti si musíš v gite vyrobiť novú vetvu ("branch", hlavná vetva `master`, ktorá sa premieta do Kalendára, je totiž chránená).
+- Na pridanie udalosti si musíš v gite vyrobiť novú vetvu (hlavná vetva `master`, ktorá sa premieta do Kalendára, je totiž chránená).
 - Keď pridáš všetky potrebné udalosti, vo webovom rozhraní Githubu vyrob pull-request.
 - Môžeš tiež v pravom stĺpci v sekcií Reviewers pridať niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers) tímu,
 aby skotroloval a schválil zmeny (inak bude chvíľu trvať, kým si tvoj pull-request niekto všimne).
@@ -74,7 +74,7 @@ Niekoľko užitočných konvencií, ktoré sa oplatí dodrživať, aby jednotliv
 
 Pokiaľ sa jedná o kolo konkrétnej súťaže / semináru, názov udalosti by mal obsahovať aj názov súťaže / semináru, nie len dané kolo.
 Táto informácia totiž nie je inak dostatočne viditeľná.
-Najlepšie je dať názov akcie na začiatok názvu, potom pomlčku ("–") a číslo kola / špecifikáciu udalosti – aby jednotlivé udalosti vyzerali v kalendári konzistentne.
+Najlepšie je dať názov akcie na začiatok názvu, potom pomlčku ("–", nie spojovník) a číslo kola / špecifikáciu udalosti.
 Takže ideálne `KSP – prvé kolo zimnej časti`, nie iba ~~`Prvé kolo zimnej časti`~~.
 
 Skratky môžu byť aj rozpísané, ale rozpísaním sa znižuje prehľadnosť danej udalosti.
@@ -102,8 +102,6 @@ Popis nemusí (ba priam nemá) obsahovať:
 
 Ak si s popisom nevieš rady, kľudne nenapíš nič, alebo proste napíš niečo, a nejaký data-manager to upraví alebo ti povie, čo zmeniť.
 
-Popisy sa momentálne nezobrazujú na mobile. Plán do budúcnosti je spraviť ich v mobilnom rozhraní rozkliknuteľné.
-
 #### Miesta
 
 Vlastnosť miesta je nepovinná.
@@ -118,12 +116,11 @@ Pokiaľ miesto nie je známe alebo nie je dôležité, vlastnosť sa vynecháva
 Pokiaľ koniec nemá, považuje sa za jednodňovú, teda končiacu v rovnaký deň ako sa začína.
 
 Pokiaľ ide napríklad o kolo korešpondenčého semináru, zvykne sa uvádzať len termín jeho konca
-(pričom je ale z technických príčin vyplnená iba vlastnosť `start`).
+(pričom je ale vyplnená iba vlastnosť `start`, keďže koniec je v konkrétny deň).
 Hlavný dôvod je pravdepodobne taký, že začiatky často nie sú jednoznačne určené / nestíhajú sa / nie sú až tak dôležité.
 
 Nevýhoda tohto prístupu ale je, že kalendár nezobrazuje kolo ako prebiehajúcu udalosť.
 Ak chceš teda maximalizovať viditeľnosť nejakej prebiehajúcej súťaže, odporúčame nastaviť aj jej začiatok.
-Vlastne to odporúčame za každých okolností.
 
 #### Notifikácie
 
@@ -145,12 +142,12 @@ a pri kontrole súborov sa nebude kontrolovať (takže v ňom môžu napríklad 
 Kontrola slúži na automatické hľadanie chýb ako nesprávny formát súboru, jeho jednotlivých vlastností (napríklad dátumu),
 alebo toho, že udalosť má dátum mimo školského roka, v ktorom je uložená, obsahuje nedefinované miesto, a podobne.
 
-Kontrola sa spúšťa automaticky pri každom commite, takže ju robiť v princípe nemusíš.
+Kontrola sa spúšťa automaticky pri každom commite cez webové rozhranie, a tiež pri pushovaní commitov do pull-requestu, takže ju robiť lokálne v princípe nemusíš.
 Výsledok kontroly sa ukazuje na githube priamo v pull-requeste, k detailom sa dá dostať postupným klikaním na krížiky / fajky.
 
 #### Kontrola lokálne
 
-Na spustenie potrebuješ `Python 3`, `pip` (súčasť Pythonu) a knižnice, ktoré nainštaluješ pomocou `pip install -r requirements.txt`.
+Na spustenie potrebuješ `Python3`, `pip` (súčasť Pythonu) a knižnice, ktoré nainštaluješ pomocou `pip install -r requirements.txt`.
 Pokiaľ používaš Python aj na niečo iné, odporúčame sa naučiť používať `venv`
 ([virtuálne prostredie](https://rcd.ucsb.edu/sites/default/files/2023-12/DLS-202312-Venv.pdf)).
 
@@ -193,4 +190,7 @@ Potom v nastaveniach projektu (`.vscode/settings.json`) môžeš zadefinovať,
 
 ## README
 
-Ak nájdeš v tomto texte chybu alebo niečo, čo nie je dostatočne vysvetlené, neváhaj upraviť súbor `README.md` a otvoriť si pull-request.
+Ak nájdeš v tomto texte chybu alebo niečo, čo nie je dostatočne vysvetlené, neváhaj v novej branchi upraviť súbor `README.md` a otvoriť si pull-request (alebo sa ozvať, napríklad mailom).
+
+🧊🗓️🎉
+
