@@ -117,7 +117,7 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                             "Event \"%s\" with date %s is in year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
                         # Raise an exception, this is certainly a mistake
                     elif event_year == directory_year + 1:
-                        if ((not args.now or event_year == current_year or event_year == current_year + 1) and not args.no_warn):
+                        if ((not args.now or event_year >= current_year) and not args.no_warn):
                             print("\n" + "Event \"%s\" with date %s is in previous year %s." % (event_data["name"], event_data["date"]["start"], directory_year_string))
                         # Don't raise an exception, this is quite usual and probably not a mistake
 
@@ -127,7 +127,7 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                         raise JsonSchemaValueException("Event \"%s\" ends before it starts." % event_data["name"])
 
                 if not "places" in event_data.keys() or len(event_data["places"]) == 0:
-                    if ((not args.now or event_year == current_year) and not args.no_warn and args.warn_missing_places):
+                    if ((not args.now or event_year >= current_year) and not args.no_warn and args.warn_missing_places):
                         print("\n" + "Event \"%s\" in year %s has missing or empty attribute \"places\"." % (event_data["name"], event_year))
                 else:
                     for place in event_data["places"]:
@@ -137,7 +137,7 @@ for directory in os.walk(os.path.join(ROOT, "data")):
                                     "Event \"%s\" in year %s has a place \"%s\" containing \"%s\", which is a meaningless placeholder. Remove the places attribute instead." % (event_data["name"], event_year, place, forbidden_place))
 
                 if " - " in event_data["name"] or " - " in event_data.get("info", ""):
-                    if ((not args.now or event_year == current_year) and not args.no_warn):
+                    if ((not args.now or event_year >= current_year) and not args.no_warn):
                         print("\n" + "Event \"%s\" in year %s has a hyphen (short dash) in its name or info string, please use '–' (a longer one)." % (event_data["name"], event_year))
 
                 if not args.dry:
