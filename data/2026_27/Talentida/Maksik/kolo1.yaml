@@ -1,0 +1,50 @@
+# Mriežkou sa označujú komentáre
+
+# Nazov udalosti
+name: Maksík – prvé kolo
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf, bio, chem a other.
+sciences:
+  - mat
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: seminar
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2026-09-28"
+  # (optional) Koniec udalosti YYYY-MM-DD
+  #end: "2020-01-02"
+  # (optional) Text, ktory sa zobrazi miesto datumu. Vyuzitie napriklad ak nie je este znamy presny datum
+  #text: "január/február"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - talentida
+
+# (optional) Odkaz na stranku pre viac info
+link: https://talentida.sk/maksik/
+
+# (optional) Miesto, alebo zoznam miest, kde sa akcia kona
+#places:
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit
+  min: zs1
+  # Maximalny rocnik, ktory sa moze zapojit
+  max: zs4
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
+
+# Popis akcie, dlzka najviac 255 znakov
+info: "Termín prihlášok, platby a 1. kola súťaže"
+
+# (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
+#color: "red"
+
+# (optional) Udaje k notifikaciam
+notifications:
+  # Zoznam poctu dni pred akciou, kedy sa ma posielat mail zaujemcom
+  remind_days_before: 
+    - 7
