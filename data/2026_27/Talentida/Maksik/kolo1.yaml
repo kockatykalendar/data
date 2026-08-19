@@ -38,7 +38,7 @@ contestants:
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
 
 # Popis akcie, dlzka najviac 255 znakov
-info: "Termín prihlášok, platby a 1. kola súťaže"
+info: "Matematická súťaž pre druhákov, tretiakov a štvrtákov na ZŠ."
 
 # (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
 #color: "red"
