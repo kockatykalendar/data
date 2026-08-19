@@ -1,7 +1,7 @@
 # Mriežkou sa označujú komentáre
 
 # Nazov udalosti
-name: EXPERT geniality show - deň súťaže
+name: EXPERT geniality show – deň súťaže
 
 # Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf, bio, chem a other.
 sciences:
