@@ -1,4 +1,4 @@
-# Mriežkou sa označujú komentáre
+e# Mriežkou sa označujú komentáre
 
 # Nazov udalosti
 name: EXPERT geniality show - deň súťaže
@@ -43,7 +43,7 @@ contestants:
   # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
 
 # Popis akcie, dlzka najviac 255 znakov
-info: "Súťaž pre všetkých žiakov prvého stupňa ZŠ."
+info: "Celoslovenská vedomostná súťaž pre žiakov 5. – 9. ročníka ZŠ a žiakov stredných škôl."
 
 # (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
 #color: "red"
