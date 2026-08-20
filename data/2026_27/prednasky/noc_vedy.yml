@@ -1,0 +1,25 @@
+name: Noc Vedy
+type: other
+sciences:
+    - mat
+    - fyz
+    - inf
+    - chem
+    - bio
+    - other
+color: "#443567"
+info: "Najväčší festival vedy na Slovensku. Stretnutia s vedkyňami a vedcami, živé diskusie, experimenty a technológie, ktoré pomáhajú lepšie porozumieť svetu okolo nás. Možnosť nahliadnuť do sveta vedy a technológií spôsobom, ktorý inde len tak nezažijete."
+date:
+    start: "2026-09-25"
+contestants:
+    min: null
+    max: null
+places:
+    - Bratislava
+    - Košice
+    - Banská Bystrica
+    - Žilina
+    - Poprad
+organizers:
+    - sovva
+link: https://nocvedy.sk/
