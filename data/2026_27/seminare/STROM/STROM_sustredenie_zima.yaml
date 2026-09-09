@@ -11,8 +11,8 @@ type: sustredenie
 # Informacie k datumom.
 date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
-  start: "2027-01-30"
-  end: "2027-02-04"
+  start: "2027-01-28"
+  end: "2027-02-03"
 # nazov organizatora alebo zoznam organizatorov
 organizers:
   - strom
@@ -24,7 +24,7 @@ link: https://strom.sk/strom
 # places:
 #  -
 
-info: Pre najlepších riešiteľov našich seminárov sú odmenou niekoľkodňové pobytové sústredenia.  Čakajú vás prednášky na témy z matematiky, s ktorými sa v škole len tak nestretnete, netradičné športy a hry, ale hlavne kopa zábavy a nových kamarátov.
+info: Pre najlepších riešiteľov našich seminárov sú odmenou niekoľkodňové pobytové sústredenia. Čakajú vás prednášky na témy z matematiky, s ktorými sa v škole len tak nestretnete, netradičné športy a hry, ale hlavne kopa zábavy a nových kamarátov.
 
 # Informacie o sutaziacich.
 contestants:
