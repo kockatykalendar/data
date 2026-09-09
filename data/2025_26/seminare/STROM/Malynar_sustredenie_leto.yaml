@@ -21,8 +21,8 @@ organizers:
 link: https://strom.sk/malynar
 
 # Miesto, alebo zoznam miest, kde sa akcia kona
-# places:
-#   -
+places:
+  - Rekreačné zariadenie Zelený Breh, Kokošovce
 
 info: Pre najlepších riešiteľov našich seminárov sú odmenou niekoľkodňové pobytové sústredenia.  Čakajú vás na ňom prednášky na témy z matematiky, s ktorými sa v škole len tak nestretnete, netradičné športy a hry, ale hlavne kopa zábavy a nových kamarátov.
 

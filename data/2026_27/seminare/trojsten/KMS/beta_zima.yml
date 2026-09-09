@@ -1,0 +1,13 @@
+name: Zimné sústredenie KMS Beta
+sciences:
+  - mat
+type: sustredenie
+date:
+  start: "2027-01-23"
+  end: "2027-01-30"
+organizers:
+  - trojsten
+link: https://kms.sk/akcie/sustredenia/
+contestants:
+  min: ss1
+  max: ss4

@@ -1,0 +1,17 @@
+name: KSP – Podzimní soustředění
+type: sustredenie
+sciences:
+  - inf
+date:
+  start: "2026-09-12"
+  end: "2026-09-19"
+contestants:
+  min: null
+  max: ss4
+places:
+  - Jižní Čechy, na úpatí Novohradských hor
+organizers:
+  - ksp-praha
+info: 'Podzimní soustředění je určeno pre pokročilé riešitele, zve se primárně na základě výsledků hlavní kategorie. Program je plný zajímavých informatických i "půlnočních" přednášek, výletů a zábavných her. Nechybí úžasný kolektiv a hodně čaje.'
+link: https://ksp.mff.cuni.cz/akce/sous/2026-podzimni/
+color: "#000"

@@ -45,9 +45,8 @@
     "country": {
       "description": "The country where the organization resides",
       "type": "string",
-      "enum": ["sk", "cz"],
-      "default": "sk"
+      "enum": ["sk", "cz", "international"]
     }
   },
-  "required": ["name", "web", "icon"]
+  "required": ["name", "web", "icon", "country"]
 }
