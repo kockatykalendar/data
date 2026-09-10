@@ -1,0 +1,16 @@
+name: Mathildovanie – september
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2026-09-14"
+  end: "2026-09-28"
+contestants:
+  min: zs7
+  max: ss4
+places:
+  - online
+organizers:
+  - mathcomps
+info: 'Mesačná súťaž v troch úrovniach obťažnosti. Riešiš štyri úlohy a svoje riešenia obhajuješ pred AI oponentkou Mathildou. Časomiera beží dve hodiny a spustíš si ju kedykoľvek počas súťažného okna. Hodnotí človek, ktorý si prečíta celú konverzáciu.'
+link: https://mathcomps.fun/sk/mathildovanie
