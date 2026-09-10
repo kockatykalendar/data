@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="110.89669mm"
+   height="110.00002mm"
+   viewBox="0 0 110.89669 110.00002"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="ao.svg"
+   inkscape:export-filename="AO_strana.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.51276154"
+     inkscape:cx="-69.232962"
+     inkscape:cy="522.6601"
+     inkscape:window-width="1920"
+     inkscape:window-height="1172"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:lockguides="false"
+     showguides="true"
+     inkscape:export-bgcolor="#ffffffff">
+    <sodipodi:guide
+       position="429.56516,116.34217"
+       orientation="0,-1"
+       id="guide17540"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient27578"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#3a9bc6;stop-opacity:1;"
+         offset="0"
+         id="stop27576" />
+    </linearGradient>
+    <rect
+       x="378.34351"
+       y="509.00854"
+       width="296.43408"
+       height="247.6785"
+       id="rect2" />
+    <rect
+       x="378.34351"
+       y="509.00854"
+       width="296.43408"
+       height="247.6785"
+       id="rect2-9" />
+  </defs>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-52.891889,178.79731)">
+    <path
+       style="fill:#3a9bc6;fill-opacity:1;stroke:#000000;stroke-width:0.131853px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="m 52.950857,-128.93346 h 9.96688 l 14.9503,-29.90061 14.95032,29.90061 h 9.966863 l -24.917183,-49.83435 m 0,0 -24.91718,49.83435"
+       id="path24399"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="AO_Logo.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <circle
+       style="fill:#ffbe00;fill-opacity:0;stroke:#ffbe00;stroke-width:4.56145;stroke-dasharray:none;stroke-opacity:1"
+       id="path27574"
+       cx="138.78859"
+       cy="-153.7973"
+       r="22.719273" />
+    <path
+       style="font-size:192px;line-height:1.25;font-family:play;-inkscape-font-specification:play;white-space:pre;fill:#dc1e78"
+       d="m 497.19175,683.70385 h -20.352 l -48.576,-65.472 -14.016,12.288 v 53.184 h -17.28 v -137.088 h 17.28 v 67.584 q 5.76,-6.528 11.712,-13.056 5.952,-6.528 11.904,-13.056 l 37.056,-41.472 h 20.16 l -54.336,59.712 z"
+       id="text2"
+       transform="matrix(0.46173158,0,0,0.38926258,-67.066,-338.29919)"
+       aria-label="K" />
+    <path
+       style="font-size:192px;line-height:1.25;font-family:play;-inkscape-font-specification:play;white-space:pre;fill:#dc1e78"
+       d="m 474.72775,647.03185 q 0,18.24 -13.248,28.416 -13.248,10.176 -35.712,10.176 -11.52,0 -21.312,-1.728 -9.792,-1.728 -16.32,-4.8 v -16.512 q 6.912,3.072 17.088,5.568 10.368,2.496 21.312,2.496 15.36,0 23.04,-5.952 7.872,-5.952 7.872,-16.128 0,-6.72 -2.88,-11.328 -2.88,-4.608 -9.984,-8.448 -6.912,-4.032 -19.392,-8.448 -17.472,-6.336 -26.496,-15.552 -8.832,-9.216 -8.832,-25.152 0,-10.944 5.568,-18.624 5.568,-7.872 15.36,-12.096 9.984,-4.224 22.848,-4.224 11.328,0 20.736,2.112 9.408,2.112 17.088,5.568 l -5.376,14.784 q -7.104,-3.072 -15.552,-5.184 -8.256,-2.112 -17.28,-2.112 -12.864,0 -19.392,5.568 -6.528,5.376 -6.528,14.4 0,6.912 2.88,11.52 2.88,4.608 9.408,8.256 6.528,3.648 17.664,7.872 12.096,4.416 20.352,9.6 8.448,4.992 12.672,12.096 4.416,7.104 4.416,17.856 z"
+       id="text2-9"
+       transform="matrix(0.46173158,0,0,0.38926258,-122.24463,-337.55181)"
+       aria-label="S" />
+  </g>
+</svg>
