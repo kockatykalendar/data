@@ -1,0 +1,16 @@
+name: Mathildovanie – november
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2026-11-16"
+  end: "2026-11-30"
+contestants:
+  min: zs7
+  max: ss4
+places:
+  - online
+organizers:
+  - mathcomps
+info: 'Každý mesiac beží jedna dvojtýždňová súťaž v troch úrovniach obťažnosti. Riešiš štyri úlohy a obhajuješ ich pred AI oponentkou Mathildou. Máš na to dve hodiny, ktoré si spustíš kedykoľvek počas okna. Hodnotí ich človek, ktorý si prečíta konverzáciu.'
+link: https://mathcomps.fun/sk/mathildovanie
