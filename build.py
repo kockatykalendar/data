@@ -70,7 +70,7 @@ for directory in os.walk(os.path.join(ROOT, "organizers")):
     for file in directory[2]:
         name, ext = os.path.splitext(file)
         if ext.lower() not in [".yaml", ".yml"]:
-            if name == ".gitignore": continue
+            if name[0] == ".": continue
             if len(ext.strip()) == 0 and args.prevent_ignored:
                 ERRORS.append(ErrorData(os.path.join(directory[0], file), "Ignored file %s in organizers directory." % (file)))
                 print("F", end="", flush=True)
@@ -104,7 +104,7 @@ for directory in os.walk(os.path.join(ROOT, "data")):
     for file in directory[2]:
         name, ext = os.path.splitext(file)
         if ext.lower() not in [".yaml", ".yml"]:
-            if name == ".gitignore": continue
+            if name[0] == ".": continue
             if len(ext.strip()) == 0 and args.prevent_ignored:
                 ERRORS.append(ErrorData(os.path.join(directory[0], file), "Ignored file %s in data directory." % (file)))
                 print("F", end="", flush=True)
