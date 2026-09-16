@@ -52,6 +52,9 @@ parser.add_argument(
 parser.add_argument(
     "--warn-missing-places", action="store_true", help="Show warnings about missing places (hidden by default)."
 )
+parser.add_argument(
+    "--prevent-ignored", action="store_true", help="Show error when ignored files (without .yml extension) appear in the data."
+)
 args = parser.parse_args()
 
 
@@ -67,6 +70,10 @@ for directory in os.walk(os.path.join(ROOT, "organizers")):
     for file in directory[2]:
         name, ext = os.path.splitext(file)
         if ext.lower() not in [".yaml", ".yml"]:
+            if name == ".gitignore": continue
+            if len(ext.strip()) == 0 and args.prevent_ignored:
+                ERRORS.append(ErrorData(os.path.join(directory[0], file), "Ignored file %s in organizers directory." % (file)))
+                print("F", end="", flush=True)
             continue
         path = os.path.join(directory[0], file)
 
@@ -97,6 +104,10 @@ for directory in os.walk(os.path.join(ROOT, "data")):
     for file in directory[2]:
         name, ext = os.path.splitext(file)
         if ext.lower() not in [".yaml", ".yml"]:
+            if name == ".gitignore": continue
+            if len(ext.strip()) == 0 and args.prevent_ignored:
+                ERRORS.append(ErrorData(os.path.join(directory[0], file), "Ignored file %s in data directory." % (file)))
+                print("F", end="", flush=True)
             continue
         path = os.path.join(directory[0], file)
 
