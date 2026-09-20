@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build
-        run: python build.py --now --prevent-ignored
+        run: python build.py -dr
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
