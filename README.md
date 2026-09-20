@@ -154,10 +154,11 @@ Pokiaľ používaš Python aj na niečo iné, odporúčame sa naučiť používa
 Na kontrolu sa používa script `build.py`, ktorý sa okrem toho používa aj na buildovanie súborov, ktoré sa priamo zverejňujú.
 **To robiť nemusíš**. Priečinok `build`, ktorý pri tom vzniká, môžeš u seba kľudne zmazať.
 
-Na kontrolu, či sú YML súbory správne, stačí spustiť `python build.py --dry --now`.
-- `--dry` znamená, že sa nič nebuilduje (teda nevznikne priečinok `build`)
-- `--now` znamená, že sa kontrolujú len zmeny z aktuálneho školského roka
-- `build.py` má zopár ďalších nastavení súvisiacich s testovaním, tie si môžeš pozrieť pomocou `python build.py -h`.
+Na kontrolu, či sú YML súbory správne, stačí spustiť `python build.py -dir`.
+- `-d` alebo `--dry` znamená, že sa nič nebuilduje (teda nevznikne priečinok `build`), iba sa skontrolujú súbory.
+- `-r` alebo `--recent-warnings-only` znamená, že sa kontrolujú len súbory v aktuálnom a nasledujúcom školskom roku.
+- `-i` alebo `--allow-ignored-files` znamená, že sa nevyhodí chyba, ak sa v priečinku `data` nachádza súbor bez prípony `.yml`. To je užitočné, ak máš u seba nejaké nedokončené súbory, ktoré zatiaľ nechceš zverejniť.
+- `build.py` má zopár ďalších užitočných nastavení, tie si môžeš pozrieť pomocou `python build.py -h`.
 
 Väčšinou dostaneš na výstupe výpis s pár upozorneniami, ktoré sa týkajú iných akcií (a možno aj akcie, ktorú pridávaš).
 Na konci bude potom buď riadok s `Validation successful...`, ak je všetko v poriadku,
@@ -193,4 +194,3 @@ Potom v nastaveniach projektu (`.vscode/settings.json`) môžeš zadefinovať,
 Ak nájdeš v tomto texte chybu alebo niečo, čo nie je dostatočne vysvetlené, neváhaj v novej branchi upraviť súbor `README.md` a otvoriť si pull-request (alebo sa ozvať, napríklad mailom).
 
 🧊🗓️🎉
-
