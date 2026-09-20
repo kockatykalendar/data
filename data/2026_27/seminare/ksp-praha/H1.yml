@@ -1,0 +1,17 @@
+name: KSP H – 1. série
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2026-09-13"
+  end: "2026-10-25"
+contestants:
+  min: zs9
+  max: ss4
+places:
+  - online
+organizers:
+  - ksp-praha
+info: 'Kategorie H je určena pokročilým programátorům, soutěží se o účasť na podzimním soustředění, prominutí přijímaček na MFF UK a zajímavé ceny. Sérii zvykne doprovázet seriál. Termín odevzdávání úloh je tradičně 32:00 (8:00 ráno dalšího dne).'
+link: https://ksp.mff.cuni.cz/h/ulohy/39/zadani1.html
+color: "#000"
