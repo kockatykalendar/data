@@ -1,0 +1,16 @@
+name: KSP – 3. (prezenčné) kolo zimnej časti
+type: seminar
+sciences:
+  - inf
+date:
+  start: "2027-01-08"
+  end: "2027-01-10"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - FMFI UK, Bratislava
+organizers:
+  - trojsten
+info: "Prezenčné kolo je víkendové kolo Korešpondenčného seminára z programovania, kde riešiš algoritmické úlohy a stretneš sa s ostatnými riešiteľmi KSP. Pozvaní sú riešitelia, ktorí v čase odosielania pozvánok získali z prvých dvoch kôl aspoň bod."
+link: https://ksp.sk/
