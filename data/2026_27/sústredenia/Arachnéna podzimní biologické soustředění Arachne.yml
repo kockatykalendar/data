@@ -1,0 +1,52 @@
+# Mriežkou sa označujú komentáre
+
+# Nazov udalosti
+name: "Podzimní biologické soustředění Arachne: Tajemství podyjských Sudet"
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf, bio, chem a other.
+sciences:
+  - bio
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: sustredenie
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2026-10-27"
+  # (optional) Koniec udalosti YYYY-MM-DD
+  end: "2026-11-01"
+  # (optional) Text, ktory sa zobrazi miesto datumu. Vyuzitie napriklad ak nie je este znamy presny datum
+  text: "27. 10. – 1. 11. 2026"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - arachne
+
+# (optional) Odkaz na stranku pre viac info (odvozeno z e-mailu/textu)
+link: https://arach.cz/akce/podzim2026 
+
+# (optional) Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - Štítary (Táborová základna JUNIOR)
+
+# Informacie o sutaziacich.
+contestants:
+  # Minimalny rocnik, ktory sa moze zapojit
+  min: null
+  # Maximalny rocnik, ktory sa moze zapojit
+  max: null
+  # Mozne hodnoty: zs1, zs2, ..., zs9; ss1, ..., ss4, null (bez hranice)
+  # (V textu se uvádí středoškoláci i "ostatní účastníci", takže null/bez hranice dává největší smysl)
+
+# Popis akcie, dlzka najviac 255 znakov
+info: "Pojeď s námi objevovat Sudety! Během výletů se podíváme na kaňon řeky Dyje, flóru a faunu Podyjí i zámek Vranov nad Dyjí. Užijeme si kytaření, pouštění draků či sudetskou tancovačku. Biologičtí odborníci budou k mání po celou dobu akce."
+
+# (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), v tomto prípade modrej na červenú
+color: "green"
+
+# (optional) Udaje k notifikaciam
+notifications:
+  # Zoznam poctu dni pred akciou, kedy sa ma posielat mail zaujemcom
+  remind_days_before: 
+    - 5
