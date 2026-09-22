@@ -1,4 +1,4 @@
-name: Jáma lvová - 1. série
+name: Jáma lvová – 1. série
 type: seminar
 sciences:
   - mat
@@ -13,5 +13,5 @@ places:
 contestants:
   min: zs6
   max: zs9
-info: "Jáma lvová je korespondenční seminář pro žáky druhého stupně základních škol, rozdělená na mladší (6. - 7. třída) a starší (8. - 9. třída) kategorie."
+info: "Jáma lvová je korespondenční seminář pro žáky druhého stupně základních škol, rozdělená na mladší (6. – 7. třída) a starší (8. – 9. třída) kategorie."
 color: "red"
