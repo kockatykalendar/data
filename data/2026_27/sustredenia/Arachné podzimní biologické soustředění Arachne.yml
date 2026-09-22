@@ -17,7 +17,7 @@ date:
   # (optional) Koniec udalosti YYYY-MM-DD
   end: "2026-11-01"
   # (optional) Text, ktory sa zobrazi miesto datumu. Vyuzitie napriklad ak nie je este znamy presny datum
-  text: "27. 10. – 1. 11. 2026"
+  # text: "27. 10. – 1. 11. 2026"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
