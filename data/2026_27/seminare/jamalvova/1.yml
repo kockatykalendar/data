@@ -1,0 +1,17 @@
+name: Jáma lvová - 1. série
+type: seminar
+sciences:
+  - mat
+date:
+  start: "2026-09-21"
+  end: "2026-11-23"
+organizers:
+  - jamalvova
+link: https://jamalvova.cz/pdf/zadani_181.pdf
+places:
+  - online
+contestants:
+  min: zs6
+  max: zs9
+info: "Jáma lvová je korespondenční seminář pro žáky druhého stupně základních škol, rozdělená na mladší (6. - 7. třída) a starší (8. - 9. třída) kategorie."
+color: "red"
