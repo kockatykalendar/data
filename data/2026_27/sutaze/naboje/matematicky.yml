@@ -1,0 +1,17 @@
+name: Matematický Náboj
+type: sutaz
+sciences:
+    - mat
+date:
+    start: "2027-03-12"
+contestants:
+    min: ss1
+    max: ss4
+info: "Matematický náboj je medzinárodná súťaž v matematike určená pre 4 alebo 5-členné tímy. Každý tím začína so sadou šiestich úloh, po každom odovzdaní správne vyriešenej úlohy dostane ďalšiu. Vyhráva tím, ktorý ich za dve hodiny vyrieši najviac."
+places:
+    - Bratislava
+    - Košice
+organizers:
+    - trojsten
+    - strom
+link: https://math.naboj.org/sk/sk/
