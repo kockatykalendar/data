@@ -1,0 +1,15 @@
+name: Zenit web developer – školské kolo
+type: sutaz
+sciences:
+  - inf
+date:
+  start: "2026-10-14"
+contestants:
+  min: ss1
+  max: ss4
+places:
+  - celé Slovensko
+organizers:
+  - siov
+info: "Zenit web developer je postupová súťaž v tvorbe webových stránok. Každé kolo trvá 4 hodiny a má približne 10 úloh od úplne lahkých až po ťažké. Riešenie pozostáva z HTML súboru, ktorý sa ihneď automaticky testuje."
+link: https://zenit-web.ksp.sk/
