@@ -116,16 +116,27 @@ Pokiaľ miesto nie je známe alebo nie je dôležité, vlastnosť sa vynecháva
 Pokiaľ koniec nemá, považuje sa za jednodňovú, teda končiacu v rovnaký deň ako sa začína.
 
 Pokiaľ ide napríklad o kolo korešpondenčého semináru, zvykne sa uvádzať len termín jeho konca
-(pričom je ale vyplnená iba vlastnosť `start`, keďže koniec je v konkrétny deň).
-Hlavný dôvod je pravdepodobne taký, že začiatky často nie sú jednoznačne určené / nestíhajú sa / nie sú až tak dôležité.
+(pričom je ale vyplnená iba vlastnosť `start`, keďže ide o jediný dátum patriaci k danému kolu).
+Hlavný dôvod je zrejme to, že začiatky často nie sú jednoznačne určené / nestíhajú sa / nie sú až tak dôležité.
 
 Nevýhoda tohto prístupu ale je, že kalendár nezobrazuje kolo ako prebiehajúcu udalosť.
 Ak chceš teda maximalizovať viditeľnosť nejakej prebiehajúcej súťaže, odporúčame nastaviť aj jej začiatok.
 
+###### Poznámka pod čiarou: podľa čoho sú udalosti zoradené
+
+Primárnym kritériom pri zoraďovaní je, či je udalosť minulá, prebiehajúca alebo budúca. 
+
+Nový systém triedenia (od 6.10.2026) zoraďuje niektoré udalosti podľa začiatkov a iné podľa koncov.
+Hlavnou myšlienkou je, že pre dlhodobé udalosti -- ako napríklad kolá korešpondenčných seminárov, domáce kolá olympiád a súťaži -- sú relevantné ich koncové dátumy,
+zatiaľ čo pre kratkodobé -- napríklad sústredenia, víkednovky, tábory, prednáškové noci, celoštátne kolá olympiád -- sú zaujímavé ich začiatky.
+Pokiaľ nie je možné rozhodnúť podľa typu udalosti (napriklad pri olympiádach), za krátku udalosť sa považuje každá, ktorá trvá menej než dva týždne.
+
 #### Notifikácie
 
-V príklade schémy je vlastnosť `notifications`. Janči momentálne netuší, či funguje, či niekedy fungovala, ani ako presne.
-Je ale v pláne ju nejakým spôsobom implementovať, takže ju môžeš použiť podľa príkladu, kopírovať do ďalších rokov, a v budúcnosti by mala fungovať.
+V príklade schémy je vlastnosť `notifications`. ~~Janči momentálne netuší, či funguje, či niekedy fungovala, ani ako presne.~~
+Nefunguje (a, čo je zábavnejšie, ani nikdy nefungovala).
+Je ale v pláne ju nejakým spôsobom implementovať (pravdepodobne do ical exportu),
+takže ju môžeš použiť podľa príkladu, kopírovať do ďalších rokov, a v budúcnosti by mala fungovať.
 
 ### Nedokončené / skryté súbory
 
