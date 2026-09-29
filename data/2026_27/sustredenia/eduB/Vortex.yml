@@ -8,7 +8,7 @@ sciences:
   - bio
 
 # Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
-type: sutredenie
+type: sustredenie
 
 # Informacie k datumom.
 date:
