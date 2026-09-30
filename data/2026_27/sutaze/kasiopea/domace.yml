@@ -1,0 +1,27 @@
+# Nazov udalosti
+name: Kasiopea – domáce kolo
+
+sciences:
+  - inf
+
+type: sutaz
+
+date:
+  start: "2026-11-21"
+  end: "2026-12-06"
+
+organizers:
+  - kasiopea
+
+link: https://kasiopea.matfyz.cz/
+
+places:
+  - online
+
+contestants:
+  min: ss1
+  max: ss4
+
+info: "Kasiopea je súťaž v programovaní vhodná pre úplných začiatočníkov aj najskúsenejších kóderov. V domácom kole sa stretnete s deviatimi úlohami rôznej náročnosti a zabojujete o postup na finálne v Prahe."
+
+color: "#331c47"
