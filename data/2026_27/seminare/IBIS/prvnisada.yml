@@ -1,0 +1,48 @@
+# Mriežkou sa označujú komentáre
+
+# Nazov udalosti
+name: "IBIS: 1. sada úloh"
+
+# Vedne obory (1+) pre danu akciu. Mozne hodnoty: mat, fyz, inf, bio, chem a other.
+sciences:
+  - bio
+
+# Typ akcie. Moznosti: sutaz, seminar, sustredenie, vikendovka, tabor, olympiada alebo prednasky
+type: seminar
+
+# Informacie k datumom.
+date:
+  # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
+  start: "2026-10-05"
+  # (optional) Koniec udalosti YYYY-MM-DD (napr. deadline odovzdania sady)
+  end: "2026-11-8"
+  # (optional) Text, ktory sa zobrazi miesto datumu. Vyuzitie napriklad ak nie je este znamy presny datum
+  # text: "do 15. 11. 2026"
+
+# nazov organizatora alebo zoznam organizatorov
+organizers:
+  - ibis
+
+# (optional) Odkaz na stranku pre viac info
+link: https://ibis.sci.muni.cz/
+
+# (optional) Miesto, alebo zoznam miest, kde sa akcia kona
+places:
+  - Online
+
+# Informacie o sutaziacich.
+contestants:
+  # Maximalny rocnik, ktory sa moze zapojit
+  max: ss4
+
+# Popis akcie, dlzka najviac 255 znakov (aktualne ma 239 znakov)
+info: "Odstartoval nový ročník biologického semináře IBIS! V 1. sadě na tebe čekají témata jako viry, biotransformace, úloha s potenciálem, klony, let do oblak či rezistence. Zapoj se do řešení a vybojuj si postup na soustředění."
+
+# (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), IBIS pouziva modru
+color: "#1077C1"
+
+# (optional) Udaje k notifikaciam
+notifications:
+  # Zoznam poctu dni pred deadlinom / akciou, kedy sa ma posielat mail zaujemcom
+  remind_days_before:
+    - 7
