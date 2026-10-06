@@ -15,24 +15,25 @@ date:
   # Zaciatok udalosti alebo datum udalosti, ak trva iba den. Format YYYY-MM-DD
   start: "2026-10-05"
   # (optional) Koniec udalosti YYYY-MM-DD (napr. deadline odovzdania sady)
-  end: "2026-11-8"
+  end: "2026-11-08"
   # (optional) Text, ktory sa zobrazi miesto datumu. Vyuzitie napriklad ak nie je este znamy presny datum
   # text: "do 15. 11. 2026"
 
 # nazov organizatora alebo zoznam organizatorov
 organizers:
-  - IBIS
+  - ibis
 
 # (optional) Odkaz na stranku pre viac info
 link: https://ibis.sci.muni.cz/
 
 # (optional) Miesto, alebo zoznam miest, kde sa akcia kona
 places:
-  - Online
+  - online
 
 # Informacie o sutaziacich.
 contestants:
   # Maximalny rocnik, ktory sa moze zapojit
+  min: ss1
   max: ss4
 
 # Popis akcie, dlzka najviac 255 znakov (aktualne ma 239 znakov)
