@@ -184,6 +184,17 @@ V podpriečinku `logos` sú uložené logá, na ktoré je zo súboru uvedený re
 Dĺžka názvu organizátora je limitovaná na 32 znakov, aby sa rozumne zmestil na jeden riadok aj pri zobrazení na mobile.
 Ak je to problém, sťažuj sa, na niečo spolu prídeme.
 
+## Propagácia kalendára
+
+### Letáčiky
+
+Chystáme letáčiky, ktoré bude možné vytlačiť a zavesiť na nástenku v škole. Vyskytnú sa aj na stránke. Ak chceš pomôcť, ozvi sa!
+
+### iframe
+
+Je možné zobraziť kalendár ako `iframe` na ľubovoľnej stránke, s filtrovaním organizátorov a udalostí, ktoré sa majú zobrazovať.
+Pokyny, ako správny iframe vyrobiť, sú popísané na stránke, v časti Export.
+
 ## VSCode
 
 Ak používaš Visual Studio Code na úpravu dát, odporúčame si nainštalovať
