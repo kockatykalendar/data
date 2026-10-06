@@ -3,8 +3,8 @@ type: vikendovka
 sciences:
   - inf
 date:
-  start: "2023-12-1"
-  end: "2023-12-3"
+  start: "2023-12-01"
+  end: "2023-12-03"
 contestants:
   min: zs9
   max: ss4

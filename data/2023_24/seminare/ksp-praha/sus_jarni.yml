@@ -3,8 +3,8 @@ type: sustredenie
 sciences:
   - inf
 date:
-  start: "2024-5-4"
-  end: "2024-5-11"
+  start: "2024-05-04"
+  end: "2024-05-11"
 contestants:
   min: null
   max: ss4
