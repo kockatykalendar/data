@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+from curses import ERR
 import json
 import os
 import shutil
@@ -111,60 +112,68 @@ for directory in os.walk(os.path.join(ROOT, "organizers")):
 
 print("\nValidating events")
 
-for directory in os.walk(os.path.join(ROOT, "data")):
-    directory_year_string = year_from_directory_name(directory[0])
-    for file in directory[2]:
-        name, ext = os.path.splitext(file)
-        if ext.lower() not in DATA_EXTENSIONS:
-            if name[0] == ".": continue # .gitignore, .gitkeep, and other hidden files
-            if len(ext.strip()) == 0 and not args.allow_ignored_files:
-                ERRORS.append(ErrorData(os.path.join(directory[0], file), "Ignored file appears in data directory."))
-                print("F", end="", flush=True)
-            continue
-        path = os.path.join(directory[0], file)
+for year_directory in sorted(os.listdir(os.path.join(ROOT, "data"))):
+    if not os.path.isdir(os.path.join(ROOT, "data", year_directory)): continue
+    directory_year_string = year_from_directory_name(year_directory)
+    if directory_year_string is None or len(directory_year_string) != 4 or not directory_year_string.isdigit():
+        ERRORS.append(ErrorData(year_directory, "Directory name does not contain a valid year."))
+        continue
+    if int(directory_year_string) < current_year and args.recent_warnings_only:
+        print("Skipping past year directory %s in recent-only check." % (year_directory))
+        continue
+    for directory in os.walk(os.path.join(ROOT, "data", year_directory)):
+        for file in directory[2]:
+            name, ext = os.path.splitext(file)
+            if ext.lower() not in DATA_EXTENSIONS:
+                if name[0] == ".": continue # .gitignore, .gitkeep, and other hidden files
+                if len(ext.strip()) == 0 and not args.allow_ignored_files:
+                    ERRORS.append(ErrorData(os.path.join(directory[0], file), "Ignored file appears in data directory."))
+                    print("F", end="", flush=True)
+                continue
+            path = os.path.join(directory[0], file)
 
-        with open(path) as f:
-            event_data = yaml.safe_load(f)
-            try:
-                event_data = validate_event(event_data)
-                for organizer in event_data["organizers"]:
-                    if organizer not in OUTPUT_ORGANIZERS:
-                        raise JsonSchemaValueException("Event organizer %s has no entry in \"organizers\" directory." % (organizer))
-                event_date = datetime.strptime(event_data["date"]["start"], "%Y-%m-%d").date()
-                event_year = int(school_year_from_date(event_date)[:4])
+            with open(path) as f:
+                event_data = yaml.safe_load(f)
+                try:
+                    event_data = validate_event(event_data)
+                    for organizer in event_data["organizers"]:
+                        if organizer not in OUTPUT_ORGANIZERS:
+                            raise JsonSchemaValueException("Event organizer %s has no entry in \"organizers\" directory." % (organizer))
+                    event_date = datetime.strptime(event_data["date"]["start"], "%Y-%m-%d").date()
+                    event_year = int(school_year_from_date(event_date)[:4])
 
-                if directory_year_string is not None:
-                    directory_year = int(directory_year_string)
-                    if event_year < directory_year or event_year > directory_year + 1: # Raise an exception, this is certainly a mistake
-                        raise JsonSchemaValueException(
-                            "Event with date %s is in year %s." % (event_data["date"]["start"], directory_year_string))
-                    elif event_year == directory_year + 1: # Don't raise an exception, this is quite usual and probably not a mistake
-                        warn(path, "Event with date %s is in previous year %s." % (event_data["date"]["start"], directory_year_string), year=directory_year)
+                    if directory_year_string is not None:
+                        directory_year = int(directory_year_string)
+                        if event_year < directory_year or event_year > directory_year + 1: # Raise an exception, this is certainly a mistake
+                            raise JsonSchemaValueException(
+                                "Event with date %s is in year %s." % (event_data["date"]["start"], directory_year_string))
+                        elif event_year == directory_year + 1: # Don't raise an exception, this is quite usual and probably not a mistake
+                            warn(path, "Event with date %s is in previous year %s." % (event_data["date"]["start"], directory_year_string), year=directory_year)
 
-                if "end" in event_data["date"].keys():
-                    end_date = datetime.strptime(event_data["date"]["end"], "%Y-%m-%d").date()
-                    if end_date < event_date:
-                        raise JsonSchemaValueException("Event ends before it starts.")
+                    if "end" in event_data["date"].keys():
+                        end_date = datetime.strptime(event_data["date"]["end"], "%Y-%m-%d").date()
+                        if end_date < event_date:
+                            raise JsonSchemaValueException("Event ends before it starts.")
 
-                if not "places" in event_data.keys() or len(event_data["places"]) == 0:
-                    if args.missing_place_warnings: warn(path, "Event has missing or empty attribute \"places\".", year=event_year)
-                else:
-                    for place in event_data["places"]:
-                        for forbidden_place in ["TODO", "TO DO", "TBA", "TBD", "?"]:
-                            if forbidden_place in place.upper():
-                                raise JsonSchemaValueException(
-                                    "Event place string \"%s\" containing \"%s\", which is a meaningless placeholder. Remove the places attribute instead." % (place, forbidden_place))
-                        if "ONLINE" in place.upper() and not "online" in place:
-                            warn(path, "Event has place \"online\" with unconventional capitalization, use all-lowercase.", year=event_year)
+                    if not "places" in event_data.keys() or len(event_data["places"]) == 0:
+                        if args.missing_place_warnings: warn(path, "Event has missing or empty attribute \"places\".", year=event_year)
+                    else:
+                        for place in event_data["places"]:
+                            for forbidden_place in ["TODO", "TO DO", "TBA", "TBD", "?"]:
+                                if forbidden_place in place.upper():
+                                    raise JsonSchemaValueException(
+                                        "Event place string \"%s\" containing \"%s\", which is a meaningless placeholder. Remove the places attribute instead." % (place, forbidden_place))
+                            if "ONLINE" in place.upper() and not "online" in place:
+                                warn(path, "Event has place \"online\" with unconventional capitalization, use all-lowercase.", year=event_year)
 
-                if " - " in event_data["name"]: warn(path, "Event has a hyphen (short dash) in its name, please use '–' (a longer one).", year=event_year)
-                if " - " in event_data.get("info", ""): warn(path, "Event has a hyphen (short dash) in its info string, please use '–' (a longer one).", year=event_year)
+                    if " - " in event_data["name"]: warn(path, "Event has a hyphen (short dash) in its name, please use '–' (a longer one).", year=event_year)
+                    if " - " in event_data.get("info", ""): warn(path, "Event has a hyphen (short dash) in its info string, please use '–' (a longer one).", year=event_year)
 
-                if not args.dry: OUTPUT[school_year_from_date(event_date)].append(event_data)
-                print(".", end="", flush=True)
-            except JsonSchemaException as e:
-                ERRORS.append(ErrorData(path, e.message))
-                print("F", end="", flush=True)
+                    if not args.dry: OUTPUT[school_year_from_date(event_date)].append(event_data)
+                    print(".", end="", flush=True)
+                except JsonSchemaException as e:
+                    ERRORS.append(ErrorData(path, e.message))
+                    print("F", end="", flush=True)
 
 print("\n")
 
