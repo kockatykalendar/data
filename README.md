@@ -18,7 +18,7 @@ alebo
 ### Prístupové práva
 
 Ak chceš pridávať udalosti, máš dve možnosti:
-- Preferovaná možnost: Pridať sa do [data-contributors](https://github.com/orgs/kockatykalendar/teams/data-contributors) tímu,
+- Preferovaná možnosť: Pridať sa do [data-contributors](https://github.com/orgs/kockatykalendar/teams/data-contributors) tímu,
   tak, že kontaktuješ niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers),
   napríklad [Jančiho](https://github.com/Jajopi) ([mail](jan.plachy+kk@trojsten.sk)),
   prípadne [Krtka](https://github.com/krtko1), a dáš nám vedieť, aký máš Github username. *Tímy sú viditeľné iba pre ľudí v tímoch.*
@@ -33,11 +33,11 @@ Tvoje zmeny potom niekto z [data-managers](https://github.com/orgs/kockatykalend
 - Na pridanie udalosti si musíš v gite vyrobiť novú vetvu (hlavná vetva `master`, ktorá sa premieta do Kalendára, je totiž chránená).
 - Keď pridáš všetky potrebné udalosti, vo webovom rozhraní Githubu vyrob pull-request.
 - Môžeš tiež v pravom stĺpci v sekcií Reviewers pridať niekoho z [data-managers](https://github.com/orgs/kockatykalendar/teams/data-managers) tímu,
-aby skotroloval a schválil zmeny (inak bude chvíľu trvať, kým si tvoj pull-request niekto všimne).
+aby skontroloval a schválil zmeny (inak bude chvíľu trvať, kým si tvoj pull-request niekto všimne).
 
 #### Pull-request sa sťažuje
 
-Ak pri pull-requeste po submitnutí nevidíš zelenú fajku, ale červený, krížik, v súboroch je niečo zle a treba to opravť ďalšími commitmi.
+Ak pri pull-requeste po submitnutí nevidíš zelenú fajku, ale červený, krížik, v súboroch je niečo zle a treba to opraviť ďalšími commitmi.
 
 Klikaním na červené krížiky, dokým sa to dá, a potom na `details`, sa dostaneš k masívnemu bloku textu rozdelenému podľa jednotlivých operácii,
 ktoré github robil na overenie obsahu. Väčšina z nich je nepodstatná, dôležité hlášky sú tie, ktorými text končí pred vypísaním chyby (sú po anglicky).
@@ -68,7 +68,7 @@ Najjednoduchší spôsob, ako vyrobiť novú udalosť, je skopírovať si príkl
 
 ### Obsah súborov
 
-Niekoľko užitočných konvencií, ktoré sa oplatí dodrživať, aby jednotlivé udalosti vyzerali v Kalendári konzistentne.
+Niekoľko užitočných konvencií, ktoré sa oplatí dodržiavať, aby jednotlivé udalosti vyzerali v Kalendári konzistentne.
 
 #### Názvy
 
@@ -89,7 +89,7 @@ na všetko ostatné je určený popis.
 Popisy jednotlivých udalostí majú maximálnu dĺžku cca 250 znakov.
 To najmä preto, aby na stránke nezaberali priveľa miesta.
 
-Nemal by to však byť problém -- popis má iba vysvetľovať, čo je dána udalosť zač, ak to nie je jasné z nadpisu, prípadne jej robiť reklamu niečim zaujímavým.
+Nemal by to však byť problém -- popis má iba vysvetľovať, čo je daná udalosť zač, ak to nie je jasné z nadpisu, prípadne jej robiť reklamu niečim zaujímavým.
 
 Popis nemusí (ba priam nemá) obsahovať:
 - Kde a kedy udalosť prebieha -- sú na to samostatné vlastnosti, ktoré sa zobrazia pod ním
@@ -115,20 +115,20 @@ Pokiaľ miesto nie je známe alebo nie je dôležité, vlastnosť sa vynecháva
 Štandardne musí mať každá udalosť začiatok, voliteľne môže mať aj koniec.
 Pokiaľ koniec nemá, považuje sa za jednodňovú, teda končiacu v rovnaký deň ako sa začína.
 
-Pokiaľ ide napríklad o kolo korešpondenčého semináru, zvykne sa uvádzať len termín jeho konca
+Pokiaľ ide napríklad o kolo korešpondenčného semináru, zvykne sa uvádzať len termín jeho konca
 (pričom je ale vyplnená iba vlastnosť `start`, keďže ide o jediný dátum patriaci k danému kolu).
 Hlavný dôvod je zrejme to, že začiatky často nie sú jednoznačne určené / nestíhajú sa / nie sú až tak dôležité.
 
 Nevýhoda tohto prístupu ale je, že kalendár nezobrazuje kolo ako prebiehajúcu udalosť.
 Ak chceš teda maximalizovať viditeľnosť nejakej prebiehajúcej súťaže, odporúčame nastaviť aj jej začiatok.
 
-###### Poznámka pod čiarou: podľa čoho sú udalosti zoradené
+##### Poznámka pod čiarou: podľa čoho sú udalosti zoradené
 
 Primárnym kritériom pri zoraďovaní je, či je udalosť minulá, prebiehajúca alebo budúca. 
 
 Nový systém triedenia (od 6.10.2026) zoraďuje niektoré udalosti podľa začiatkov a iné podľa koncov.
 Hlavnou myšlienkou je, že pre dlhodobé udalosti -- ako napríklad kolá korešpondenčných seminárov, domáce kolá olympiád a súťaži -- sú relevantné ich koncové dátumy,
-zatiaľ čo pre kratkodobé -- napríklad sústredenia, víkednovky, tábory, prednáškové noci, celoštátne kolá olympiád -- sú zaujímavé ich začiatky.
+zatiaľ čo pre krátkodobé -- napríklad sústredenia, víkendovky, tábory, prednáškové noci, celoštátne kolá olympiád -- sú zaujímavé ich začiatky.
 Pokiaľ nie je možné rozhodnúť podľa typu udalosti (napriklad pri olympiádach), za krátku udalosť sa považuje každá, ktorá trvá menej než dva týždne.
 
 #### Notifikácie
@@ -165,7 +165,7 @@ Pokiaľ používaš Python aj na niečo iné, odporúčame sa naučiť používa
 Na kontrolu sa používa script `build.py`, ktorý sa okrem toho používa aj na buildovanie súborov, ktoré sa priamo zverejňujú.
 **To robiť nemusíš**. Priečinok `build`, ktorý pri tom vzniká, môžeš u seba kľudne zmazať.
 
-Na kontrolu, či sú YML súbory správne, stačí spustiť `python build.py -dir`.
+Na kontrolu, či sú YAML súbory správne, stačí spustiť `python build.py -dir`.
 - `-d` alebo `--dry` znamená, že sa nič nebuilduje (teda nevznikne priečinok `build`), iba sa skontrolujú súbory.
 - `-r` alebo `--recent-warnings-only` znamená, že sa kontrolujú len súbory v aktuálnom a nasledujúcom školskom roku.
 - `-i` alebo `--allow-ignored-files` znamená, že sa nevyhodí chyba, ak sa v priečinku `data` nachádza súbor bez prípony `.yml`. To je užitočné, ak máš u seba nejaké nedokončené súbory, ktoré zatiaľ nechceš zverejniť.
@@ -184,23 +184,14 @@ V podpriečinku `logos` sú uložené logá, na ktoré je zo súboru uvedený re
 Dĺžka názvu organizátora je limitovaná na 32 znakov, aby sa rozumne zmestil na jeden riadok aj pri zobrazení na mobile.
 Ak je to problém, sťažuj sa, na niečo spolu prídeme.
 
-## Propagácia kalendára
+## Zjednodušovanie práce
 
-### Letáčiky
-
-Chystáme letáčiky, ktoré bude možné vytlačiť a zavesiť na nástenku v škole. Vyskytnú sa aj na stránke. Ak chceš pomôcť, ozvi sa!
-
-### iframe
-
-Je možné zobraziť kalendár ako `iframe` na ľubovoľnej stránke, s filtrovaním organizátorov a udalostí, ktoré sa majú zobrazovať.
-Pokyny, ako správny iframe vyrobiť, sú popísané na stránke, v časti Export.
-
-## VSCode
+### Autocomplete vo VS Code
 
 Ak používaš Visual Studio Code na úpravu dát, odporúčame si nainštalovať
 [YAML extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml).
 Potom v nastaveniach projektu (`.vscode/settings.json`) môžeš zadefinovať,
-že chceš používať schému a aktivuješ si tak autocomplete:
+že chceš používať schému a aktivuješ si tak autocomplete pre vlastnosti, ktoré majú obmedzený rozsah hodnôt:
 
 ```json
 {
@@ -210,6 +201,26 @@ Potom v nastaveniach projektu (`.vscode/settings.json`) môžeš zadefinovať,
     }
 }
 ```
+
+### Agenti
+
+Ak chceš na pridávanie termínov používať agenta, namiesto `skill.md` mu stačí povedať, nech si prečíta toto README.
+
+Odporúčame ale písať minimálne popisy udalostí ručne, aby sa v nich nevyskytovali nejaké blbosti
+(a tiež texty napísané človekom znejú v priemere lepšie).
+
+Jednotlivé udalosti sú pred mergnutím okrem automatických testov aj ručne skontrolované.
+
+## Propagácia kalendára
+
+### Letáčiky
+
+Chystáme letáčiky, ktoré bude možné vytlačiť a zavesiť na nástenku v škole. Vyskytnú sa aj na stránke. Ak chceš pomôcť, ozvi sa!
+
+### iframe na inej stránke
+
+Je možné zobraziť kalendár cez html tag `<iframe>` na ľubovoľnej stránke, s filtrovaním organizátorov a udalostí, ktoré sa majú zobrazovať.
+Pokyny, ako správny iframe vyrobiť, sú popísané na stránke, v časti Export.
 
 ## README
 
