@@ -43,7 +43,6 @@ def school_year_from_date(date: date) -> str:
     return "%d_%d" % (date.year, (date.year + 1) % 100)
 
 def years_from_school_year(school_year):
-    print(school_year)
     start_year = int(school_year.split("_")[0])
     return (start_year, start_year + 1)
 
