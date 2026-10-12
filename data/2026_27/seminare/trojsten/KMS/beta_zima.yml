@@ -3,8 +3,8 @@ sciences:
   - mat
 type: sustredenie
 date:
-  start: "2027-01-23"
-  end: "2027-01-30"
+  start: "2027-01-30"
+  end: "2027-02-06"
 organizers:
   - trojsten
 link: https://kms.sk/akcie/sustredenia/
