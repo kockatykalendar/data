@@ -1,0 +1,73 @@
+name: Comment data check results
+
+# Posts the report produced by "Check format of data files" (pr_check.yml) as a
+# pull request comment. It is a separate workflow triggered by workflow_run, so it
+# gets a write token even for pull requests from forks. It never checks out or
+# runs code from the pull request; the artifact content is treated as untrusted
+# data (only passed via files/env vars, never interpolated into scripts).
+#
+# Note: workflow_run workflows only run from the default branch, so changes to
+# this file take effect after they are merged to master.
+
+on:
+  workflow_run:
+    workflows: ["Check format of data files"]
+    types: [completed]
+
+permissions:
+  actions: read         # download the artifact from the other run
+  pull-requests: write  # create/edit the comment
+
+jobs:
+  comment:
+    if: github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download report
+        id: download
+        continue-on-error: true
+        uses: actions/download-artifact@v8
+        with:
+          name: data-check-report
+          path: data-check
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+
+      - name: Post or update comment
+        if: steps.download.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          CONCLUSION: ${{ github.event.workflow_run.conclusion }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+        run: |
+          PR_NUMBER="$(head -c 20 data-check/pr_number | tr -d '[:space:]')"
+          if ! [[ "$PR_NUMBER" =~ ^[0-9]+$ ]]; then
+            echo "Invalid pull request number in artifact." >&2
+            exit 1
+          fi
+
+          # The artifact comes from a run that may execute fork code, so make sure
+          # the PR number really belongs to the commit that was checked.
+          PR_HEAD_SHA="$(gh pr view "$PR_NUMBER" --json headRefOid --jq .headRefOid)"
+          if [ "$PR_HEAD_SHA" != "$HEAD_SHA" ]; then
+            echo "Pull request #$PR_NUMBER head ($PR_HEAD_SHA) does not match checked commit ($HEAD_SHA), probably a newer push; skipping."
+            exit 0
+          fi
+
+          if [ -s data-check/report.md ]; then
+            cp data-check/report.md body.md
+          else
+            printf '<!-- data-check-status: crashed -->\n### ❌ Data check could not be completed\n\nThe check did not produce a report (conclusion: `%s`). Please see the run log for details.\n' "$CONCLUSION" > body.md
+          fi
+          printf '\n<sub>Checked commit %s · [Run log](%s)</sub>\n' "$HEAD_SHA" "$RUN_URL" >> body.md
+
+          if grep -q '<!-- data-check-status: ok -->' body.md; then
+            # Everything is fine: only update an existing comment, do not create a new one.
+            gh pr comment "$PR_NUMBER" --edit-last --body-file body.md \
+              || echo "No previous comment to update."
+          else
+            gh pr comment "$PR_NUMBER" --edit-last --create-if-none --body-file body.md
+          fi
