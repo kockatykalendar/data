@@ -37,13 +37,11 @@ aby skontroloval a schválil zmeny (inak bude chvíľu trvať, kým si tvoj pull
 
 #### Pull-request sa sťažuje
 
-Ak pri pull-requeste po submitnutí nevidíš zelenú fajku, ale červený, krížik, v súboroch je niečo zle a treba to opraviť ďalšími commitmi.
+Pokiaľ je všetko správne, na spodku konverzácie k pull-requestu vidíš zelenú fajku a nemusíš nič upravovať.
 
-Klikaním na červené krížiky, dokým sa to dá, a potom na `details`, sa dostaneš k masívnemu bloku textu rozdelenému podľa jednotlivých operácii,
-ktoré github robil na overenie obsahu. Väčšina z nich je nepodstatná, dôležité hlášky sú tie, ktorými text končí pred vypísaním chyby (sú po anglicky).
-Konkrétne tam bude veľa bodiek `.`, občas prerušených sťažnosťami na veci, ktoré môžu alebo nemusia byť chyby, a zoznam kritických chýb vypísaných na konci.
-
-Malo by z nich byť zrejmé, aký je so súbormi problém. Ak nie, pingni niekoho z data-managers a sťažuj sa v komentároch k pull-requestu.
+Ak nie, jednotlivé chyby a upozornenia sa automaticky pridajú do komentára k danému pull-requestu, ktorý sa zobrazí v konverzácií k nemu.
+Malo by z nich byť zrejmé, aký je presne problém a v akom súbore.
+Ak nie je, sťažuj sa v komentároch a pingni (zavináč + username) niekoho z data-managers.
 
 ### Priečinky
 
