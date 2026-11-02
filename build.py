@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import argparse
-from curses import ERR
 import json
 import os
 import shutil
@@ -49,7 +48,7 @@ def years_from_school_year(school_year):
 def year_from_directory_name(dir_name):
     years = re.findall(r"\d{4}", dir_name)
     if len(years) == 0: return None # Root directory
-    if len(years) > 1: warn(f"String {dir_name} contains more than one year-like number.") # But we should take the first one
+    if len(years) > 1: warn(dir_name, f"Year string contains more than one year-like number.") # But we should take the first one
     # return datetime.strptime(years[0], "%Y").date()
     return years[0]
 
