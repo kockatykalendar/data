@@ -37,7 +37,7 @@ contestants:
   max: ss4
 
 # Popis akcie, dlzka najviac 255 znakov (aktualne ma 239 znakov)
-info: "Přihlas se na IBIS víkendovku na MUNI v Brně plnou biologického programu od zkoumání mikrosvěta v laboratoři po učení o lidském těle. Nebude chybět ani žážitkový program a seznámení s vrstevníky sdílející zájem o biologii. Podmínkou účasti je do 8. 11. 2026 (včetně) odevzdat řešení alespoň jedné z úloh 1. sady. Můžete se však přihlásit už teď a vaše účast bude v případě odevzdání aspoň jedné úlohy a dostupných kapacit přijata. Odkaz na příhlášení a více informací najde na naších stránkách."
+info: "Přihlas se na IBIS víkendovku na MUNI plnou biologického programu a zábavných aktivit s vrstevníky sdílející zájem o biologii. Podmínky a odkaz na příhlášení a více informací najde na naších stránkách."
 
 # (optional) Zmena defaultnej farby (ktora sa vybera podla vedy), IBIS pouziva modru
 color: "#1077C1"
