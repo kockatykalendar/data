@@ -32,7 +32,9 @@ jobs:
       # Prints errors/warnings as annotations, writes the job summary and report.md.
       # Fails the job if there are errors.
       - name: Run check
-        run: python build.py -dr --report "$RUNNER_TEMP/data-check/report.md"
+        run: |
+          mkdir -p "$RUNNER_TEMP/data-check"
+          python build.py -dr --report "$RUNNER_TEMP/data-check/report.md"
 
       - name: Save pull request number
         if: always()
