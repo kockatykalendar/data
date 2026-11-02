@@ -1,6 +1,13 @@
 name: Check format of data files
 
+# Runs with a read-only token (also for pull requests from forks). The result is
+# posted to the pull request by the "Comment data check results" workflow
+# (pr_comment.yml), which receives the report through an artifact.
+
 on: [pull_request]
+
+permissions:
+  contents: read
 
 jobs:
   check-data:
@@ -8,19 +15,37 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
         with:
           persist-credentials: false
 
       - name: Install python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v7
         with:
-          python-version: '3.8'
+          python-version: '3.13'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # Prints errors/warnings as annotations, writes the job summary and report.md.
+      # Fails the job if there are errors.
       - name: Run check
-        run: python build.py -dr
+        run: python build.py -dr --report "$RUNNER_TEMP/data-check/report.md"
+
+      - name: Save pull request number
+        if: always()
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/data-check"
+          echo "$PR_NUMBER" > "$RUNNER_TEMP/data-check/pr_number"
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: data-check-report
+          path: ${{ runner.temp }}/data-check/
+          retention-days: 7

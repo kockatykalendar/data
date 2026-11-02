@@ -5,6 +5,9 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write  # push to the gh-pages branch
+
 jobs:
   gh-pages:
     name: Deploy to Github pages
@@ -12,12 +15,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
         with:
           persist-credentials: false
 
       - name: Install python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: '3.13'
 
@@ -30,15 +33,17 @@ jobs:
         run: python build.py
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          BRANCH: gh-pages
-          FOLDER: build
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SINGLE_COMMIT: true
+          branch: gh-pages
+          folder: build
+          single-commit: true
+          # v4 cleans by default, which would delete CNAME (not produced by the build)
+          # from gh-pages. Keep the v3 behaviour of not removing existing files.
+          clean: false
 
       - name: Rebuild iCal
-        uses: peter-evans/repository-dispatch@v1
+        uses: peter-evans/repository-dispatch@v4
         with:
           token: ${{ secrets.CI_ACCESS_TOKEN }}
           repository: kockatykalendar/ical
