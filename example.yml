@@ -32,6 +32,9 @@ link: https://junior.naboj.org/
 places:
   - Bratislava
 
+# (optional) Krajina, v ktorej sa akcia kona, ak sa lisi od krajiny organizatora. Mozne hodnoty: sk, cz, international
+# country_override: international
+
 # Informacie o sutaziacich.
 contestants:
   # Minimalny rocnik, ktory sa moze zapojit

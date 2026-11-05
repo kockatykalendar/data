@@ -64,6 +64,11 @@
         "type": "string"
       }
     },
+    "country_override": {
+      "description": "Country of the event, overriding the country of its organizers",
+      "type": "string",
+      "enum": ["sk", "cz", "international"]
+    },
     "contestants": {
       "description": "Contestant information",
       "type": "object",
