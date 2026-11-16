@@ -1,23 +1,21 @@
-name: M&M Číslo 2 2. deadline
+name: M&M Číslo 2 – 2. deadline
 type: seminar
 sciences:
   - mat
   - fyz
   - inf
-
 date:
     start: "2026-10-14"
-    end: "2026-12-1"
+    end: "2026-12-01"
 organizers:
     - M&M
-
 link: https://mam.mff.cuni.cz/media/cislo/pdf/33/33-2.pdf
 places:
   - online
 contestants:
     min: ss1
     max: ss4
-info: "M&M je mezioborový korespondenční seminář a časopis pro středoškoláky"
+info: "M&M je mezioborový korespondenční seminář a časopis pro středoškoláky."
 notifications:
-  remind_days_before: 
+  remind_days_before:
     - 7
