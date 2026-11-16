@@ -19,4 +19,4 @@ contestants:
 info: "M&M je mezioborový korespondenční seminář a časopis pro středoškoláky"
 notifications:
   remind_days_before: 
-    "- 7
+    - 7
