@@ -1,4 +1,4 @@
-name: M&M
+name: M&M Číslo 2 2. deadline
 type: seminar
 sciences:
   - mat
@@ -15,6 +15,7 @@ link: https://mam.mff.cuni.cz/media/cislo/pdf/33/33-2.pdf
 places:
   - online
 contestants:
+    min: ss1
     max: ss4
 info: "M&M je mezioborový korespondenční seminář a časopis pro středoškoláky"
 notifications:
