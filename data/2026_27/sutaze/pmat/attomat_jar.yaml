@@ -1,0 +1,16 @@
+name: Attomat
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2027-01-21"
+contestants:
+  min: zs5
+  max: zs9
+places:
+  - online (Edupage)
+country_override: international
+organizers:
+  - p-mat
+info: "Attomat je online individuálna matematická súťaž. Môžete sa zapojiť aj v kategórii OPEN, ktorá je určená pre každého, kto rád rieši zaujímavé matematické úlohy."
+link: https://akcie.p-mat.sk/attomat/
