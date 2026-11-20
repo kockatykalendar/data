@@ -3,8 +3,8 @@ type: sustredenie
 sciences:
   - fyz
 date:
-  start: "2027-02-07"
-  end: "2027-02-12"
+  start: "2027-02-06"
+  end: "2027-02-13"
 contestants:
   min: zs7
   max: zs9
