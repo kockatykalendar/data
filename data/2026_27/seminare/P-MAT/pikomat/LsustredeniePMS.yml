@@ -1,0 +1,15 @@
+name: Letné sústredenie Pikomatu starší
+type: sustredenie
+sciences:
+  - mat
+date:
+  start: "2027-07-04"
+  end: "2027-07-11"
+contestants:
+  min: zs7
+  max: zs9
+#places:
+#  - Hnilčík
+organizers:
+  - p-mat
+link: https://pikomat.sk//
