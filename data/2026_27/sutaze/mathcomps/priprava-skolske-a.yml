@@ -1,0 +1,16 @@
+name: Mathildovanie – príprava na školské kolo A
+type: sutaz
+sciences:
+  - mat
+date:
+  start: "2026-12-01"
+  end: "2026-12-07"
+contestants:
+  min: ss3
+  max: ss4
+places:
+  - online
+organizers:
+  - mathcomps
+info: 'Školské kolo MO kategórie A nanečisto, týždeň pred tým ostrým 8. decembra. Riešiš tri úlohy na jeho úrovni a hneď počas súťaže ti k riešeniam dá spätnú väzbu AI chatbotka. Máš na to štyri hodiny, ktoré si spustíš kedykoľvek cez týždeň. Hodnotí ich človek.'
+link: https://mathcomps.org/sk/mathildovanie?round=mc-2026-4
